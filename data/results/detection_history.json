@@ -1,0 +1,73 @@
+{
+  "reports": [
+    {
+      "detection_id": "detection_20250723_133017",
+      "timestamp": "2025-07-23T13:30:17.752546",
+      "overall_score": 0.135,
+      "anomaly_level": "NORMAL",
+      "confidence": 0.75,
+      "individual_scores": {
+        "statistical": 0.0,
+        "behavioral": 0.0,
+        "market": 0.0,
+        "semantic": 0.135
+      },
+      "detection_time_seconds": 24.266361,
+      "report_info": {
+        "stocks": [],
+        "author": "Unknown",
+        "content_length": 11230,
+        "analysis_date": "2025-07-23 13:30:17.752546"
+      }
+    },
+    {
+      "detection_id": "detection_20250723_133100",
+      "timestamp": "2025-07-23T13:31:00.588567",
+      "overall_score": 0.135,
+      "anomaly_level": "NORMAL",
+      "confidence": 0.75,
+      "individual_scores": {
+        "statistical": 0.0,
+        "behavioral": 0.0,
+        "market": 0.0,
+        "semantic": 0.135
+      },
+      "detection_time_seconds": 9.409733,
+      "report_info": {
+        "stocks": [],
+        "author": "Unknown",
+        "content_length": 11230,
+        "analysis_date": "2025-07-23 13:31:00.588567"
+      }
+    },
+    {
+      "detection_id": "detection_20250723_133142",
+      "timestamp": "2025-07-23T13:31:42.708469",
+      "overall_score": 0.135,
+      "anomaly_level": "NORMAL",
+      "confidence": 0.75,
+      "individual_scores": {
+        "statistical": 0.0,
+        "behavioral": 0.0,
+        "market": 0.0,
+        "semantic": 0.135
+      },
+      "detection_time_seconds": 10.976752,
+      "report_info": {
+        "stocks": [],
+        "author": "Unknown",
+        "content_length": 11230,
+        "analysis_date": "2025-07-23 13:31:42.708469"
+      }
+    }
+  ],
+  "anomaly_trends": {},
+  "detector_performance": {},
+  "ensemble_metrics": {
+    "total_detections": 3,
+    "anomaly_count": 0,
+    "false_positive_rate": 0.0,
+    "detection_accuracy": 0.0
+  },
+  "last_update": "2025-07-23T13:31:42.708469"
+}

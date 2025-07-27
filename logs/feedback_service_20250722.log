@@ -1,0 +1,2 @@
+2025-07-22 23:08:23,926 - src.web_interface.services.feedback_service - INFO - feedback_service.py:32 - 反馈服务初始化完成
+2025-07-22 23:08:23,932 - src.web_interface.services.feedback_service - ERROR - feedback_service.py:105 - 提交反馈失败: Object of type datetime is not JSON serializable

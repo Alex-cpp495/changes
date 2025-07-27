@@ -1,0 +1,33 @@
+2025-07-23 00:12:27,100 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 00:12:27,104 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 00:49:56,313 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 00:49:56,319 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 13:27:20,976 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:27:20,984 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 13:28:52,593 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:28:52,601 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 13:29:22,069 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:29:22,076 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 13:29:22,100 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:243 - 统计检测器执行失败: 'str' object has no attribute 'get'
+2025-07-23 13:29:22,101 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:250 - 行为检测器执行失败: 历史数据不足，需要至少 20 份报告
+2025-07-23 13:29:22,101 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:257 - 市场检测器执行失败: 历史数据不足，需要至少 30 个数据点
+2025-07-23 13:29:22,102 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:264 - 语义检测器执行失败: 'str' object has no attribute 'get'
+2025-07-23 13:29:22,102 - src.anomaly_detection.ensemble_detector - ERROR - ensemble_detector.py:230 - 集成异常检测失败: 'str' object has no attribute 'get'
+2025-07-23 13:29:53,459 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:29:53,467 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 13:29:53,486 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:243 - 统计检测器执行失败: 历史样本不足，需要至少 50 个样本
+2025-07-23 13:29:53,487 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:250 - 行为检测器执行失败: 历史数据不足，需要至少 20 份报告
+2025-07-23 13:29:53,487 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:257 - 市场检测器执行失败: 历史数据不足，需要至少 30 个数据点
+2025-07-23 13:30:17,753 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:226 - 集成异常检测完成，总体异常分数: 0.135
+2025-07-23 13:30:51,162 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:30:51,167 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 13:30:51,178 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:243 - 统计检测器执行失败: 历史样本不足，需要至少 50 个样本
+2025-07-23 13:30:51,178 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:250 - 行为检测器执行失败: 历史数据不足，需要至少 20 份报告
+2025-07-23 13:30:51,178 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:257 - 市场检测器执行失败: 历史数据不足，需要至少 30 个数据点
+2025-07-23 13:31:00,589 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:226 - 集成异常检测完成，总体异常分数: 0.135
+2025-07-23 13:31:31,714 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:31:31,719 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-23 13:31:31,731 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:243 - 统计检测器执行失败: 历史样本不足，需要至少 50 个样本
+2025-07-23 13:31:31,732 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:250 - 行为检测器执行失败: 历史数据不足，需要至少 20 份报告
+2025-07-23 13:31:31,732 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:257 - 市场检测器执行失败: 历史数据不足，需要至少 30 个数据点
+2025-07-23 13:31:42,709 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:226 - 集成异常检测完成，总体异常分数: 0.135

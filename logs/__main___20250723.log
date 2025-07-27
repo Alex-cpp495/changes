@@ -1,0 +1,45 @@
+2025-07-23 00:12:27,228 - __main__ - ERROR - batch_process_reports.py:136 - 批量处理失败: 'success_rate'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\scripts\batch_process_reports.py", line 59, in main
+    results = await processor.process_batch_data(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 96, in process_batch_data
+    processing_report = self._generate_processing_report(results)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 340, in _generate_processing_report
+    'recommendations': self._generate_recommendations()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 349, in _generate_recommendations
+    if self.stats['success_rate'] < 0.9:
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'success_rate'
+2025-07-23 00:49:56,442 - __main__ - ERROR - batch_process_reports.py:136 - 批量处理失败: 'success_rate'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\scripts\batch_process_reports.py", line 59, in main
+    results = await processor.process_batch_data(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 96, in process_batch_data
+    processing_report = self._generate_processing_report(results)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 340, in _generate_processing_report
+    'recommendations': self._generate_recommendations()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 349, in _generate_recommendations
+    if self.stats['success_rate'] < 0.9:
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'success_rate'
+2025-07-23 13:27:21,126 - __main__ - ERROR - batch_process_reports.py:136 - 批量处理失败: 'success_rate'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\scripts\batch_process_reports.py", line 59, in main
+    results = await processor.process_batch_data(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 96, in process_batch_data
+    processing_report = self._generate_processing_report(results)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 340, in _generate_processing_report
+    'recommendations': self._generate_recommendations()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\src\data_processing\processors\report_processor.py", line 349, in _generate_recommendations
+    if self.stats['success_rate'] < 0.9:
+       ~~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'success_rate'

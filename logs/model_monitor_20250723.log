@@ -1,0 +1,17 @@
+2025-07-23 00:12:27,108 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 00:12:27,108 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 00:49:56,324 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 00:49:56,324 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 13:27:21,001 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 13:27:21,002 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 13:28:52,610 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 13:28:52,610 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 13:29:22,085 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 13:29:22,085 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 13:29:53,475 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 13:29:53,475 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 13:30:51,171 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 13:30:51,172 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 13:31:31,724 - src.continuous_learning.model_monitor - INFO - model_monitor.py:241 - 监控数据库初始化完成
+2025-07-23 13:31:31,724 - src.continuous_learning.model_monitor - INFO - model_monitor.py:153 - 模型监控器初始化完成
+2025-07-23 13:31:42,722 - src.continuous_learning.model_monitor - WARNING - model_monitor.py:446 - 阈值告警: inference_time 超出阈值: 10.98 > 10.00

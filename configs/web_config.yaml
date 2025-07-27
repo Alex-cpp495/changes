@@ -1,0 +1,53 @@
+# Web服务配置文件
+server:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+  workers: 1
+  log_level: "info"
+
+api:
+  title: "东吴证券研报异常检测系统"
+  description: "基于AI的研报异常检测与分析平台"
+  version: "1.0.0"
+  docs_url: "/docs"
+  redoc_url: "/redoc"
+
+cors:
+  origins:
+    - "http://localhost:3000"
+    - "http://localhost:8000"
+  allow_credentials: true
+  allow_methods: ["*"]
+  allow_headers: ["*"]
+
+authentication:
+  enabled: false
+  secret_key: "your-secret-key-here"
+  algorithm: "HS256"
+  access_token_expire_minutes: 30
+
+rate_limiting:
+  enabled: true
+  requests_per_minute: 60
+
+upload:
+  max_file_size_mb: 10
+  allowed_extensions:
+    - ".txt"
+    - ".pdf"
+    - ".doc"
+    - ".docx"
+
+cache:
+  enabled: true
+  ttl_seconds: 3600
+  backend: "memory"
+
+monitoring:
+  prometheus_enabled: true
+  metrics_path: "/metrics"
+
+frontend:
+  static_path: "frontend/build"
+  index_file: "index.html"

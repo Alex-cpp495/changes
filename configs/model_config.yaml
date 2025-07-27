@@ -1,0 +1,45 @@
+# 模型配置文件
+model:
+  base_model: "Qwen/Qwen2.5-7B-Instruct"
+  quantization:
+    enabled: true
+    method: "4bit_nf4"
+    compute_dtype: "float16"
+  max_sequence_length: 2048
+  device_map: "auto"
+  low_cpu_mem_usage: true
+
+lora_config:
+  rank: 32
+  alpha: 64
+  dropout: 0.1
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+tokenizer:
+  padding_side: "left"
+  truncation: true
+  max_length: 2048
+
+inference:
+  batch_size: 1
+  temperature: 0.7
+  top_p: 0.95
+  max_new_tokens: 512
+  do_sample: true
+
+multi_task:
+  tasks:
+    - "sentiment_analysis"
+    - "style_recognition"
+    - "anomaly_pre_detection"
+  task_weights:
+    sentiment_analysis: 0.3
+    style_recognition: 0.3
+    anomaly_pre_detection: 0.4

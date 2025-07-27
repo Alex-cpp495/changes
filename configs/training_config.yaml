@@ -1,0 +1,58 @@
+# 训练配置文件
+training:
+  # 基础训练参数
+  batch_size: 1
+  gradient_accumulation_steps: 32
+  learning_rate: 1e-4
+  num_epochs: 10
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+
+  # 优化器配置
+  optimizer: "adamw_torch"
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  adam_epsilon: 1e-8
+
+  # 学习率调度
+  lr_scheduler_type: "cosine"
+
+  # 训练策略
+  fp16: true
+  gradient_checkpointing: true
+  save_strategy: "epoch"
+  evaluation_strategy: "steps"
+  eval_steps: 100
+  save_total_limit: 3
+
+  # 日志配置
+  logging_steps: 10
+  logging_first_step: true
+  report_to: ["tensorboard"]
+
+  # 早停配置
+  early_stopping: true
+  early_stopping_patience: 3
+  metric_for_best_model: "eval_loss"
+  greater_is_better: false
+
+  # 显存优化
+  gradient_checkpointing_kwargs:
+    use_reentrant: false
+  optim: "paged_adamw_32bit"
+
+# 数据集配置
+dataset:
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+  max_samples: null
+  seed: 42
+
+# 数据增强
+augmentation:
+  enabled: true
+  synonym_replacement: 0.1
+  random_insertion: 0.1
+  random_swap: 0.1
+  random_deletion: 0.05

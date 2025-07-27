@@ -1,0 +1,4 @@
+2025-07-22 23:29:56,049 - src.optimization.performance_optimizer - INFO - performance_optimizer.py:73 - 性能优化器初始化完成
+2025-07-22 23:29:56,050 - src.optimization.performance_optimizer - INFO - performance_optimizer.py:88 - 性能监控已启动
+2025-07-22 23:29:56,050 - src.optimization.performance_optimizer - INFO - performance_optimizer.py:293 - 启用批量处理优化
+2025-07-22 23:29:57,295 - src.optimization.performance_optimizer - INFO - performance_optimizer.py:95 - 性能监控已停止

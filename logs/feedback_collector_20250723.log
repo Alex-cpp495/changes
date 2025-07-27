@@ -1,0 +1,24 @@
+2025-07-23 00:12:27,105 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 00:12:27,106 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 00:12:27,107 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成
+2025-07-23 00:49:56,320 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 00:49:56,322 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 00:49:56,322 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成
+2025-07-23 13:27:20,995 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 13:27:20,997 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 13:27:20,997 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成
+2025-07-23 13:28:52,605 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 13:28:52,607 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 13:28:52,607 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成
+2025-07-23 13:29:22,079 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 13:29:22,082 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 13:29:22,082 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成
+2025-07-23 13:29:53,469 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 13:29:53,471 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 13:29:53,472 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成
+2025-07-23 13:30:51,168 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 13:30:51,169 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 13:30:51,170 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成
+2025-07-23 13:31:31,721 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:177 - 反馈数据库初始化完成
+2025-07-23 13:31:31,722 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:197 - 加载了 0 条最近反馈到缓存
+2025-07-23 13:31:31,722 - src.continuous_learning.feedback_collector - INFO - feedback_collector.py:138 - 用户反馈收集器初始化完成

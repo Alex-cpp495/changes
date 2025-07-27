@@ -1,0 +1,6 @@
+2025-07-22 23:08:23,924 - src.anomaly_detection.semantic_detector - WARNING - semantic_detector.py:103 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-22 23:08:23,925 - src.anomaly_detection.semantic_detector - INFO - semantic_detector.py:95 - 语义异常检测器初始化完成
+2025-07-22 23:29:56,055 - src.anomaly_detection.semantic_detector - WARNING - semantic_detector.py:103 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-22 23:29:56,055 - src.anomaly_detection.semantic_detector - INFO - semantic_detector.py:95 - 语义异常检测器初始化完成
+2025-07-22 23:54:33,210 - src.anomaly_detection.semantic_detector - WARNING - semantic_detector.py:103 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-22 23:54:33,211 - src.anomaly_detection.semantic_detector - INFO - semantic_detector.py:95 - 语义异常检测器初始化完成

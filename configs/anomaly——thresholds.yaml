@@ -1,0 +1,78 @@
+# 异常检测阈值配置
+anomaly_weights:
+  statistical_anomaly: 0.15       # 统计异常权重
+  behavioral_anomaly: 0.25        # 行为异常权重
+  market_correlation_anomaly: 0.35 # 市场关联异常权重
+  semantic_anomaly: 0.25          # 语义异常权重
+
+# 异常等级划分
+anomaly_levels:
+  CRITICAL:
+    min: 0.8
+    max: 1.0
+    description: "极高异常度，需要立即关注"
+    color: "#FF0000"
+  HIGH:
+    min: 0.6
+    max: 0.8
+    description: "高异常度，建议重点审核"
+    color: "#FF6600"
+  MEDIUM:
+    min: 0.4
+    max: 0.6
+    description: "中等异常度，可能存在异常"
+    color: "#FFAA00"
+  LOW:
+    min: 0.2
+    max: 0.4
+    description: "轻度异常，建议关注"
+    color: "#FFCC00"
+  NORMAL:
+    min: 0.0
+    max: 0.2
+    description: "正常范围"
+    color: "#00CC00"
+
+# 统计异常检测阈值
+statistical_thresholds:
+  text_length:
+    min_words: 500
+    max_words: 10000
+    zscore_threshold: 2.0
+  vocabulary_novelty:
+    max_new_word_ratio: 0.15
+  sentiment_intensity:
+    zscore_threshold: 2.5
+  numerical_prediction:
+    percentile_threshold: 0.95
+
+# 行为异常检测阈值
+behavioral_thresholds:
+  timing_anomaly:
+    event_window_hours: 24
+  frequency_anomaly:
+    min_frequency_ratio: 0.7
+    max_frequency_ratio: 2.0
+  focus_shift:
+    new_stock_ratio_threshold: 0.3
+
+# 市场关联异常阈值
+market_thresholds:
+  abnormal_return:
+    threshold_percentage: 5.0
+  volume_anomaly:
+    amplification_factor: 3.0
+  prediction_accuracy:
+    improvement_threshold: 0.3
+
+# 语义异常检测阈值
+semantic_thresholds:
+  contradiction_score: 0.8
+  historical_deviation_score: 0.7
+  source_reliability_score: 0.6
+
+# 集成检测配置
+ensemble_config:
+  voting_method: "weighted"
+  min_detectors_triggered: 2
+  confidence_threshold: 0.6

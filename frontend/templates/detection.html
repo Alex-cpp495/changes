@@ -1,0 +1,461 @@
+{% extends "base.html" %}
+
+{% block title %}异常检测 - 东吴证券研报异常检测系统{% endblock %}
+
+{% block breadcrumb %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">首页</a></li>
+        <li class="breadcrumb-item active">异常检测</li>
+    </ol>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- 检测输入区域 -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-upload me-2"></i>研报异常检测
+                </h5>
+            </div>
+            <div class="card-body">
+                <form id="detectionForm">
+                    <div class="mb-3">
+                        <label for="reportTitle" class="form-label">报告标题</label>
+                        <input type="text" class="form-control" id="reportTitle" placeholder="输入研报标题">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="reportContent" class="form-label">报告内容</label>
+                        <textarea class="form-control" id="reportContent" rows="10" 
+                                placeholder="粘贴研报内容或直接输入..."></textarea>
+                        <div class="form-text">支持中文研报内容，系统将自动识别财务数据异常</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="reportFile" class="form-label">或上传文件</label>
+                        <input type="file" class="form-control" id="reportFile" accept=".txt,.pdf,.docx">
+                        <div class="form-text">支持 TXT、PDF、DOCX 格式</div>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="includeExplanations" checked>
+                            <label class="form-check-label" for="includeExplanations">
+                                包含详细解释
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="enableCache" checked>
+                            <label class="form-check-label" for="enableCache">
+                                启用缓存（提高检测速度）
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-search me-2"></i>开始检测
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 检测结果区域 -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-chart-bar me-2"></i>检测结果
+                </h5>
+            </div>
+            <div class="card-body">
+                <div id="detectionResults" class="text-center text-muted">
+                    <i class="fas fa-search fa-3x mb-3"></i>
+                    <p>请输入研报内容并开始检测</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 历史检测记录 -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-history me-2"></i>检测历史
+                </h5>
+                <button class="btn btn-sm btn-outline-primary" onclick="loadDetectionHistory()">
+                    <i class="fas fa-refresh me-1"></i>刷新
+                </button>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>检测时间</th>
+                                <th>报告标题</th>
+                                <th>异常分数</th>
+                                <th>异常级别</th>
+                                <th>是否异常</th>
+                                <th>置信度</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="historyTableBody">
+                            <!-- 动态填充 -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+// 检测表单提交处理
+document.getElementById('detectionForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const submitBtn = this.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
+    
+    // 显示加载状态
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>检测中...';
+    submitBtn.disabled = true;
+    
+    try {
+        // 获取表单数据
+        const reportTitle = document.getElementById('reportTitle').value;
+        const reportContent = document.getElementById('reportContent').value;
+        const includeExplanations = document.getElementById('includeExplanations').checked;
+        const enableCache = document.getElementById('enableCache').checked;
+        
+        if (!reportContent.trim()) {
+            alert('请输入报告内容');
+            return;
+        }
+        
+        // 发送检测请求
+        const response = await fetch('/api/detection/detect', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                report_title: reportTitle,
+                report_content: reportContent,
+                include_explanations: includeExplanations,
+                enable_cache: enableCache
+            })
+        });
+        
+        const data = await response.json();
+        
+        if (data.status === 'success') {
+            displayDetectionResults(data);
+            loadDetectionHistory(); // 刷新历史记录
+        } else {
+            alert('检测失败：' + data.message);
+        }
+        
+    } catch (error) {
+        console.error('检测请求失败:', error);
+        alert('检测请求失败，请重试');
+    } finally {
+        submitBtn.innerHTML = originalText;
+        submitBtn.disabled = false;
+    }
+});
+
+// 显示检测结果
+function displayDetectionResults(data) {
+    const result = data.anomaly_result;
+    const resultsDiv = document.getElementById('detectionResults');
+    
+    const anomalyLevelClass = {
+        'LOW': 'success',
+        'MEDIUM': 'warning', 
+        'HIGH': 'danger',
+        'CRITICAL': 'danger'
+    };
+    
+    const anomalyLevelText = {
+        'LOW': '低风险',
+        'MEDIUM': '中风险',
+        'HIGH': '高风险', 
+        'CRITICAL': '极高风险'
+    };
+    
+    let html = `
+        <div class="text-start">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="card border-${anomalyLevelClass[result.overall_anomaly_level]}">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">异常分数</h6>
+                            <h2 class="text-${anomalyLevelClass[result.overall_anomaly_level]}">
+                                ${(result.overall_anomaly_score * 100).toFixed(1)}%
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">异常级别</h6>
+                            <span class="badge bg-${anomalyLevelClass[result.overall_anomaly_level]} fs-6">
+                                ${anomalyLevelText[result.overall_anomaly_level]}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">是否异常</h6>
+                            <span class="badge ${result.is_anomalous ? 'bg-danger' : 'bg-success'} fs-6">
+                                ${result.is_anomalous ? '是' : '否'}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">置信度</h6>
+                            <h5>${(result.confidence * 100).toFixed(1)}%</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    `;
+    
+    // 显示各层检测结果
+    if (result.layer_results) {
+        html += `
+            <div class="card">
+                <div class="card-header">
+                    <h6 class="mb-0">各层检测结果</h6>
+                </div>
+                <div class="card-body">
+        `;
+        
+        Object.entries(result.layer_results).forEach(([layer, layerResult]) => {
+            const layerName = {
+                'statistical': '统计异常',
+                'behavioral': '行为异常',
+                'market': '市场异常',
+                'semantic': '语义异常'
+            }[layer] || layer;
+            
+            html += `
+                <div class="mb-2">
+                    <div class="d-flex justify-content-between">
+                        <span>${layerName}</span>
+                        <span class="badge bg-${layerResult.is_anomalous ? 'warning' : 'success'}">
+                            ${(layerResult.anomaly_score * 100).toFixed(1)}%
+                        </span>
+                    </div>
+                    <div class="progress" style="height: 5px;">
+                        <div class="progress-bar bg-${layerResult.is_anomalous ? 'warning' : 'success'}" 
+                             style="width: ${layerResult.anomaly_score * 100}%"></div>
+                    </div>
+                </div>
+            `;
+        });
+        
+        html += `
+                </div>
+            </div>
+        `;
+    }
+    
+    // 显示建议
+    if (data.recommendations && data.recommendations.length > 0) {
+        html += `
+            <div class="card mt-3">
+                <div class="card-header">
+                    <h6 class="mb-0">分析建议</h6>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled mb-0">
+        `;
+        
+        data.recommendations.forEach(rec => {
+            html += `<li class="mb-2"><i class="fas fa-lightbulb text-warning me-2"></i>${rec}</li>`;
+        });
+        
+        html += `
+                    </ul>
+                </div>
+            </div>
+        `;
+    }
+    
+    html += `
+            <div class="mt-3 text-center">
+                <button class="btn btn-success me-2" onclick="provideFeedback('${data.report_id}', true)">
+                    <i class="fas fa-thumbs-up me-1"></i>准确
+                </button>
+                <button class="btn btn-warning" onclick="provideFeedback('${data.report_id}', false)">
+                    <i class="fas fa-thumbs-down me-1"></i>不准确
+                </button>
+            </div>
+        </div>
+    `;
+    
+    resultsDiv.innerHTML = html;
+}
+
+// 提供反馈
+async function provideFeedback(reportId, isCorrect) {
+    try {
+        const response = await fetch('/api/feedback/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                report_id: reportId,
+                original_prediction: {}, // 从结果中获取
+                feedback_type: isCorrect ? 'correct_detection' : 'incorrect_detection',
+                is_correct: isCorrect,
+                explanation: isCorrect ? '检测结果准确' : '检测结果需要改进'
+            })
+        });
+        
+        const data = await response.json();
+        
+        if (data.status === 'success') {
+            alert('反馈提交成功！感谢您的反馈。');
+        } else {
+            alert('反馈提交失败：' + data.message);
+        }
+        
+    } catch (error) {
+        console.error('提交反馈失败:', error);
+        alert('提交反馈失败，请重试');
+    }
+}
+
+// 加载检测历史
+async function loadDetectionHistory() {
+    try {
+        // 这里应该从API获取历史数据，暂时使用模拟数据
+        const mockHistory = [
+            {
+                detection_time: '2024-01-22 14:30:00',
+                report_title: '某公司Q3财报分析',
+                anomaly_score: 0.75,
+                anomaly_level: 'HIGH',
+                is_anomalous: true,
+                confidence: 0.92,
+                report_id: 'report_001'
+            },
+            {
+                detection_time: '2024-01-22 13:15:00',
+                report_title: '行业分析报告',
+                anomaly_score: 0.25,
+                anomaly_level: 'LOW',
+                is_anomalous: false,
+                confidence: 0.88,
+                report_id: 'report_002'
+            }
+        ];
+        
+        displayDetectionHistory(mockHistory);
+        
+    } catch (error) {
+        console.error('加载历史记录失败:', error);
+    }
+}
+
+// 显示检测历史
+function displayDetectionHistory(history) {
+    const tbody = document.getElementById('historyTableBody');
+    
+    if (history.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="7" class="text-center text-muted">暂无历史记录</td></tr>';
+        return;
+    }
+    
+    const anomalyLevelClass = {
+        'LOW': 'success',
+        'MEDIUM': 'warning',
+        'HIGH': 'danger',
+        'CRITICAL': 'danger'
+    };
+    
+    const anomalyLevelText = {
+        'LOW': '低风险',
+        'MEDIUM': '中风险',
+        'HIGH': '高风险',
+        'CRITICAL': '极高风险'
+    };
+    
+    tbody.innerHTML = history.map(item => `
+        <tr>
+            <td>${item.detection_time}</td>
+            <td>${item.report_title}</td>
+            <td>${(item.anomaly_score * 100).toFixed(1)}%</td>
+            <td>
+                <span class="badge bg-${anomalyLevelClass[item.anomaly_level]}">
+                    ${anomalyLevelText[item.anomaly_level]}
+                </span>
+            </td>
+            <td>
+                <span class="badge ${item.is_anomalous ? 'bg-danger' : 'bg-success'}">
+                    ${item.is_anomalous ? '是' : '否'}
+                </span>
+            </td>
+            <td>${(item.confidence * 100).toFixed(1)}%</td>
+            <td>
+                <button class="btn btn-sm btn-outline-primary" onclick="viewDetails('${item.report_id}')">
+                    查看详情
+                </button>
+            </td>
+        </tr>
+    `).join('');
+}
+
+// 查看详情
+function viewDetails(reportId) {
+    // 跳转到详情页面或显示模态框
+    alert('查看报告详情: ' + reportId);
+}
+
+// 文件上传处理
+document.getElementById('reportFile').addEventListener('change', function(e) {
+    const file = e.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            document.getElementById('reportContent').value = e.target.result;
+            if (!document.getElementById('reportTitle').value) {
+                document.getElementById('reportTitle').value = file.name.replace(/\.[^/.]+$/, "");
+            }
+        };
+        reader.readAsText(file);
+    }
+});
+
+// 页面加载完成后加载历史记录
+document.addEventListener('DOMContentLoaded', function() {
+    loadDetectionHistory();
+});
+</script>
+{% endblock %} 

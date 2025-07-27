@@ -1,0 +1,30 @@
+2025-07-23 13:30:07,069 - src.models.qwen_wrapper - ERROR - qwen_wrapper.py:70 - 配置文件加载失败: 配置文件不存在: configs\configs\model_config.yaml
+2025-07-23 13:30:07,096 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:118 - 未检测到CUDA设备，使用CPU模式
+2025-07-23 13:30:07,422 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:123 - CPU线程数设置为: 24
+2025-07-23 13:30:07,422 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:76 - 使用设备: cpu
+2025-07-23 13:30:07,423 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:142 - 开始加载Qwen2.5-7B模型...
+2025-07-23 13:30:07,426 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:152 - 启用4bit量化以节省内存
+2025-07-23 13:30:07,426 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:155 - 加载分词器...
+2025-07-23 13:30:15,591 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:168 - 加载模型...
+2025-07-23 13:30:17,571 - src.models.qwen_wrapper - ERROR - qwen_wrapper.py:212 - 模型加载失败: The installed version of bitsandbytes (<0.43.1) requires CUDA, but CUDA is not available. You may need to install PyTorch with CUDA support or upgrade bitsandbytes to >=0.43.1.
+2025-07-23 13:30:17,749 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:476 - 模型资源已清理
+2025-07-23 13:30:57,342 - src.models.qwen_wrapper - ERROR - qwen_wrapper.py:70 - 配置文件加载失败: 配置文件不存在: configs\configs\model_config.yaml
+2025-07-23 13:30:57,356 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:118 - 未检测到CUDA设备，使用CPU模式
+2025-07-23 13:30:57,398 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:123 - CPU线程数设置为: 24
+2025-07-23 13:30:57,398 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:76 - 使用设备: cpu
+2025-07-23 13:30:57,398 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:142 - 开始加载Qwen2.5-7B模型...
+2025-07-23 13:30:57,402 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:152 - 启用4bit量化以节省内存
+2025-07-23 13:30:57,402 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:155 - 加载分词器...
+2025-07-23 13:30:59,336 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:168 - 加载模型...
+2025-07-23 13:31:00,409 - src.models.qwen_wrapper - ERROR - qwen_wrapper.py:212 - 模型加载失败: The installed version of bitsandbytes (<0.43.1) requires CUDA, but CUDA is not available. You may need to install PyTorch with CUDA support or upgrade bitsandbytes to >=0.43.1.
+2025-07-23 13:31:00,584 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:476 - 模型资源已清理
+2025-07-23 13:31:38,355 - src.models.qwen_wrapper - ERROR - qwen_wrapper.py:70 - 配置文件加载失败: 配置文件不存在: configs\configs\model_config.yaml
+2025-07-23 13:31:38,377 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:118 - 未检测到CUDA设备，使用CPU模式
+2025-07-23 13:31:38,448 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:123 - CPU线程数设置为: 24
+2025-07-23 13:31:38,449 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:76 - 使用设备: cpu
+2025-07-23 13:31:38,449 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:142 - 开始加载Qwen2.5-7B模型...
+2025-07-23 13:31:38,453 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:152 - 启用4bit量化以节省内存
+2025-07-23 13:31:38,454 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:155 - 加载分词器...
+2025-07-23 13:31:40,805 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:168 - 加载模型...
+2025-07-23 13:31:42,497 - src.models.qwen_wrapper - ERROR - qwen_wrapper.py:212 - 模型加载失败: The installed version of bitsandbytes (<0.43.1) requires CUDA, but CUDA is not available. You may need to install PyTorch with CUDA support or upgrade bitsandbytes to >=0.43.1.
+2025-07-23 13:31:42,704 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:476 - 模型资源已清理

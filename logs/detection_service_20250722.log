@@ -1,0 +1,4 @@
+2025-07-22 23:08:23,926 - src.web_interface.services.detection_service - INFO - detection_service.py:60 - 异常检测服务初始化完成
+2025-07-22 23:08:23,928 - src.web_interface.services.detection_service - ERROR - detection_service.py:268 - 同步检测失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-22 23:08:23,929 - src.web_interface.services.detection_service - ERROR - detection_service.py:237 - 执行检测失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-22 23:08:23,929 - src.web_interface.services.detection_service - ERROR - detection_service.py:124 - 检测失败: report_1753196903_a502d7976767, 错误: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'

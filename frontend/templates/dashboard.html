@@ -1,0 +1,319 @@
+{% extends "base.html" %}
+
+{% block title %}仪表板 - 东吴证券研报异常检测系统{% endblock %}
+
+{% block breadcrumb %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">首页</a></li>
+        <li class="breadcrumb-item active">仪表板</li>
+    </ol>
+</nav>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <!-- 系统概览卡片 -->
+    <div class="col-md-3 mb-4">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title">今日检测报告</h6>
+                        <h2 class="mb-0" id="daily-reports">150</h2>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-file-alt fa-3x opacity-50"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card bg-warning text-white">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title">异常检出率</h6>
+                        <h2 class="mb-0" id="anomaly-rate">15.2%</h2>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-exclamation-triangle fa-3x opacity-50"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title">系统准确率</h6>
+                        <h2 class="mb-0" id="accuracy-rate">92.0%</h2>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-check-circle fa-3x opacity-50"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card bg-info text-white">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title">活跃用户</h6>
+                        <h2 class="mb-0" id="active-users">25</h2>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-users fa-3x opacity-50"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- 异常检测趋势图 -->
+    <div class="col-lg-8 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-chart-line me-2"></i>异常检测趋势
+                </h5>
+            </div>
+            <div class="card-body">
+                <canvas id="anomalyTrendChart" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- 系统状态 -->
+    <div class="col-lg-4 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-server me-2"></i>系统状态
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <small>CPU使用率</small>
+                        <small id="cpu-usage">45%</small>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 45%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <small>内存使用率</small>
+                        <small id="memory-usage">68%</small>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" style="width: 68%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <div class="d-flex justify-content-between mb-1">
+                        <small>磁盘使用率</small>
+                        <small id="disk-usage">23%</small>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" style="width: 23%"></div>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <span class="badge bg-success fs-6">
+                        <i class="fas fa-check-circle me-1"></i>系统正常
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- 最近活动 -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-history me-2"></i>最近活动
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="activity-list" id="recent-activities">
+                    <div class="activity-item mb-3">
+                        <div class="d-flex">
+                            <div class="activity-icon bg-success text-white rounded-circle me-3">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div>
+                                <p class="mb-1">检测完成 - 报告ID: report_20240122_001</p>
+                                <small class="text-muted">2分钟前</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-item mb-3">
+                        <div class="d-flex">
+                            <div class="activity-icon bg-warning text-white rounded-circle me-3">
+                                <i class="fas fa-exclamation"></i>
+                            </div>
+                            <div>
+                                <p class="mb-1">发现异常 - 现金流异常</p>
+                                <small class="text-muted">5分钟前</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="activity-item mb-3">
+                        <div class="d-flex">
+                            <div class="activity-icon bg-info text-white rounded-circle me-3">
+                                <i class="fas fa-comment"></i>
+                            </div>
+                            <div>
+                                <p class="mb-1">收到用户反馈</p>
+                                <small class="text-muted">10分钟前</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 快速操作 -->
+    <div class="col-lg-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fas fa-bolt me-2"></i>快速操作
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    <a href="/detection" class="btn btn-primary">
+                        <i class="fas fa-search me-2"></i>开始异常检测
+                    </a>
+                    <a href="/feedback" class="btn btn-success">
+                        <i class="fas fa-comment me-2"></i>提交反馈
+                    </a>
+                    <a href="/monitoring" class="btn btn-info">
+                        <i class="fas fa-chart-line me-2"></i>查看监控
+                    </a>
+                    <button type="button" class="btn btn-warning" onclick="generateReport()">
+                        <i class="fas fa-file-pdf me-2"></i>生成报告
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+// 异常检测趋势图
+const ctx = document.getElementById('anomalyTrendChart').getContext('2d');
+const anomalyTrendChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: ['1月', '2月', '3月', '4月', '5月', '6月'],
+        datasets: [{
+            label: '异常检出率',
+            data: [12, 15, 18, 14, 16, 15],
+            borderColor: 'rgb(255, 99, 132)',
+            backgroundColor: 'rgba(255, 99, 132, 0.1)',
+            tension: 0.4
+        }, {
+            label: '准确率',
+            data: [88, 92, 90, 94, 91, 92],
+            borderColor: 'rgb(75, 192, 192)',
+            backgroundColor: 'rgba(75, 192, 192, 0.1)',
+            tension: 0.4
+        }]
+    },
+    options: {
+        responsive: true,
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 100
+            }
+        }
+    }
+});
+
+// 定期更新数据
+function updateDashboard() {
+    fetch('/api/dashboard')
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                document.getElementById('daily-reports').textContent = data.overview.total_reports_today;
+                document.getElementById('anomaly-rate').textContent = (data.overview.anomaly_rate * 100).toFixed(1) + '%';
+                document.getElementById('accuracy-rate').textContent = (data.quick_stats.accuracy * 100).toFixed(1) + '%';
+                document.getElementById('active-users').textContent = data.overview.active_users;
+            }
+        })
+        .catch(error => console.error('更新仪表板数据失败:', error));
+}
+
+// 生成报告
+function generateReport() {
+    // 显示加载状态
+    const btn = event.target;
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>生成中...';
+    btn.disabled = true;
+
+    fetch('/api/reports/generate', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            report_type: 'weekly',
+            format: 'pdf',
+            include_charts: true
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === 'success') {
+            alert('报告生成成功！');
+            // 可以添加下载链接
+        } else {
+            alert('报告生成失败：' + data.message);
+        }
+    })
+    .catch(error => {
+        console.error('生成报告失败:', error);
+        alert('生成报告失败');
+    })
+    .finally(() => {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+    });
+}
+
+// 页面加载完成后更新数据
+document.addEventListener('DOMContentLoaded', function() {
+    updateDashboard();
+    // 每30秒更新一次
+    setInterval(updateDashboard, 30000);
+});
+</script>
+{% endblock %} 

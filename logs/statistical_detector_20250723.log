@@ -1,0 +1,16 @@
+2025-07-23 00:12:27,101 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 00:12:27,101 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成
+2025-07-23 00:49:56,314 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 00:49:56,315 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成
+2025-07-23 13:27:20,977 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:27:20,980 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成
+2025-07-23 13:28:52,594 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:28:52,596 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成
+2025-07-23 13:29:22,071 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:29:22,072 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成
+2025-07-23 13:29:53,460 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:29:53,462 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成
+2025-07-23 13:30:51,163 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:30:51,164 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成
+2025-07-23 13:31:31,714 - src.anomaly_detection.statistical_detector - WARNING - statistical_detector.py:87 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-23 13:31:31,716 - src.anomaly_detection.statistical_detector - INFO - statistical_detector.py:79 - 统计异常检测器初始化完成

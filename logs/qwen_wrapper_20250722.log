@@ -1,0 +1,5 @@
+2025-07-22 18:41:03,372 - src.models.qwen_wrapper - ERROR - qwen_wrapper.py:70 - 配置文件加载失败: 配置文件不存在: configs\configs\model_config.yaml
+2025-07-22 18:41:03,385 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:118 - 未检测到CUDA设备，使用CPU模式
+2025-07-22 18:41:03,431 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:123 - CPU线程数设置为: 24
+2025-07-22 18:41:03,432 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:76 - 使用设备: cpu
+2025-07-22 18:41:04,958 - src.models.qwen_wrapper - INFO - qwen_wrapper.py:476 - 模型资源已清理

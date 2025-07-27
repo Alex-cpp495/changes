@@ -1,0 +1,6 @@
+2025-07-22 23:08:23,920 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-22 23:08:23,925 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-22 23:29:56,050 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-22 23:29:56,056 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成
+2025-07-22 23:54:33,208 - src.anomaly_detection.ensemble_detector - WARNING - ensemble_detector.py:98 - 配置加载失败，使用默认配置: 配置文件不存在: configs\configs\anomaly_thresholds.yaml
+2025-07-22 23:54:33,211 - src.anomaly_detection.ensemble_detector - INFO - ensemble_detector.py:90 - 集成异常检测器初始化完成

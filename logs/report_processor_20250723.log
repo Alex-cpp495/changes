@@ -1,0 +1,67 @@
+2025-07-23 00:12:27,112 - src.data_processing.processors.report_processor - INFO - report_processor.py:60 - 研报数据处理器初始化完成
+2025-07-23 00:12:27,112 - src.data_processing.processors.report_processor - INFO - report_processor.py:78 - 开始批量处理数据，格式: auto
+2025-07-23 00:12:27,113 - src.data_processing.processors.report_processor - INFO - report_processor.py:87 - 载入 1 条研报数据
+2025-07-23 00:12:27,113 - src.data_processing.processors.report_processor - INFO - report_processor.py:188 - 处理第 1 批，共 1 条
+2025-07-23 00:12:27,113 - src.data_processing.processors.report_processor - ERROR - report_processor.py:258 - 处理单个报告失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-23 00:12:27,113 - src.data_processing.processors.report_processor - ERROR - report_processor.py:197 - 处理报告失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-23 00:12:27,113 - src.data_processing.processors.report_processor - INFO - report_processor.py:215 - 处理进度: 100.0%
+2025-07-23 00:12:27,228 - src.data_processing.processors.report_processor - ERROR - report_processor.py:103 - 批量处理失败: 'success_rate'
+2025-07-23 00:49:56,329 - src.data_processing.processors.report_processor - INFO - report_processor.py:60 - 研报数据处理器初始化完成
+2025-07-23 00:49:56,329 - src.data_processing.processors.report_processor - INFO - report_processor.py:78 - 开始批量处理数据，格式: auto
+2025-07-23 00:49:56,330 - src.data_processing.processors.report_processor - INFO - report_processor.py:87 - 载入 1 条研报数据
+2025-07-23 00:49:56,330 - src.data_processing.processors.report_processor - INFO - report_processor.py:188 - 处理第 1 批，共 1 条
+2025-07-23 00:49:56,330 - src.data_processing.processors.report_processor - ERROR - report_processor.py:258 - 处理单个报告失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-23 00:49:56,330 - src.data_processing.processors.report_processor - ERROR - report_processor.py:197 - 处理报告失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-23 00:49:56,331 - src.data_processing.processors.report_processor - INFO - report_processor.py:215 - 处理进度: 100.0%
+2025-07-23 00:49:56,441 - src.data_processing.processors.report_processor - ERROR - report_processor.py:103 - 批量处理失败: 'success_rate'
+2025-07-23 13:27:21,012 - src.data_processing.processors.report_processor - INFO - report_processor.py:60 - 研报数据处理器初始化完成
+2025-07-23 13:27:21,012 - src.data_processing.processors.report_processor - INFO - report_processor.py:78 - 开始批量处理数据，格式: auto
+2025-07-23 13:27:21,014 - src.data_processing.processors.report_processor - INFO - report_processor.py:87 - 载入 1 条研报数据
+2025-07-23 13:27:21,014 - src.data_processing.processors.report_processor - INFO - report_processor.py:188 - 处理第 1 批，共 1 条
+2025-07-23 13:27:21,015 - src.data_processing.processors.report_processor - ERROR - report_processor.py:258 - 处理单个报告失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-23 13:27:21,015 - src.data_processing.processors.report_processor - ERROR - report_processor.py:197 - 处理报告失败: 'EnsembleAnomalyDetector' object has no attribute 'detect_anomaly'
+2025-07-23 13:27:21,016 - src.data_processing.processors.report_processor - INFO - report_processor.py:215 - 处理进度: 100.0%
+2025-07-23 13:27:21,126 - src.data_processing.processors.report_processor - ERROR - report_processor.py:103 - 批量处理失败: 'success_rate'
+2025-07-23 13:28:52,619 - src.data_processing.processors.report_processor - INFO - report_processor.py:63 - 研报数据处理器初始化完成
+2025-07-23 13:28:52,620 - src.data_processing.processors.report_processor - INFO - report_processor.py:81 - 开始批量处理数据，格式: auto
+2025-07-23 13:28:52,621 - src.data_processing.processors.report_processor - INFO - report_processor.py:90 - 载入 1 条研报数据
+2025-07-23 13:28:52,621 - src.data_processing.processors.report_processor - INFO - report_processor.py:191 - 处理第 1 批，共 1 条
+2025-07-23 13:28:52,622 - src.data_processing.processors.report_processor - ERROR - report_processor.py:261 - 处理单个报告失败: EnsembleAnomalyDetector.detect_anomalies() got an unexpected keyword argument 'report_metadata'
+2025-07-23 13:28:52,622 - src.data_processing.processors.report_processor - ERROR - report_processor.py:200 - 处理报告失败: EnsembleAnomalyDetector.detect_anomalies() got an unexpected keyword argument 'report_metadata'
+2025-07-23 13:28:52,622 - src.data_processing.processors.report_processor - INFO - report_processor.py:218 - 处理进度: 100.0%
+2025-07-23 13:28:52,737 - src.data_processing.processors.report_processor - INFO - report_processor.py:101 - 批量处理完成，成功: 0, 失败: 1
+2025-07-23 13:28:52,741 - src.data_processing.processors.report_processor - INFO - report_processor.py:417 - 结果已导出到: user_data\results\batch_results_20250723_132852.json
+2025-07-23 13:29:22,097 - src.data_processing.processors.report_processor - INFO - report_processor.py:63 - 研报数据处理器初始化完成
+2025-07-23 13:29:22,097 - src.data_processing.processors.report_processor - INFO - report_processor.py:81 - 开始批量处理数据，格式: auto
+2025-07-23 13:29:22,098 - src.data_processing.processors.report_processor - INFO - report_processor.py:90 - 载入 1 条研报数据
+2025-07-23 13:29:22,100 - src.data_processing.processors.report_processor - INFO - report_processor.py:191 - 处理第 1 批，共 1 条
+2025-07-23 13:29:22,103 - src.data_processing.processors.report_processor - ERROR - report_processor.py:260 - 处理单个报告失败: 'str' object has no attribute 'get'
+2025-07-23 13:29:22,103 - src.data_processing.processors.report_processor - ERROR - report_processor.py:200 - 处理报告失败: 'str' object has no attribute 'get'
+2025-07-23 13:29:22,103 - src.data_processing.processors.report_processor - INFO - report_processor.py:218 - 处理进度: 100.0%
+2025-07-23 13:29:22,220 - src.data_processing.processors.report_processor - INFO - report_processor.py:101 - 批量处理完成，成功: 0, 失败: 1
+2025-07-23 13:29:22,226 - src.data_processing.processors.report_processor - INFO - report_processor.py:416 - 结果已导出到: user_data\results\batch_results_20250723_132922.json
+2025-07-23 13:29:53,483 - src.data_processing.processors.report_processor - INFO - report_processor.py:63 - 研报数据处理器初始化完成
+2025-07-23 13:29:53,484 - src.data_processing.processors.report_processor - INFO - report_processor.py:81 - 开始批量处理数据，格式: auto
+2025-07-23 13:29:53,485 - src.data_processing.processors.report_processor - INFO - report_processor.py:90 - 载入 1 条研报数据
+2025-07-23 13:29:53,486 - src.data_processing.processors.report_processor - INFO - report_processor.py:191 - 处理第 1 批，共 1 条
+2025-07-23 13:30:17,754 - src.data_processing.processors.report_processor - ERROR - report_processor.py:260 - 处理单个报告失败: object dict can't be used in 'await' expression
+2025-07-23 13:30:17,754 - src.data_processing.processors.report_processor - ERROR - report_processor.py:200 - 处理报告失败: object dict can't be used in 'await' expression
+2025-07-23 13:30:17,754 - src.data_processing.processors.report_processor - INFO - report_processor.py:218 - 处理进度: 100.0%
+2025-07-23 13:30:17,865 - src.data_processing.processors.report_processor - INFO - report_processor.py:101 - 批量处理完成，成功: 0, 失败: 1
+2025-07-23 13:30:17,868 - src.data_processing.processors.report_processor - INFO - report_processor.py:416 - 结果已导出到: user_data\results\batch_results_20250723_133017.json
+2025-07-23 13:30:51,176 - src.data_processing.processors.report_processor - INFO - report_processor.py:63 - 研报数据处理器初始化完成
+2025-07-23 13:30:51,176 - src.data_processing.processors.report_processor - INFO - report_processor.py:81 - 开始批量处理数据，格式: auto
+2025-07-23 13:30:51,177 - src.data_processing.processors.report_processor - INFO - report_processor.py:90 - 载入 1 条研报数据
+2025-07-23 13:30:51,178 - src.data_processing.processors.report_processor - INFO - report_processor.py:191 - 处理第 1 批，共 1 条
+2025-07-23 13:31:00,589 - src.data_processing.processors.report_processor - ERROR - report_processor.py:260 - 处理单个报告失败: 'dict' object has no attribute 'confidence'
+2025-07-23 13:31:00,589 - src.data_processing.processors.report_processor - ERROR - report_processor.py:200 - 处理报告失败: 'dict' object has no attribute 'confidence'
+2025-07-23 13:31:00,590 - src.data_processing.processors.report_processor - INFO - report_processor.py:218 - 处理进度: 100.0%
+2025-07-23 13:31:00,692 - src.data_processing.processors.report_processor - INFO - report_processor.py:101 - 批量处理完成，成功: 0, 失败: 1
+2025-07-23 13:31:00,694 - src.data_processing.processors.report_processor - INFO - report_processor.py:416 - 结果已导出到: user_data\results\batch_results_20250723_133100.json
+2025-07-23 13:31:31,730 - src.data_processing.processors.report_processor - INFO - report_processor.py:63 - 研报数据处理器初始化完成
+2025-07-23 13:31:31,730 - src.data_processing.processors.report_processor - INFO - report_processor.py:81 - 开始批量处理数据，格式: auto
+2025-07-23 13:31:31,730 - src.data_processing.processors.report_processor - INFO - report_processor.py:90 - 载入 1 条研报数据
+2025-07-23 13:31:31,731 - src.data_processing.processors.report_processor - INFO - report_processor.py:191 - 处理第 1 批，共 1 条
+2025-07-23 13:31:42,750 - src.data_processing.processors.report_processor - INFO - report_processor.py:218 - 处理进度: 100.0%
+2025-07-23 13:31:42,853 - src.data_processing.processors.report_processor - INFO - report_processor.py:101 - 批量处理完成，成功: 1, 失败: 0
+2025-07-23 13:31:42,858 - src.data_processing.processors.report_processor - INFO - report_processor.py:416 - 结果已导出到: user_data\results\batch_results_20250723_133142.json

@@ -1,0 +1,354 @@
+{
+    "meta_info": {
+      "file_path": "黑芝麻智能_2024年业绩点评.pdf",
+      "processed_time": "2025-04-02T10:30:45.123Z",
+      "processor_version": "2.1",
+      "text_length": 4521,
+      "table_count": 4,
+      "success": true,
+      "quality_score": 9.2,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.94,
+      "processing_time": 15.42
+    },
+    "basic_info": {
+      "title": "黑芝麻智能2024年业绩点评：智驾进展顺利，期待新客户、新应用场景突破",
+      "stock_name": "黑芝麻智能",
+      "stock_code": "02533.HK",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫", "黄细里"],
+      "research_assistant": "李博韦、孙仁昊",
+      "publish_date": "2025-04-02",
+      "report_type": "业绩点评",
+      "institution": "东吴证券",
+      "rating": "买入（维持）"
+    },
+    "investment_advice": {
+      "rating": "买入",
+      "rating_change": "维持",
+      "target_price": null,
+      "current_price": 22.40,
+      "expected_return": null,
+      "expected_return_pct": null,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "公司发布2024年业绩。2024年公司实现收入4.7亿元，同比+52%；毛利率同比+16pct至41%；经调整净利润-13.0亿元，较去年亏损金额同比+4%。自动驾驶业务高增，多款芯片均有进展。深化头部车企合作，加速全球化布局。应用场景持续丰富，机器人相关产品有望25年出货。",
+      "main_logic": [
+        "自动驾驶业务收入同比+52%至4.7亿元，毛利率同比+16pct至37%",
+        "A1000芯片在吉利、东风、比亚迪等车企量产交付",
+        "C1200（跨域融合芯片）获得2家自主OEM定点",
+        "已发布A2000高算力芯片，支持VLM/VLA端到端大模型",
+        "九韶NPU算力效率提升50%，自研ISP图像处理功耗降低30%",
+        "与吉利旗下亿咖通合作，为吉利千里浩瀚平台提供解决方案",
+        "搭载A1000的领克08EM-P、领克07EM-P等车型已实现规模化量产交付"
+      ],
+      "risk_warning": "行业竞争加剧，研发投入与回报的不确定性，供应链风险。",
+      "performance_highlights": [
+        "52", "16", "37", "50", "30", "13.0"
+      ]
+    },
+    "financial_data": {
+      "financial_forecast_table_0": {
+        "type": "financial_forecast",
+        "description": "财务预测数据",
+        "data": [
+          {"项目": "营业总收入", "2023A": 312.39, "2024A": 474.25, "2025E": 883.02, "2026E": 1430.62, "2027E": 1919.02},
+          {"项目": "同比(%)", "2023A": 88.46, "2024A": 51.81, "2025E": 86.19, "2026E": 62.02, "2027E": 34.14},
+          {"项目": "归母净利润", "2023A": -4855.12, "2024A": 313.32, "2025E": -1271.67, "2026E": -866.56, "2027E": -349.19},
+          {"项目": "EPS", "2023A": -7.71, "2024A": 0.50, "2025E": -2.02, "2026E": -1.38, "2027E": -0.55},
+          {"项目": "P/E", "2023A": 42.19, "2024A": 27.79, "2025E": 14.93, "2026E": 9.21, "2027E": 6.87}
+        ],
+        "row_count": 5,
+        "col_count": 6
+      },
+      "text_extracted_metrics": {
+        "revenue": ["4.7", "8.8", "14.3", "19.2"],
+        "net_profit": ["13.0"],
+        "growth_rate": ["52", "86.19", "62.02", "34.14"],
+        "margin": ["41", "37"]
+      }
+    },
+    "financial_metrics": {
+      "PE": ["27.79", "14.93", "9.21", "6.87"],
+      "EPS": ["0.50", "-2.02", "-1.38", "-0.55"],
+      "target_price": [],
+      "revenue": ["474.25", "883.02", "1430.62", "1919.02"],
+      "profit": ["313.32", "-1271.67", "-866.56", "-349.19"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "2024年公司实现收入4.7亿元，同比+52%",
+              "毛利率同比+16pct至41%",
+              "自动驾驶业务收入同比+52%至4.7亿元",
+              "定制化自动驾驶算法比例增加",
+              "A1000芯片在吉利、东风、比亚迪等车企量产交付",
+              "C1200获得2家自主OEM定点"
+            ],
+            "count": 6,
+            "description": "基本面分析：基于公司财务状况和经营情况的分析"
+          },
+          "market_conditions": {
+            "matches": [
+              "智驾系统下沉至10万+价位车型",
+              "比亚迪发布智驾平权战略，10/15/20万级车型全系标配智驾系统",
+              "龙头迈进智能化有望引领行业新一轮配置竞争",
+              "吉利、长安、奇瑞等厂商下放智驾功能至10万+价位车型",
+              "机器人相关产品有望25年出货"
+            ],
+            "count": 5,
+            "description": "市场环境分析：基于行业和宏观环境的分析"
+          },
+          "company_specific": {
+            "matches": [
+              "九韶NPU算力效率提升50%，自研ISP图像处理功耗降低30%",
+              "已发布A2000高算力芯片，支持VLM/VLA端到端大模型",
+              "与吉利旗下亿咖通合作，为吉利千里浩瀚平台提供解决方案",
+              "搭载A1000的领克08EM-P、领克07EM-P等车型已实现规模化量产交付",
+              "获一汽新平台定点，预计今年量产",
+              "与比亚迪保持A1000合作，有望拓展更多车型",
+              "公司坚持全球化战略，与欧美海外车企及Tier1建立合作"
+            ],
+            "count": 7,
+            "description": "公司特定因素：基于公司独特优势和战略的分析"
+          },
+          "valuation_logic": {
+            "matches": [
+              "2025年4月1日收盘对应PS分别为14.9/9.21/6.87",
+              "将公司2025/2026年预期收入从12.1/19.2亿元调整至8.8/14.3亿元"
+            ],
+            "count": 2,
+            "description": "估值逻辑：基于估值方法和比较的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "智驾芯片量产交付加速",
+            "type": "产品落地",
+            "importance": "high"
+          },
+          {
+            "factor": "智驾系统下沉至10万+车型",
+            "type": "市场扩容",
+            "importance": "high"
+          },
+          {
+            "factor": "核心IP技术突破",
+            "type": "技术优势",
+            "importance": "high"
+          },
+          {
+            "factor": "头部车企合作深化",
+            "type": "客户拓展",
+            "importance": "medium"
+          },
+          {
+            "factor": "机器人等新应用场景拓展",
+            "type": "业务多元化",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "收入同比+52%至4.7亿元",
+            "value": "4.7亿元",
+            "type": "data_evidence",
+            "context": "2024年公司实现收入4.7亿元，同比+52%",
+            "confidence": 0.95
+          },
+          {
+            "content": "毛利率同比+16pct至41%",
+            "value": "41%",
+            "type": "data_evidence",
+            "context": "毛利率同比+16pct至41%",
+            "confidence": 0.95
+          },
+          {
+            "content": "九韶NPU算力效率提升50%",
+            "value": "50%",
+            "type": "data_evidence",
+            "context": "核心IP实现突破，九韶NPU算力效率提升50%",
+            "confidence": 0.9
+          },
+          {
+            "content": "自研ISP图像处理功耗降低30%",
+            "value": "30%",
+            "type": "data_evidence",
+            "context": "自研ISP图像处理功耗降低30%",
+            "confidence": 0.9
+          },
+          {
+            "content": "C1200获得2家自主OEM定点",
+            "value": "2家",
+            "type": "data_evidence",
+            "context": "C1200（跨域融合芯片）获得2家自主OEM定点",
+            "confidence": 0.85
+          }
+        ],
+        "logic_strength": 0.88
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "我们认为公司继续深化与头部车企合作，推动新品C1200、A2000芯片在机器人、工业领域规模化落地",
+              "以核心IP构建技术护城河，出货量有望持续提升",
+              "考虑到新定点车型需要爬坡至稳态销售",
+              "公司作为车载镜头龙头有望充分受益智驾方案下沉及高阶智驾渗透"
+            ],
+            "count": 4,
+            "description": "假设设定：分析师设定的关键假设和预期"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：自动驾驶业务高增，多款芯片均有进展",
+              "其次：深化头部车企合作，加速全球化布局",
+              "再次：应用场景持续丰富，机器人相关产品有望25年出货",
+              "因此：维持买入评级"
+            ],
+            "count": 4,
+            "description": "逻辑链条：分析的逻辑推理过程"
+          },
+          "data_support": {
+            "content": [
+              "2024年收入4.7亿元，同比+52%",
+              "毛利率同比+16pct至41%",
+              "自动驾驶业务收入同比+52%至4.7亿元",
+              "九韶NPU算力效率提升50%",
+              "自研ISP图像处理功耗降低30%",
+              "C1200获得2家自主OEM定点"
+            ],
+            "count": 6,
+            "description": "数据支撑：用于支持观点的具体数据"
+          },
+          "scenario_analysis": {
+            "content": [
+              "预计今年完成实车功能部署，争取获得大客户定点",
+              "预计今年量产（一汽新平台）",
+              "计划与头部企业合作开发基于A2000的具身智能算法",
+              "目前公司已与傅里叶达成合作，为其灵巧手提供算力支持"
+            ],
+            "count": 4,
+            "description": "情景分析：不同情况下的预测分析"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "事件：公司发布2024年业绩，业绩符合预期",
+            "logic_type": "hypothesis",
+            "connector": "事件",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "自动驾驶业务高增，多款芯片均有进展",
+            "logic_type": "sequential",
+            "connector": "首先",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "深化头部车企合作，加速全球化布局",
+            "logic_type": "sequential",
+            "connector": "其次",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "应用场景持续丰富，机器人相关产品有望25年出货",
+            "logic_type": "sequential",
+            "connector": "再次",
+            "importance": "medium"
+          },
+          {
+            "order": 5,
+            "content": "维持买入评级，调整收入预期",
+            "logic_type": "conclusion",
+            "connector": "因此",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "新定点车型需要爬坡至稳态销售",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "智驾方案下沉及高阶智驾渗透加速",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "机器人相关产品25年出货",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "与头部车企合作持续深化",
+            "type": "quantitative",
+            "risk_level": "low"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "PS",
+            "description": "市销率估值",
+            "usage_context": "2025年4月1日收盘对应PS分别为14.9/9.21/6.87"
+          },
+          {
+            "method": "同行比较",
+            "description": "同行比较分析",
+            "usage_context": "车载镜头龙头地位"
+          },
+          {
+            "method": "情景分析",
+            "description": "情景分析法",
+            "usage_context": "新定点车型爬坡至稳态销售考虑"
+          }
+        ],
+        "process_completeness": 0.86
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "智驾芯片量产交付加速",
+          "智驾系统下沉至10万+车型",
+          "核心IP技术突破"
+        ],
+        "analysis_strengths": [
+          "支撑证据充分：提供了详细的收入、毛利率、技术参数等关键数据",
+          "逻辑推理清晰：从业绩→产品→客户→应用的完整分析链条",
+          "分析方法多样：运用了PS估值、同行比较、情景分析等方法",
+          "前瞻性布局分析：识别了智驾下沉、机器人等新兴趋势"
+        ],
+        "potential_weaknesses": [
+          "风险评估相对简单：风险提示较为常规，缺乏深度分析",
+          "竞争分析不够深入：对行业竞争格局的具体分析有限",
+          "盈利预测调整：收入预期下调反映预测不确定性"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["项目", "2023A", "2024A", "2025E", "2026E", "2027E"],
+        "data": [
+          {"项目": "营业总收入（百万元）", "2023A": 312.39, "2024A": 474.25, "2025E": 883.02, "2026E": 1430.62, "2027E": 1919.02},
+          {"项目": "同比(%)", "2023A": 88.46, "2024A": 51.81, "2025E": 86.19, "2026E": 62.02, "2027E": 34.14},
+          {"项目": "归母净利润（百万元）", "2023A": -4855.12, "2024A": 313.32, "2025E": -1271.67, "2026E": -866.56, "2027E": -349.19},
+          {"项目": "同比(%)", "2023A": -76.30, "2024A": 106.45, "2025E": -505.87, "2026E": 31.86, "2027E": 59.70},
+          {"项目": "EPS-最新摊薄（元/股）", "2023A": -7.71, "2024A": 0.50, "2025E": -2.02, "2026E": -1.38, "2027E": -0.55},
+          {"项目": "P/E（现价&最新摊薄）", "2023A": 42.19, "2024A": 27.79, "2025E": 14.93, "2026E": 9.21, "2027E": 6.87}
+        ],
+        "shape": [6, 6],
+        "non_null_count": 36
+      }
+    ],
+    "text_preview": "证券研究报告·海外公司点评·软件服务(HS) 东吴证券研究所 黑芝麻智能（02533.HK） 2024年业绩点评：智驾进展顺利，期待新客户、新应用场景突破 2025年04月02日 证券分析师 张良卫 执业证书：S0600516070001 021-60199793 zhanglw@dwzq.com.cn..."
+  }

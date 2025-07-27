@@ -1,0 +1,316 @@
+{
+    "meta_info": {
+      "file_path": "极米科技(688696)2024年报及2025Q1点评.pdf",
+      "processed_time": "2025-01-28T10:40:00Z",
+      "processor_version": "2.1",
+      "text_length": 4500,
+      "table_count": 3,
+      "success": true,
+      "quality_score": 8.9,
+      "extraction_method": "PDF解析", 
+      "confidence": 0.91,
+      "processing_time": 7.8
+    },
+    "basic_info": {
+      "title": "2024年年报及2025年一季报点评：盈利能力持续修复，期待车载业务放量",
+      "stock_name": "极米科技",
+      "stock_code": "688696",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫", "张家琦", "陈欣"],
+      "publish_date": "2025-04-30", 
+      "report_type": "年报及季报点评",
+      "institution": "东吴证券"
+    },
+    "investment_advice": {
+      "rating": "买入",
+      "rating_change": "维持",
+      "target_price": null,
+      "current_price": 128.32,
+      "expected_return": null,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "2024年公司实现营收34.05亿元，yoy-4.27%，归母净利润1.20亿元，yoy-0.30%。2025Q1实现营收8.10亿元，yoy-1.89%，归母净利润0.63亿元，yoy+337.45%。外销保持高增速，内销有望受益于国补。",
+      "main_logic": [
+        "外销保持高增速，境外营收增长18.94%",
+        "内销有望受益于国补释放需求",
+        "成本费用管控良好，盈利能力持续提升",
+        "车载及商用业务落地，带来业绩增量",
+        "毛利率提升主要系供应链体系提质增效"
+      ],
+      "risk_warning": "市场竞争加剧，国内需求复苏不及预期，海外拓展不及预期风险。",
+      "performance_highlights": ["34.05", "1.20", "8.10", "0.63", "337.45"]
+    },
+    "financial_data": {
+      "业绩数据": {
+        "type": "financial_performance",
+        "description": "2024年及2025Q1关键财务数据",
+        "data": {
+          "2024年营收": "34.05亿元",
+          "2024年净利润": "1.20亿元", 
+          "2025Q1营收": "8.10亿元",
+          "2025Q1净利润": "0.63亿元",
+          "2025Q1增长": "337.45%"
+        }
+      },
+      "分业务数据": {
+        "type": "segment_analysis", 
+        "description": "分地区和分产品业务表现",
+        "data": {
+          "境内收入": "22.29亿元，yoy-14.80%",
+          "境外收入": "10.86亿元，yoy+18.94%",
+          "投影整机": "29.99亿元，yoy-6.63%",
+          "配件产品": "1.70亿元，yoy+0.32%"
+        }
+      }
+    },
+    "financial_metrics": {
+      "EPS": ["6.14", "8.04", "9.71"],
+      "PE": ["20.91", "15.95", "13.21"], 
+      "收入增长": ["25.06", "12.37", "7.29"],
+      "净利润增长": ["257.58", "31.06", "20.73"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "operational_analysis": {
+            "matches": [
+              "外销保持高增速，境外营收yoy+18.94%",
+              "公司持续推进供应链体系提质增效，深度整合供应链和物流网络",
+              "毛利率提升主要系公司持续推进供应链体系提质增效"
+            ],
+            "count": 3,
+            "description": "经营分析：基于公司运营效率和供应链管理的分析"
+          },
+          "market_environment": {
+            "matches": [
+              "内销有望受益于国补释放需求",
+              "公司积极拓展海外市场，线下渠道建设取得突破",
+              "线下露出与展陈点位继续增加，境外营收有望延续增长态势"
+            ],
+            "count": 3,
+            "description": "市场环境分析：基于国内外市场需求和政策的分析"
+          },
+          "profitability_improvement": {
+            "matches": [
+              "成本费用管控良好，盈利能力持续提升",
+              "2024年及2025Q1公司毛利率为31.19%、34.01%，yoy-0.06pct、+5.96pct",
+              "归母净利率3.53%、7.73%，yoy+0.14pct、+6.00pct"
+            ],
+            "count": 3,
+            "description": "盈利能力分析：基于成本控制和利润率改善的分析"
+          },
+          "business_expansion": {
+            "matches": [
+              "公司不断拓展技术与产品的应用场景，布局车载投影新业务",
+              "截至2025年4月，已累计获得8个车载业务定点",
+              "公司计划推出商用投影产品，涵盖文旅、教育、会议等商用场景"
+            ],
+            "count": 3,
+            "description": "业务拓展分析：基于新业务开发和市场扩张的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "海外市场快速增长驱动收入增量",
+            "type": "收入驱动",
+            "importance": "high"
+          },
+          {
+            "factor": "供应链优化提升盈利能力",
+            "type": "成本优化",
+            "importance": "high"
+          },
+          {
+            "factor": "车载业务定点带来新增长动力",
+            "type": "业务创新",
+            "importance": "medium"
+          },
+          {
+            "factor": "国补政策有望刺激内销需求",
+            "type": "政策支持",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "境外营收yoy+18.94%，毛利率45.44%",
+            "value": "18.94%",
+            "type": "performance_data",
+            "context": "海外市场表现强劲，盈利能力突出",
+            "confidence": 0.95
+          },
+          {
+            "content": "2025Q1归母净利润yoy+337.45%",
+            "value": "337.45%",
+            "type": "performance_data", 
+            "context": "盈利能力大幅改善，业绩拐点明确",
+            "confidence": 0.9
+          },
+          {
+            "content": "已累计获得8个车载业务定点",
+            "value": "8个",
+            "type": "business_progress",
+            "context": "车载业务拓展取得实质性进展",
+            "confidence": 0.85
+          },
+          {
+            "content": "2025Q1毛利率34.01%，yoy+5.96pct",
+            "value": "5.96pct",
+            "type": "profitability_data",
+            "context": "成本控制和供应链优化效果显著",
+            "confidence": 0.9
+          }
+        ],
+        "logic_strength": 0.87
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "海外市场将继续保持快速增长势头",
+              "国补政策将有效刺激国内投影市场需求",
+              "供应链优化将持续提升公司盈利能力",
+              "车载和商用业务将成为新的增长引擎"
+            ],
+            "count": 4,
+            "description": "基于市场趋势和业务发展的核心假设"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：分析2024年及2025Q1业绩表现和驱动因素",
+              "其次：评估内外销市场的发展机遇和挑战",
+              "最后：展望车载等新业务的增长潜力和价值贡献"
+            ],
+            "count": 3,
+            "description": "从业绩回顾到前景展望的分析逻辑"
+          },
+          "data_support": {
+            "content": [
+              "2024年和2025Q1详细财务数据",
+              "分地区、分产品、分销售模式的收入结构",
+              "毛利率、净利率等盈利能力指标变化",
+              "车载业务定点数量和商用业务规划"
+            ],
+            "count": 4,
+            "description": "支撑分析判断的关键数据指标"
+          },
+          "scenario_analysis": {
+            "content": [
+              "乐观情景：国补刺激+海外增长+车载放量",
+              "中性情景：海外稳增+国内企稳+车载渐进",
+              "悲观情景：竞争加剧+需求疲软+新业务不及预期"
+            ],
+            "count": 3,
+            "description": "不同市场环境下的业绩演绎路径"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "2024年业绩承压但盈利能力持续改善",
+            "logic_type": "performance_review",
+            "connector": "基于",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "2025Q1业绩大幅改善验证拐点到来",
+            "logic_type": "trend_confirmation",
+            "connector": "进而",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "内外销分化格局下寻找新增长动力",
+            "logic_type": "strategic_analysis",
+            "connector": "因此",
+            "importance": "medium"
+          },
+          {
+            "order": 4,
+            "content": "车载和商用业务开辟第二增长曲线",
+            "logic_type": "growth_catalyst",
+            "connector": "同时",
+            "importance": "medium"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "海外市场需求将持续旺盛",
+            "type": "market_assumption",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "国补政策将有效刺激国内需求",
+            "type": "policy_assumption",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "车载业务能够实现规模化量产",
+            "type": "business_assumption",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "供应链优化效果将持续体现",
+            "type": "operational_assumption",
+            "risk_level": "low"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "分部分析",
+            "description": "分地区、分产品的收入和盈利分析",
+            "usage_context": "评估不同业务板块的表现和贡献"
+          },
+          {
+            "method": "趋势分析",
+            "description": "历史数据趋势和未来预测",
+            "usage_context": "判断业绩拐点和增长可持续性"
+          },
+          {
+            "method": "估值分析",
+            "description": "DCF和相对估值方法",
+            "usage_context": "评估当前股价的投资价值"
+          }
+        ],
+        "process_completeness": 0.84
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "海外业务成为重要增长引擎",
+          "盈利能力持续改善趋势明确",
+          "车载业务开辟新增长空间"
+        ],
+        "analysis_strengths": [
+          "业绩数据分析详实全面",
+          "分业务拆分逻辑清晰",
+          "新业务前景描述具体",
+          "风险因素识别充分"
+        ],
+        "potential_weaknesses": [
+          "对行业竞争格局分析不够深入",
+          "车载业务放量时点预测相对模糊",
+          "国补政策效果评估缺乏量化分析"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["年份", "营业总收入", "营收同比增长", "归母净利润", "利润同比增长", "EPS", "PE"],
+        "data": [
+          {"年份": "2023A", "营业总收入": 3557, "营收同比增长": -15.77, "归母净利润": 120.50, "利润同比增长": -75.97, "EPS": 1.72, "PE": 74.54},
+          {"年份": "2024A", "营业总收入": 3405, "营收同比增长": -4.27, "归母净利润": 120.14, "利润同比增长": -0.30, "EPS": 1.72, "PE": 74.76},
+          {"年份": "2025E", "营业总收入": 4258, "营收同比增长": 25.06, "归母净利润": 429.61, "利润同比增长": 257.58, "EPS": 6.14, "PE": 20.91},
+          {"年份": "2026E", "营业总收入": 4784, "营收同比增长": 12.37, "归母净利润": 563.05, "利润同比增长": 31.06, "EPS": 8.04, "PE": 15.95},
+          {"年份": "2027E", "营业总收入": 5133, "营收同比增长": 7.29, "归母净利润": 679.75, "利润同比增长": 20.73, "EPS": 9.71, "PE": 13.21}
+        ],
+        "shape": [5, 7],
+        "non_null_count": 35
+      }
+    ],
+    "text_preview": "2024年公司实现营收34.05亿元，yoy-4.27%，归母净利润1.20亿元，yoy-0.30%，扣非归母净利润0.92亿元，yoy+34.94%。2025Q1公司实现营收8.10亿元，yoy-1.89%；归母净利润0.63亿元，yoy+337.45%..."
+  }

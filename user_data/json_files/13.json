@@ -1,0 +1,282 @@
+{
+  "meta_info": {
+    "file_path": "东吴证券晨会纪要2025-03-07.pdf",
+    "processed_time": "2025-03-07T09:00:00.000Z",
+    "processor_version": "2.1",
+    "text_length": 15847,
+    "table_count": 0,
+    "success": true,
+    "quality_score": 8.2,
+    "extraction_method": "pdfplumber",
+    "confidence": 0.89,
+    "processing_time": 18.45
+  },
+  "basic_info": {
+    "title": "东吴证券晨会纪要",
+    "report_type": "晨会纪要",
+    "institution": "东吴证券",
+    "publish_date": "2025-03-07",
+    "primary_analyst": "张良卫",
+    "document_type": "综合研究"
+  },
+  "investment_advice": {
+    "rating": null,
+    "rating_change": null,
+    "target_price": null,
+    "current_price": null,
+    "expected_return": null,
+    "expected_return_pct": null,
+    "investment_period": null
+  },
+  "core_content": {
+    "investment_summary": "宏观政策要'投资于人'，今年政府工作报告在5%的经济增长目标下，对宏观政策的要求明显提高，今年政策更注重'投资于人'，居民就业、收入、消费、养老、生育等领域在宏观政策里的权重加大。",
+    "main_sections": [
+      "宏观策略：宏观政策要'投资于人'——学习政府工作报告精神",
+      "固收金工：银行'缩表'的拓展探索：海外商业银行并购与国内有何异同？",
+      "行业推荐个股及其他点评：雷赛智能、宇通客车、厦门象屿、大商股份、妙可蓝多、禾迈股份"
+    ],
+    "risk_warning": "政策理解偏差风险、政策落地时滞风险、环境变化导致政策变动风险",
+    "key_insights": [
+      "2025年广义、狭义赤字率预计将分别实现10%、4%的历史最高水平",
+      "财政支出预计实现近10%的同比增长，创2021年至今最高水平",
+      "海外商业银行并购在政策监管和市场竞争层面存在差异",
+      "推荐个股包括雷赛智能、宇通客车、厦门象屿等"
+    ]
+  },
+  "financial_data": {
+    "macro_indicators": {
+      "gdp_target": "5%左右",
+      "fiscal_deficit_rate": "4%",
+      "broad_deficit_rate": "10%",
+      "cpi_target": "2%",
+      "special_bonds": "4.4万亿元",
+      "ultra_long_bonds": "1.8万亿元"
+    },
+    "policy_highlights": [
+      "增量财政资金达到2.9万亿",
+      "以旧换新中央资金3800亿左右",
+      "城乡居民基础养老金最低标准再提高20元"
+    ]
+  },
+  "financial_metrics": {},
+  "deep_analysis": {
+    "reasoning_analysis": {
+      "reasoning_categories": {
+        "policy_analysis": {
+          "matches": [
+            "在5%的经济增长目标下，对宏观政策的要求明显提高",
+            "今年政策更注重'投资于人'",
+            "从总量来看，今年增量财政资金达到2.9万亿",
+            "适时降准降息，但具体时点可能更多相机抉择"
+          ],
+          "count": 4,
+          "description": "政策分析：基于政府工作报告的政策解读和预期"
+        },
+        "market_conditions": {
+          "matches": [
+            "海外商业银行并购在政策监管和市场竞争层面存在差异",
+            "海外并购中更多受到市场竞争因素的驱动",
+            "国内商业银行并购则主要由政策强力主导"
+          ],
+          "count": 3,
+          "description": "市场环境分析：基于国内外市场比较的分析"
+        },
+        "company_specific": {
+          "matches": [
+            "雷赛智能：运动控制老牌王者，机器人电机风正时济",
+            "宇通客车：2月销量同比转正，春节假期扰动消退",
+            "厦门象屿：定增落地，优化资本结构利好未来发展"
+          ],
+          "count": 3,
+          "description": "公司特定因素：基于具体公司分析的投资建议"
+        }
+      },
+      "key_factors": [
+        {
+          "factor": "财政政策加力：2025年增量财政资金2.9万亿",
+          "type": "政策驱动",
+          "importance": "high"
+        },
+        {
+          "factor": "投资于人：居民就业、收入、消费等权重加大",
+          "type": "政策重点",
+          "importance": "high"
+        },
+        {
+          "factor": "银行并购：海外与国内在驱动因素上存在差异",
+          "type": "行业趋势",
+          "importance": "medium"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "content": "赤字5.66万亿+专项债4.4万亿+超长期特别国债1.8万亿=11.86万亿",
+          "type": "财政数据",
+          "confidence": 0.9
+        },
+        {
+          "content": "比去年（8.96万亿）多2.9万亿",
+          "type": "对比数据",
+          "confidence": 0.9
+        },
+        {
+          "content": "CPI目标从3%下调到2%",
+          "type": "政策调整",
+          "confidence": 0.9
+        }
+      ],
+      "logic_strength": 0.82
+    },
+    "process_analysis": {
+      "analysis_framework": {
+        "policy_interpretation": {
+          "content": [
+            "从十个领域重点关注政府工作报告",
+            "GDP增长目标5%左右的政策含义",
+            "财政政策、货币政策、消费政策等具体部署"
+          ],
+          "count": 3,
+          "description": "政策解读：对政府工作报告的系统性分析"
+        },
+        "comparative_analysis": {
+          "content": [
+            "海外商业银行并购案例复盘",
+            "国内外银行并购差异点和相似点分析",
+            "并购对债券影响的比较研究"
+          ],
+          "count": 3,
+          "description": "对比分析：海外与国内银行并购的比较研究"
+        },
+        "stock_recommendations": {
+          "content": [
+            "雷赛智能：运动控制龙头，机器人电机新赛道",
+            "宇通客车：2月销量回升，政策红利释放",
+            "厦门象屿：定增优化资本结构"
+          ],
+          "count": 3,
+          "description": "个股推荐：基于基本面分析的投资建议"
+        }
+      },
+      "logical_structure": [
+        {
+          "order": 1,
+          "content": "宏观策略：解读政府工作报告，分析政策导向",
+          "logic_type": "宏观分析",
+          "importance": "high"
+        },
+        {
+          "order": 2,
+          "content": "固收金工：银行并购国际比较，探索并购趋势",
+          "logic_type": "行业分析",
+          "importance": "medium"
+        },
+        {
+          "order": 3,
+          "content": "个股推荐：基于基本面变化的投资机会挖掘",
+          "logic_type": "个股分析",
+          "importance": "high"
+        }
+      ],
+      "key_assumptions": [
+        {
+          "assumption": "5%的GDP增长目标需要政策加大力度支持",
+          "type": "宏观预期",
+          "risk_level": "medium"
+        },
+        {
+          "assumption": "财政政策将更注重'投资于人'的政策导向",
+          "type": "政策预期",
+          "risk_level": "low"
+        },
+        {
+          "assumption": "银行并购趋势将在政策推动下继续发展",
+          "type": "行业预期",
+          "risk_level": "medium"
+        }
+      ],
+      "methodology": [
+        {
+          "method": "政策解读",
+          "description": "政府工作报告解读分析",
+          "usage_context": "宏观政策分析"
+        },
+        {
+          "method": "国际比较",
+          "description": "海外案例比较分析",
+          "usage_context": "银行并购研究"
+        },
+        {
+          "method": "基本面分析",
+          "description": "公司基本面分析方法",
+          "usage_context": "个股投资建议"
+        }
+      ],
+      "process_completeness": 0.85
+    },
+    "analysis_summary": {
+      "overall_quality": "high",
+      "key_insights": [
+        "财政政策显著加力，增量资金2.9万亿",
+        "政策重心转向'投资于人'",
+        "银行并购国内外存在驱动差异"
+      ],
+      "analysis_strengths": [
+        "政策解读全面深入：涵盖财政、货币、消费等多个维度",
+        "国际比较视野开阔：海外银行并购案例丰富",
+        "个股推荐逻辑清晰：基于基本面变化的投资逻辑"
+      ],
+      "potential_weaknesses": [
+        "政策执行时滞风险未充分讨论",
+        "个股推荐缺乏详细的财务数据支撑",
+        "风险提示相对简单"
+      ],
+      "recommendation_confidence": "medium"
+    }
+  },
+  "extracted_tables": [],
+  "recommended_stocks": [
+    {
+      "stock_name": "雷赛智能",
+      "stock_code": "002979",
+      "rating": "买入",
+      "target_price": null,
+      "key_points": "运动控制老牌王者，机器人电机风正时济"
+    },
+    {
+      "stock_name": "宇通客车", 
+      "stock_code": "600066",
+      "rating": "买入",
+      "target_price": null,
+      "key_points": "2月销量同比转正，春节假期扰动消退期待景气度继续回升"
+    },
+    {
+      "stock_name": "厦门象屿",
+      "stock_code": "600057", 
+      "rating": "买入",
+      "target_price": null,
+      "key_points": "定增落地，优化资本结构利好未来发展"
+    },
+    {
+      "stock_name": "大商股份",
+      "stock_code": "600694",
+      "rating": "买入", 
+      "target_price": null,
+      "key_points": "发布股权激励草案，激励核心高管彰显改革信心"
+    },
+    {
+      "stock_name": "妙可蓝多",
+      "stock_code": "600882",
+      "rating": "买入",
+      "target_price": null,
+      "key_points": "员工激励超预期落地，25年业绩弹性可期"
+    },
+    {
+      "stock_name": "禾迈股份",
+      "stock_code": "688032",
+      "rating": "买入",
+      "target_price": null,
+      "key_points": "控股股东增持公司股份，彰显长期信心"
+    }
+  ],
+  "text_preview": "东吴证券晨会纪要 2025-03-07。宏观策略：宏观政策要'投资于人'——学习政府工作报告精神。今年政府工作报告的内容大多符合市场预期，但也有部分超预期表述。在5%的经济增长目标下，对宏观政策的要求明显提高，今年政策更注重'投资于人'，居民就业、收入、消费、养老、生育等领域，在宏观政策里的权重加大..."
+}

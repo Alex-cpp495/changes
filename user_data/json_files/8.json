@@ -1,0 +1,404 @@
+{
+    "meta_info": {
+      "file_path": "东吴证券晨会纪要 2025-03-04.pdf",
+      "processed_time": "2025-03-04T08:00:00.000Z",
+      "processor_version": "2.1",
+      "document_type": "晨会纪要",
+      "text_length": 15420,
+      "page_count": 23,
+      "success": true,
+      "quality_score": 8.8,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.93,
+      "processing_time": 18.45
+    },
+    "basic_info": {
+      "title": "东吴证券晨会纪要 2025-03-04",
+      "document_type": "晨会纪要",
+      "publish_date": "2025-03-04",
+      "institution": "东吴证券",
+      "research_department": "东吴证券研究所",
+      "editor": "张良卫",
+      "analyst_certificate": "S0600516070001",
+      "contact": "021-60199793, zhanglw@dwzq.com.cn"
+    },
+    "section_analysis": {
+      "macro_strategy": {
+        "title": "宏观策略",
+        "reports": [
+          {
+            "title": "宏观量化经济指数周报 20250302：食品和油价回落或拖累2月CPI转负",
+            "subtitle": "货币政策或继续\"防风险\"和\"稳增长\"之间需求平衡",
+            "key_points": [
+              "ECI供给指数为50.43%，较上周回升0.07个百分点",
+              "ECI需求指数为49.93%，较上周回升0.03个百分点",
+              "2月份经济在供需两端都延续着较为明显的复苏态势",
+              "2月CPI同比或小幅转负"
+            ]
+          },
+          {
+            "title": "海外周报 20250302：衰退担忧与关税冲击带动美债利率大跌",
+            "key_points": [
+              "美国经济数据持续疲软，美联储模型大幅下调25Q1美国GDP增速预测",
+              "特朗普关税政策再度升级推升市场避险情绪",
+              "美元指数走强、美债利率大幅下行、美股大跌",
+              "降息预期显著升温"
+            ]
+          },
+          {
+            "title": "宏观点评 20250301：理解经济\"开门红\"的两条线索——2月PMI数据点评",
+            "key_points": [
+              "理解2月经济，有两条线索：一是季节性，二是趋势",
+              "春节时间越早，通常PMI反弹越强",
+              "9月以来驱动经济复苏的几个动能还在延续"
+            ]
+          }
+        ]
+      },
+      "fixed_income": {
+        "title": "固收金工",
+        "reports": [
+          {
+            "title": "固收周报 20250302：中低价转债或同时受益于行业轮动",
+            "key_points": [
+              "国内风险类资产A+H周k线均出现了一定程度的回调",
+              "海外科技股回调对国内科技股构成一定压制",
+              "转债市场的跟随困境在中、低价标的层面表现更为突出",
+              "高价标的跟随正股相关题材的发酵，上涨幅度甚至超过正股"
+            ]
+          },
+          {
+            "title": "固收周报 20250302：如何看待3月流动性情况？",
+            "key_points": [
+              "资金面紧张成为主导春节后债券收益率走势的重要因素",
+              "3月份往往是财政支出大月，对流动性形成补充",
+              "货币政策或继续\"防风险\"和\"稳增长\"之间需求平衡"
+            ]
+          }
+        ]
+      },
+      "stock_recommendations": {
+        "title": "推荐个股及其他点评",
+        "stocks": [
+          {
+            "stock_name": "天岳先进",
+            "stock_code": "688234",
+            "title": "碳化硅龙一卡位AR眼镜核心环节",
+            "recommendation": "买入",
+            "key_points": [
+              "碳化硅波导在FOV、全彩化、轻量化等方面有显著优势",
+              "有望成为终局技术路径，远期市场空间测算约为300亿元",
+              "看天岳在AR眼镜中核心卡位和远期向上弹性"
+            ]
+          },
+          {
+            "stock_name": "宏景科技",
+            "stock_code": "301396", 
+            "title": "算力服务新秀，乘AI基建之风",
+            "recommendation": "买入",
+            "key_points": [
+              "AI产业快速发展，Deepseek R1的推出更是加快国内AI发展速度",
+              "阿里等互联网大厂上调资本开支",
+              "公司从2023年开始转型布局智算，2024年-2025年2月已经公告15亿元算力服务订单"
+            ]
+          },
+          {
+            "stock_name": "阿特斯",
+            "stock_code": "688472",
+            "title": "2024年业绩快报点评：组件平衡量利，储能持续双高",
+            "recommendation": "买入",
+            "key_points": [
+              "竞争加剧，下调盈利预测",
+              "预计2024-2026年利润22.9/37.3/45.9亿元",
+              "基于公司储能业务领先地位，给予2025年18xPE，目标价18元"
+            ]
+          },
+          {
+            "stock_name": "山西汾酒",
+            "stock_code": "600809",
+            "title": "大单品势稳力强，越山海继往开来",
+            "recommendation": "买入",
+            "key_points": [
+              "开门红实现良好开局，全域营销强化品牌势能",
+              "2025年春节，公司提前筹谋准备充分",
+              "春节期间全网各大线上平台汾酒霸屏营销，曝光量超1亿人次"
+            ]
+          },
+          {
+            "stock_name": "东方雨虹",
+            "stock_code": "002271",
+            "title": "2024年报点评：渠道优化效果显现，现金流改善明显",
+            "recommendation": "买入",
+            "key_points": [
+              "公司作为防水行业龙头，积极通过组织架构调整来覆盖空白市场",
+              "拓展非房地产项目，优化经营质量",
+              "防水主业市占率持续提升"
+            ]
+          }
+        ]
+      }
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "2月PMI数据显示经济开门红",
+              "食品和油价回落或拖累2月CPI转负", 
+              "各股票公司业绩数据和财务指标分析",
+              "储能、算力、碳化硅等行业基本面向好"
+            ],
+            "count": 8,
+            "description": "基本面分析：基于经济数据、公司财务状况和行业基本面的分析"
+          },
+          "market_conditions": {
+            "matches": [
+              "美国经济数据持续疲软，衰退担忧升温",
+              "特朗普关税政策升级推升避险情绪",
+              "AI产业快速发展，算力基建大时代来临",
+              "智驾系统下沉，AR眼镜市场空间广阔"
+            ],
+            "count": 6,
+            "description": "市场环境分析：基于宏观经济环境和行业发展趋势的分析"
+          },
+          "policy_factors": {
+            "matches": [
+              "货币政策或继续防风险和稳增长之间需求平衡",
+              "国补政策支撑手机出货量增长",
+              "比亚迪智驾平权战略推动行业配置竞争",
+              "以旧换新政策拉动商品消费"
+            ],
+            "count": 5,
+            "description": "政策因素：基于货币政策、产业政策等政策面的分析"
+          },
+          "technical_innovation": {
+            "matches": [
+              "AI技术在算力服务和数据中心的应用",
+              "碳化硅在AR眼镜光波导的技术突破",
+              "储能技术在电力系统的广泛应用",
+              "智能驾驶技术的下沉和普及"
+            ],
+            "count": 4,
+            "description": "技术创新：基于技术进步和创新应用的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "经济开门红，PMI数据超预期",
+            "type": "宏观经济",
+            "importance": "high"
+          },
+          {
+            "factor": "AI基建大时代来临，算力需求爆发",
+            "type": "技术趋势",
+            "importance": "high"
+          },
+          {
+            "factor": "智驾系统下沉至10万+车型",
+            "type": "产业升级",
+            "importance": "high"
+          },
+          {
+            "factor": "美联储政策预期变化",
+            "type": "海外因素",
+            "importance": "medium"
+          },
+          {
+            "factor": "转债市场行业轮动机会",
+            "type": "投资机会",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "2月制造业PMI为50.2%，比上月上升1.1个百分点",
+            "value": "50.2%",
+            "type": "data_evidence",
+            "context": "制造业PMI回升至扩张区间，经济实现开门红",
+            "confidence": 0.95
+          },
+          {
+            "content": "阿里将投入超过3800亿元用于建设云和AI硬件基础设施",
+            "value": "3800亿元",
+            "type": "corporate_evidence",
+            "context": "大厂加大AI基建投入，算力需求快速增长",
+            "confidence": 0.9
+          },
+          {
+            "content": "比亚迪10/15/20万级车型全系标配智驾系统",
+            "value": "10-20万元",
+            "type": "industry_evidence", 
+            "context": "智驾技术下沉，市场空间快速扩大",
+            "confidence": 0.88
+          }
+        ],
+        "logic_strength": 0.87
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "我们预计2025年经济将保持稳健增长态势",
+              "AI基建投入将带动相关产业链快速发展",
+              "智驾技术下沉将为光学、芯片等领域带来新增量",
+              "转债市场中低价标的有望受益于行业轮动"
+            ],
+            "count": 4,
+            "description": "假设设定：分析师对未来发展趋势的关键假设"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：宏观经济开门红，政策环境相对友好",
+              "其次：新兴产业技术突破，市场空间快速扩大", 
+              "再次：传统行业转型升级，竞争格局改善",
+              "因此：看好相关标的的投资机会"
+            ],
+            "count": 4,
+            "description": "逻辑链条：从宏观到微观的分析推理过程"
+          },
+          "data_support": {
+            "content": [
+              "PMI数据：制造业50.2%，服务业50.0%，建筑业52.7%",
+              "AI投入：阿里3800亿元，国资委推动央企融入算力布局",
+              "智驾下沉：10万+车型标配，市场渗透率快速提升",
+              "业绩数据：多家公司发布超预期业绩快报"
+            ],
+            "count": 8,
+            "description": "数据支撑：用于支持分析观点的具体数据"
+          },
+          "risk_assessment": {
+            "content": [
+              "海外经济衰退风险和地缘政治影响",
+              "国内需求复苏的可持续性存在不确定性",
+              "新兴产业技术发展不及预期的风险",
+              "市场竞争加剧导致盈利能力下降"
+            ],
+            "count": 4,
+            "description": "风险评估：对关键假设和判断的风险提示"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "宏观经济：PMI数据显示经济实现开门红，政策环境保持相对友好",
+            "logic_type": "基础判断",
+            "connector": "基于",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "新兴产业：AI、智驾、AR等技术快速发展，市场空间广阔",
+            "logic_type": "行业分析",
+            "connector": "同时",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "个股机会：关注算力、光学、储能、白酒等细分领域龙头",
+            "logic_type": "投资建议",
+            "connector": "因此",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "风险控制：关注海外因素变化和行业竞争加剧风险",
+            "logic_type": "风险提示",
+            "connector": "需要注意",
+            "importance": "medium"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "2025年中国经济将保持稳健增长",
+            "type": "宏观假设",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "AI基建投入将持续加大，算力需求快速增长",
+            "type": "行业假设",
+            "risk_level": "low"
+          },
+          {
+            "assumption": "智驾技术下沉趋势不可逆转",
+            "type": "技术假设", 
+            "risk_level": "low"
+          },
+          {
+            "assumption": "转债市场将出现明显的行业轮动机会",
+            "type": "市场假设",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "宏观数据分析",
+            "description": "基于PMI、CPI等宏观经济指标的分析",
+            "usage_context": "判断经济走势和政策环境"
+          },
+          {
+            "method": "行业比较分析",
+            "description": "对不同行业景气度和发展前景的比较分析",
+            "usage_context": "识别优势行业和投资机会"
+          },
+          {
+            "method": "公司基本面分析",
+            "description": "基于财务数据和业务发展的公司分析",
+            "usage_context": "评估个股投资价值"
+          },
+          {
+            "method": "市场技术分析",
+            "description": "基于价格走势和交易数据的技术分析",
+            "usage_context": "判断市场情绪和交易机会"
+          }
+        ],
+        "process_completeness": 0.91
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "经济开门红为市场提供了良好的基本面支撑",
+          "AI基建大时代为相关产业链带来历史性机遇",
+          "智驾技术下沉为光学等细分领域打开新空间"
+        ],
+        "analysis_strengths": [
+          "宏观分析全面深入，涵盖国内外经济环境",
+          "行业研究专业细致，把握新兴产业发展脉搏",
+          "个股推荐逻辑清晰，基本面分析扎实",
+          "风险提示及时准确，投资建议相对均衡"
+        ],
+        "potential_weaknesses": [
+          "对海外不确定性因素的影响评估可能不够充分",
+          "部分新兴行业的估值水平偏高需要关注",
+          "短期市场波动对投资时点选择的影响"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "table_type": "宏观数据表",
+        "content": "ECI指数、PMI数据、CPI预测等宏观经济指标",
+        "key_data": {
+          "制造业PMI": "50.2%",
+          "服务业PMI": "50.0%", 
+          "建筑业PMI": "52.7%",
+          "ECI供给指数": "50.43%",
+          "ECI需求指数": "49.93%"
+        }
+      },
+      {
+        "table_id": 1,
+        "table_type": "股票推荐表",
+        "content": "推荐个股及投资评级",
+        "stocks": [
+          {"name": "天岳先进", "code": "688234", "rating": "买入"},
+          {"name": "宏景科技", "code": "301396", "rating": "买入"}, 
+          {"name": "阿特斯", "code": "688472", "rating": "买入"},
+          {"name": "山西汾酒", "code": "600809", "rating": "买入"},
+          {"name": "东方雨虹", "code": "002271", "rating": "买入"}
+        ]
+      }
+    ],
+    "text_preview": "东吴证券晨会纪要 2025-03-04。宏观策略：宏观量化经济指数周报显示，食品和油价回落或拖累2月CPI转负，货币政策或继续防风险和稳增长之间需求平衡。海外周报指出，衰退担忧与关税冲击带动美债利率大跌。固收金工方面，中低价转债或同时受益于行业轮动..."
+  }

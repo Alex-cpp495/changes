@@ -1,0 +1,353 @@
+{
+    "meta_info": {
+      "file_path": "越疆_研报.pdf",
+      "processed_time": "2025-04-02T10:30:45.123Z",
+      "processor_version": "2.1",
+      "text_length": 7240,
+      "table_count": 6,
+      "success": true,
+      "quality_score": 9.3,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.97,
+      "processing_time": 15.80
+    },
+    "basic_info": {
+      "title": "越疆：协作机器人龙头企业，切入具身智能赛道焕新机",
+      "stock_name": "越疆",
+      "stock_code": "02432.HK",
+      "primary_analyst": "周尔双",
+      "all_analysts": ["周尔双", "张良卫", "钱尧天"],
+      "research_assistant": null,
+      "publish_date": "2025-04-02",
+      "report_type": "海外公司深度",
+      "institution": "东吴证券",
+      "rating": "增持（首次）"
+    },
+    "investment_advice": {
+      "rating": "增持",
+      "rating_change": "首次",
+      "target_price": null,
+      "current_price": 73.65,
+      "expected_return": null,
+      "expected_return_pct": null,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "越疆科技成立于2015年，深耕协作机器人赛道，逐步成长为行业龙头企业。公司聚焦六轴协作机器人、四轴协作机器人、复合机器人、具身智能机器人四大业务板块，产品深入多行业，成长性较强，营业收入持续增长。",
+      "main_logic": [
+        "深耕协作机器人十载，近年来营收稳健增长",
+        "协作机器人市场成长性可观，凭借五大核心技术高筑护城河",
+        "发布人形机器人Dobot Atom，切入具身智能赛道",
+        "2021-2024年公司营业收入由1.74亿元提升至3.74亿元，CAGR达29.1%",
+        "2023年越疆机器人出货量为1.4万台，市场份额达13.0%",
+        "全球首款灵巧操作+直膝行走具身智能人形机器人Dobot Atom售价19.9万元起"
+      ],
+      "risk_warning": "协作机器人需求不及预期，人形机器人技术进展不及预期，宏观经济风险。",
+      "performance_highlights": [
+        "29.1", "13.0", "19.9"
+      ]
+    },
+    "financial_data": {
+      "financial_forecast_table_0": {
+        "type": "financial_forecast",
+        "description": "财务预测数据",
+        "data": [
+          {"项目": "营业总收入", "2023A": 286.75, "2024A": 373.68, "2025E": 496.41, "2026E": 672.80, "2027E": 896.94},
+          {"项目": "归母净利润", "2023A": -103.28, "2024A": -95.36, "2025E": -43.49, "2026E": 1.15, "2027E": 34.54},
+          {"项目": "EPS", "2023A": -0.26, "2024A": -0.24, "2025E": -0.11, "2026E": 0.00, "2027E": 0.09},
+          {"项目": "P/E", "2023A": -265.17, "2024A": -287.19, "2025E": -629.79, "2026E": 23736.49, "2027E": 792.87}
+        ],
+        "row_count": 4,
+        "col_count": 6
+      },
+      "text_extracted_metrics": {
+        "revenue": ["3.74", "1.74"],
+        "net_profit": ["-0.95"],
+        "growth_rate": ["29.1", "13.0", "36.6"],
+        "margin": ["50.5", "40.8", "43.5", "46.6"]
+      }
+    },
+    "financial_metrics": {
+      "PE": ["-287.19", "-629.79", "23736.49", "792.87"],
+      "EPS": ["-0.24", "-0.11", "0.00", "0.09"],
+      "target_price": [],
+      "revenue": ["373.68", "496.41", "672.80", "896.94"],
+      "profit": ["-0.95", "-0.43", "0.01", "0.35"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "2021-2024年公司营业收入由1.74亿元提升至3.74亿元，CAGR达29.1%",
+              "2024年公司归母净利润为-0.95亿元，亏幅有所收窄",
+              "2021-2024年，公司毛利率分别为50.5%/40.8%/43.5%/46.6%",
+              "2021-2024年，公司海外收入稳步提升，从2021年的0.84亿元增长至2024年的2.01亿元",
+              "公司六轴与四轴协作机器人产品出货量快速提升",
+              "固定成本摊薄带来更高的毛利率水平"
+            ],
+            "count": 6,
+            "description": "基本面分析：基于公司财务状况和经营情况的分析"
+          },
+          "market_conditions": {
+            "matches": [
+              "协作机器人2023-2028E复合年增长率预计高达36.6%，彰显出强劲的增长潜力",
+              "工业场景一直是最大的需求来源，未来商用场景需求增速可观",
+              "全球协作机器人行业竞争格局呈现出头部企业引领的态势",
+              "机器人可分为四类：协作机器人、传统工业机器人、服务机器人和其他专业机器人",
+              "协作机器人虽然现阶段市场规模相对较小，但增长潜力巨大",
+              "相比于工业机器人，协作机器人的集成成本更低，产线布置耗时更短更加柔性化"
+            ],
+            "count": 6,
+            "description": "市场环境分析：基于行业和宏观环境的分析"
+          },
+          "company_specific": {
+            "matches": [
+              "越疆科技成立于2015年，深耕协作机器人赛道，逐步成长为行业龙头企业",
+              "2023年越疆机器人出货量为1.4万台，市场份额达13.0%，远超行业第三名",
+              "越疆机器人产品覆盖中国以及80多个海外国家及地区",
+              "公司凭借关键部件设计与开发、通用控制平台、安全技术、机器人技术、AI技术五大显著技术优势",
+              "2025年3月18日，越疆机器人正式预售全球首款灵巧操作+直膝行走具身智能人形机器人Dobot Atom",
+              "Dobot Atom定义为工业级操作类人形机器人，售价19.9万元起"
+            ],
+            "count": 6,
+            "description": "公司特定因素：基于公司独特优势和战略的分析"
+          },
+          "valuation_logic": {
+            "matches": [
+              "当前股价对应PS分别为46/34/25倍",
+              "我们预测公司2025-2027年营业收入为4.96/6.73/8.97亿元",
+              "首次覆盖给予增持评级"
+            ],
+            "count": 3,
+            "description": "估值逻辑：基于估值方法和比较的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "协作机器人龙头地位稳固，市场份额13.0%",
+            "type": "市场地位",
+            "importance": "high"
+          },
+          {
+            "factor": "营收持续增长，CAGR达29.1%",
+            "type": "业绩增长",
+            "importance": "high"
+          },
+          {
+            "factor": "切入具身智能赛道，发布Dobot Atom人形机器人",
+            "type": "业务拓展",
+            "importance": "high"
+          },
+          {
+            "factor": "五大核心技术优势构筑护城河",
+            "type": "技术优势",
+            "importance": "medium"
+          },
+          {
+            "factor": "海外市场拓展顺利，覆盖80多个国家",
+            "type": "市场拓展",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "营收CAGR达29.1%",
+            "value": "29.1%",
+            "type": "data_evidence",
+            "context": "2021-2024年公司营业收入由1.74亿元提升至3.74亿元，CAGR达29.1%",
+            "confidence": 0.95
+          },
+          {
+            "content": "市场份额13.0%，行业龙二",
+            "value": "13.0%",
+            "type": "market_validation",
+            "context": "2023年越疆机器人出货量为1.4万台，市场份额达13.0%",
+            "confidence": 0.9
+          },
+          {
+            "content": "协作机器人行业增长率36.6%",
+            "value": "36.6%",
+            "type": "market_validation",
+            "context": "2023-2028E复合年增长率预计高达36.6%",
+            "confidence": 0.85
+          },
+          {
+            "content": "海外收入增长CAGR=34%",
+            "value": "34%",
+            "type": "data_evidence",
+            "context": "海外收入从2021年的0.84亿元增长至2024年的2.01亿元，CAGR=34%",
+            "confidence": 0.9
+          }
+        ],
+        "logic_strength": 0.88
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "公司协作机器人领域龙头地位稳固，前瞻布局人形机器人打造第二增长曲线",
+              "伴随公司海外渠道的不断建设，公司海外收入有望持续提升",
+              "协作机器人在各下游行业发展态势各异，工业场景需求最大，商用场景增速可观",
+              "具身智能商业化无论落地于to B场景和to C场景都需要与人频繁交互"
+            ],
+            "count": 4,
+            "description": "假设设定：分析师设定的关键假设和预期"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：深耕协作机器人十载，近年来营收稳健增长",
+              "其次：协作机器人市场成长性可观，凭借五大核心技术高筑护城河",
+              "最后：发布人形机器人Dobot Atom，切入具身智能赛道",
+              "因此：首次覆盖给予增持评级"
+            ],
+            "count": 4,
+            "description": "逻辑链条：分析的逻辑推理过程"
+          },
+          "data_support": {
+            "content": [
+              "2021-2024年营业收入CAGR达29.1%",
+              "2023年市场份额达13.0%",
+              "海外收入CAGR=34%",
+              "毛利率维持在40%+水平",
+              "协作机器人行业2023-2028E增长率36.6%",
+              "Dobot Atom售价19.9万元起"
+            ],
+            "count": 6,
+            "description": "数据支撑：用于支持观点的具体数据"
+          },
+          "scenario_analysis": {
+            "content": [
+              "预测公司2025-2027年营业收入为4.96/6.73/8.97亿元",
+              "当前股价对应PS分别为46/34/25倍",
+              "人形机器人有望实现商业化突破"
+            ],
+            "count": 3,
+            "description": "情景分析：不同情况下的预测分析"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "越疆科技成立于2015年，深耕协作机器人赛道，逐步成长为行业龙头企业",
+            "logic_type": "hypothesis",
+            "connector": "背景",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "深耕协作机器人十载，近年来营收稳健增长",
+            "logic_type": "sequential",
+            "connector": "首先",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "协作机器人市场成长性可观，凭借五大核心技术高筑护城河",
+            "logic_type": "sequential",
+            "connector": "其次",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "发布人形机器人Dobot Atom，切入具身智能赛道",
+            "logic_type": "sequential",
+            "connector": "最后",
+            "importance": "high"
+          },
+          {
+            "order": 5,
+            "content": "首次覆盖给予增持评级",
+            "logic_type": "conclusion",
+            "connector": "因此",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "协作机器人市场持续高速增长",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "公司技术优势持续保持",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "人形机器人商业化进展顺利",
+            "type": "quantitative",
+            "risk_level": "high"
+          },
+          {
+            "assumption": "海外市场拓展持续推进",
+            "type": "quantitative",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "PS",
+            "description": "市销率估值",
+            "usage_context": "当前股价对应PS分别为46/34/25倍"
+          },
+          {
+            "method": "同行比较",
+            "description": "同行比较分析",
+            "usage_context": "与埃斯顿、埃夫特-U等可比公司对比"
+          },
+          {
+            "method": "分部估值",
+            "description": "分业务估值",
+            "usage_context": "协作机器人+人形机器人双轮驱动"
+          }
+        ],
+        "process_completeness": 0.92
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "协作机器人龙头地位稳固，市场份额13.0%",
+          "营收持续增长，CAGR达29.1%",
+          "切入具身智能赛道，发布Dobot Atom人形机器人"
+        ],
+        "analysis_strengths": [
+          "支撑证据充分：提供了详细的营收、市场份额、技术指标等关键数据",
+          "逻辑推理清晰：从协作机器人基础→技术优势→人形机器人拓展的完整分析链条",
+          "分析方法多样：运用了PS估值、同行比较、分部估值等方法",
+          "前瞻性强：关注了具身智能、人形机器人等前沿技术趋势"
+        ],
+        "potential_weaknesses": [
+          "盈利不确定性：公司仍处于亏损状态，盈利拐点时间不明确",
+          "人形机器人不确定性：新业务商业化进展存在较大不确定性",
+          "竞争加剧风险：协作机器人和人形机器人领域竞争日趋激烈"
+        ],
+        "recommendation_confidence": "medium"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["项目", "2023A", "2024A", "2025E", "2026E", "2027E"],
+        "data": [
+          {"项目": "营业总收入（百万元）", "2023A": 286.75, "2024A": 373.68, "2025E": 496.41, "2026E": 672.80, "2027E": 896.94},
+          {"项目": "归母净利润（百万元）", "2023A": -103.28, "2024A": -95.36, "2025E": -43.49, "2026E": 1.15, "2027E": 34.54},
+          {"项目": "EPS-最新摊薄（元/股）", "2023A": -0.26, "2024A": -0.24, "2025E": -0.11, "2026E": 0.00, "2027E": 0.09},
+          {"项目": "P/E（现价&最新摊薄）", "2023A": -265.17, "2024A": -287.19, "2025E": -629.79, "2026E": 23736.49, "2027E": 792.87}
+        ],
+        "shape": [4, 6],
+        "non_null_count": 24
+      },
+      {
+        "table_id": 1,
+        "columns": ["排名", "公司", "概览", "上市状况", "产品覆盖地域", "2023年全球协作机器人出货量", "市场份额"],
+        "data": [
+          {"排名": 1, "公司": "优傲机器人", "概览": "于2005年成立，总部位于丹麦", "上市状况": "由美国上市公司收购", "产品覆盖地域": "中国以及50多个海外国家及地区", "2023年全球协作机器人出货量": "1.6万台", "市场份额": "14.8%"},
+          {"排名": 2, "公司": "越疆机器人", "概览": "于2015年成立，总部位于中国深圳市", "上市状况": "已于香港交易所挂牌上市", "产品覆盖地域": "中国以及80多个海外国家及地区", "2023年全球协作机器人出货量": "1.4万台", "市场份额": "13.0%"}
+        ],
+        "shape": [2, 7],
+        "non_null_count": 14
+      }
+    ],
+    "text_preview": "证券研究报告·海外公司深度·软件服务(HS) 东吴证券研究所 越疆（02432.HK） 协作机器人龙头企业，切入具身智能赛道焕新机 2025年04月02日 证券分析师 周尔双..."
+  }

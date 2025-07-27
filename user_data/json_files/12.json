@@ -1,0 +1,390 @@
+{
+  "meta_info": {
+    "file_name": "英伟达（NVDA）FY2025业绩点评",
+    "processed_time": "2025-03-05T12:00:00Z",
+    "document_type": "海外公司点评",
+    "category": "半导体",
+    "institution": "东吴证券研究所",
+    "publication_date": "2025-03-05",
+    "page_count": 3,
+    "success": true
+  },
+  "basic_info": {
+    "stock_code": "NVDA",
+    "stock_name": "英伟达",
+    "market": "美股",
+    "sector": "半导体",
+    "report_type": "FY2025业绩点评",
+    "title": "B系列出货超预期，下游高需求及自身高壁垒仍然存在",
+    "rating": "买入（维持）",
+    "analysts": [
+      {
+        "name": "张良卫",
+        "license": "S0600516070001",
+        "phone": "021-60199793",
+        "email": "zhanglw@dwzq.com.cn",
+        "role": "证券分析师"
+      },
+      {
+        "name": "李博韦", 
+        "license": "S0600123070070",
+        "email": "libw@dwzq.com.cn",
+        "role": "研究助理"
+      }
+    ]
+  },
+  "market_data": {
+    "closing_price": "114.06美元",
+    "price_range_52w": "90.69/153.13美元",
+    "pb_ratio": "35.08倍",
+    "market_cap": "2,783,064百万美元",
+    "total_shares": "24,400百万股",
+    "floating_shares": "24,400百万股",
+    "book_value_per_share": "3.25美元",
+    "debt_to_asset_ratio": "33.01%"
+  },
+  "financial_performance": {
+    "fy2025q4": {
+      "revenue": {
+        "amount": "393.3亿美元",
+        "yoy_growth": "+78%",
+        "qoq_growth": "+12%"
+      },
+      "net_income": {
+        "amount": "220.7亿美元", 
+        "yoy_growth": "+72%",
+        "qoq_growth": "+10%"
+      },
+      "non_gaap_gross_margin": {
+        "rate": "73.5%",
+        "yoy_change": "-3.2pct",
+        "qoq_change": "-1.5pct"
+      },
+      "note": "业绩超出市场一致预期"
+    },
+    "fy2025_annual": {
+      "revenue": "130,497百万美元",
+      "net_income": "72,880百万美元",
+      "eps": "2.99美元"
+    }
+  },
+  "business_segments": {
+    "datacenter": {
+      "fy2025q4": {
+        "revenue": "355.8亿美元",
+        "qoq_growth": "+16%"
+      },
+      "fy2025_annual": {
+        "revenue": "1152亿美元",
+        "yoy_growth": "+142%"
+      },
+      "sub_segments": {
+        "compute": {
+          "revenue": "325.6亿美元",
+          "yoy_growth": "+93%",
+          "qoq_growth": "+18%"
+        },
+        "networking": {
+          "revenue": "30.2亿美元",
+          "yoy_growth": "+116%",
+          "qoq_growth": "-3%"
+        }
+      },
+      "key_customers": {
+        "large_cloud_providers": "收入占比约50%",
+        "north_america_capex": {
+          "fy2025q4": "795.5亿美元",
+          "yoy_growth": "+65.4%",
+          "qoq_growth": "+24.3%"
+        }
+      }
+    },
+    "gaming_aipc": {
+      "fy2025q4": {
+        "gaming": {
+          "revenue": "25.4亿美元",
+          "yoy_growth": "-11%",
+          "qoq_growth": "-22%"
+        },
+        "aipc_pro_viz": {
+          "revenue": "5.1亿美元",
+          "yoy_growth": "+10%",
+          "qoq_growth": "+5%"
+        }
+      },
+      "supply_chain_impact": "游戏及AIPC业务出货量受供应链紧张影响有所下滑"
+    },
+    "automotive": {
+      "fy2025q4": {
+        "revenue": "5.7亿美元",
+        "yoy_growth": "+103%",
+        "qoq_growth": "+27%"
+      },
+      "partnerships": [
+        "丰田：基于NVIDIA DriveOS系统打造下一代汽车",
+        "现代汽车：基于NVIDIA AI和NVIDIA Omniverse部署机器人技术"
+      ]
+    }
+  },
+  "product_highlights": {
+    "b_series": {
+      "fy2025q4_revenue": "110亿美元",
+      "performance": "超公司预期",
+      "upcoming": "B300系列将在2025H2发布"
+    },
+    "geforce_rtx_50": {
+      "launch": "2025Q4推出",
+      "models": ["5090", "5080"],
+      "performance_improvement": "较上一代提升2倍"
+    },
+    "spectrum_x": {
+      "project": "星际之门项目",
+      "value": "5000亿美元",
+      "adoption": "将采用Spectrum-X"
+    }
+  },
+  "guidance": {
+    "fy2026q1": {
+      "revenue": {
+        "guidance": "430±8.6亿美元",
+        "consensus": "422.6亿美元",
+        "variance": "高于彭博一致预期"
+      },
+      "non_gaap_gross_margin": {
+        "guidance": "71.0±0.5%",
+        "consensus": "72.1%",
+        "variance": "略低于一致预期"
+      },
+      "blackwell_impact": {
+        "ramp_period": "推广期毛利率将下滑至70%低段水平",
+        "full_deployment": "完全推广后毛利率恢复70%中段水平"
+      }
+    }
+  },
+  "financial_forecast": {
+    "revenue_millions_usd": {
+      "FY2024A": 60922,
+      "FY2025A": 130497,
+      "FY2026E": 209239,
+      "FY2027E": 260313,
+      "FY2028E": 322829
+    },
+    "revenue_growth": {
+      "FY2025A": "114.20%",
+      "FY2026E": "60.34%",
+      "FY2027E": "24.41%",
+      "FY2028E": "24.02%"
+    },
+    "net_income_millions_usd": {
+      "FY2024A": 29760,
+      "FY2025A": 72880,
+      "FY2026E": 114140,
+      "FY2027E": 143074,
+      "FY2028E": 178263
+    },
+    "net_income_growth": {
+      "FY2025A": "144.89%",
+      "FY2026E": "56.61%", 
+      "FY2027E": "25.35%",
+      "FY2028E": "24.59%"
+    },
+    "eps_usd": {
+      "FY2024A": 1.22,
+      "FY2025A": 2.99,
+      "FY2026E": 4.68,
+      "FY2027E": 5.86,
+      "FY2028E": 7.31
+    },
+    "pe_ratio": {
+      "FY2025A": 38.19,
+      "FY2026E": 24.38,
+      "FY2027E": 19.45,
+      "FY2028E": 15.61
+    }
+  },
+  "key_financial_ratios": {
+    "profitability": {
+      "gross_margin": {
+        "FY2025A": "74.99%",
+        "FY2026E": "72.17%",
+        "FY2027E": "72.03%",
+        "FY2028E": "71.53%"
+      },
+      "net_margin": {
+        "FY2025A": "55.85%",
+        "FY2026E": "54.55%",
+        "FY2027E": "54.96%",
+        "FY2028E": "55.22%"
+      },
+      "roe": {
+        "FY2025A": "91.87%",
+        "FY2026E": "87.33%",
+        "FY2027E": "75.86%",
+        "FY2028E": "68.75%"
+      },
+      "roic": {
+        "FY2025A": "101.86%",
+        "FY2026E": "98.94%",
+        "FY2027E": "83.97%",
+        "FY2028E": "76.05%"
+      }
+    },
+    "leverage": {
+      "debt_to_asset": {
+        "FY2025A": "28.92%",
+        "FY2026E": "24.20%",
+        "FY2027E": "21.13%",
+        "FY2028E": "18.28%"
+      }
+    },
+    "valuation": {
+      "pb_ratio": {
+        "FY2025A": 35.08,
+        "FY2026E": 21.29,
+        "FY2027E": 14.76,
+        "FY2028E": 10.73
+      },
+      "ev_ebitda": {
+        "FY2025A": 41.38,
+        "FY2026E": 21.14,
+        "FY2027E": 16.87,
+        "FY2028E": 13.53
+      }
+    }
+  },
+  "detailed_financial_statements": {
+    "balance_sheet_millions_usd": {
+      "total_assets": {
+        "FY2025A": 111601,
+        "FY2026E": 163848,
+        "FY2027E": 206807,
+        "FY2028E": 267748
+      },
+      "current_assets": {
+        "FY2025A": 80126,
+        "FY2026E": 125886,
+        "FY2027E": 167638,
+        "FY2028E": 213301
+      },
+      "cash_and_equivalents": {
+        "FY2025A": 8589,
+        "FY2026E": 10204,
+        "FY2027E": 12940,
+        "FY2028E": 15855
+      },
+      "total_liabilities": {
+        "FY2025A": 32274,
+        "FY2026E": 39651,
+        "FY2027E": 43705,
+        "FY2028E": 48951
+      },
+      "shareholders_equity": {
+        "FY2025A": 79327,
+        "FY2026E": 130698,
+        "FY2027E": 188603,
+        "FY2028E": 259297
+      }
+    },
+    "cash_flow_millions_usd": {
+      "operating_cash_flow": {
+        "FY2025A": 64089,
+        "FY2026E": 97592,
+        "FY2027E": 133101,
+        "FY2028E": 165501
+      },
+      "investing_cash_flow": {
+        "FY2025A": -20421,
+        "FY2026E": -33663,
+        "FY2027E": -44301,
+        "FY2028E": -54309
+      },
+      "financing_cash_flow": {
+        "FY2025A": -42359,
+        "FY2026E": -62314,
+        "FY2027E": -86064,
+        "FY2028E": -108277
+      },
+      "capex": {
+        "FY2025A": -3236,
+        "FY2026E": -1500,
+        "FY2027E": -2800,
+        "FY2028E": -1600
+      }
+    }
+  },
+  "investment_thesis": {
+    "strengths": [
+      "CSP需求维持强劲，B系列收入超预期",
+      "数据中心业务强劲增长，全年收入1152亿美元，同比+142%",
+      "公司软硬件优势将仍然是最大护城河",
+      "下游资本开支继续增长背景下业绩有望持续增长"
+    ],
+    "challenges": [
+      "供应链紧张影响游戏及AIPC出货量",
+      "Blackwell推广期毛利率将暂时下滑",
+      "Non-GAAP毛利率同比下降3.2pct"
+    ],
+    "catalysts": [
+      "B300系列将在2025H2发布",
+      "星际之门项目采用Spectrum-X",
+      "汽车业务获得丰田、现代等新合作伙伴",
+      "FY26Q1网络业务将恢复增长"
+    ]
+  },
+  "valuation_analysis": {
+    "current_valuation": {
+      "market_cap": "2.78万亿美元",
+      "pe_fy2025": "38.19倍",
+      "pe_fy2026e": "24.38倍"
+    },
+    "target_analysis": {
+      "rating": "买入（维持）",
+      "price_target": "未明确给出",
+      "basis": "公司软硬件优势将仍然是最大护城河，在下游资本开支继续增长背景下"
+    },
+    "peer_comparison": {
+      "note": "未提供同行比较数据"
+    }
+  },
+  "regional_exposure": {
+    "china": {
+      "revenue_share": "占比保持不变",
+      "outlook": "FY26Q1来自中国的收入占比保持不变"
+    },
+    "north_america": {
+      "cloud_providers": "四大云厂商资本开支合计795.5亿美元，同比+65.4%"
+    }
+  },
+  "risk_analysis": {
+    "risk_factors": [
+      "下游资本开支放缓",
+      "Blackwell爬产不及预期", 
+      "竞争加剧"
+    ],
+    "supply_chain": "供应链紧张影响游戏及AIPC业务出货量",
+    "margin_pressure": "Blackwell推广期毛利率将下滑至70%低段水平"
+  },
+  "related_research": [
+    {
+      "title": "FY2025三季报点评：H系列支撑业绩持续高增，期待B系列放量打开业绩新空间",
+      "date": "2024-11-22"
+    },
+    {
+      "title": "2025财年二季报点评：收入指引低于预期，长期逻辑不变",
+      "date": "2024-09-01"
+    }
+  ],
+  "key_takeaways": [
+    "B系列出货超预期，2025Q4收入达110亿美元",
+    "数据中心业务保持强劲增长，全年收入同比+142%", 
+    "2026Q1指引略高于市场预期",
+    "汽车业务获得丰田、现代汽车等重要合作伙伴",
+    "维持买入评级，看好公司长期竞争优势"
+  ],
+  "document_quality": {
+    "completeness": "高",
+    "data_richness": "详细财务预测和比率分析",
+    "analysis_depth": "深入的业务分部分析和前瞻指引",
+    "key_metrics_coverage": "全面覆盖关键财务指标"
+  }
+}

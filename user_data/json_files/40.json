@@ -1,0 +1,353 @@
+{
+    "meta_info": {
+      "file_path": "速腾聚创(02498.HK)_2024年业绩点评.pdf",
+      "processed_time": "2025-04-07T10:30:45.123Z",
+      "processor_version": "2.1",
+      "text_length": 4850,
+      "table_count": 2,
+      "success": true,
+      "quality_score": 8.8,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.94,
+      "processing_time": 11.2
+    },
+    "basic_info": {
+      "title": "速腾聚创2024年业绩点评：业绩符合预期，智驾&机器人平台化布局有望持续兑现",
+      "stock_name": "速腾聚创",
+      "stock_code": "02498.HK",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫"],
+      "research_assistant": "李博韦",
+      "publish_date": "2025-04-07",
+      "report_type": "业绩点评",
+      "institution": "东吴证券"
+    },
+    "investment_advice": {
+      "rating": "买入",
+      "rating_change": "维持",
+      "target_price": null,
+      "current_price": 38.75,
+      "expected_return": null,
+      "expected_return_pct": null,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "公司发布2024年业绩，2024年公司实现营业收入16.5亿元，同比+47.2%；归母净利润-4.8亿元，亏幅同比缩窄88.9%；毛利率17.2%，同比+8.8pct。公司业绩符合我们预期。",
+      "main_logic": [
+        "ADAS出货持续高增，全球化提速",
+        "泛机器人场景丰富化，助力机器人商业应用落地",
+        "新品发布实现手眼协同，软硬结合赋能具身开发",
+        "智驾与泛机器人平台化深度布局双线发力"
+      ],
+      "risk_warning": "下游需求不及预期，激光雷达渗透不及预期，具身智能渗透不及预期，行业竞争加剧",
+      "performance_highlights": [
+        "47.2", "52.0", "113.9", "71.8", "33.5", "95", "32"
+      ]
+    },
+    "financial_data": {
+      "financial_forecast_table_0": {
+        "type": "financial_forecast",
+        "description": "财务预测数据",
+        "data": [
+          {"项目": "营业总收入", "2023A": 1120, "2024A": 1649, "2025E": 2630, "2026E": 4202, "2027E": 5253},
+          {"项目": "同比(%)", "2023A": 111.22, "2024A": 47.20, "2025E": 59.53, "2026E": 59.73, "2027E": 25.02},
+          {"项目": "归母净利润", "2023A": -4336.63, "2024A": -481.83, "2025E": -246.66, "2026E": 123.96, "2027E": 438.62},
+          {"项目": "同比(%)", "2023A": -107.63, "2024A": 88.89, "2025E": 48.81, "2026E": 150.25, "2027E": 253.86},
+          {"项目": "EPS", "2023A": -8.98, "2024A": -1.00, "2025E": -0.51, "2026E": 0.26, "2027E": 0.91},
+          {"项目": "P/S", "2023A": 15.60, "2024A": 10.60, "2025E": 6.64, "2026E": 4.16, "2027E": 3.33}
+        ],
+        "row_count": 6,
+        "col_count": 6
+      },
+      "text_extracted_metrics": {
+        "revenue": ["16.5", "13.4", "2.0"],
+        "growth_rate": ["47.2", "71.8", "113.9", "12.7", "47.0"],
+        "margin": ["17.2", "13.4", "34.5", "22.1"],
+        "market_share": ["33.5"]
+      }
+    },
+    "financial_metrics": {
+      "PS": ["10.60", "6.64", "4.16", "3.33"],
+      "EPS": ["-1.00", "-0.51", "0.26", "0.91"],
+      "revenue": ["1649", "2630", "4202", "5253"],
+      "profit": ["-481.83", "-246.66", "123.96", "438.62"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "2024年公司实现营业收入16.5亿元，同比+47.2%",
+              "ADAS产品实现营收13.4亿元，同比+71.8%",
+              "出货量同比+113.9%至52.0万台",
+              "毛利率17.2%，同比+8.8pct",
+              "机器人及其他行业产品收入同比+6.4%至2.0亿元",
+              "市占率达33.5%位居行业第一"
+            ],
+            "count": 6,
+            "description": "基本面分析：基于公司财务状况和经营情况的分析"
+          },
+          "market_conditions": {
+            "matches": [
+              "全球化业务持续提速",
+              "获一家中美合资头部主机厂、日本排名前三车企在内的超8个海外及中外合资品牌定点合作",
+              "涵盖欧洲、北美、亚太等主要汽车市场",
+              "在Robotaxi、Robotruck领域与6家头部企业建立合作",
+              "累计的服务机器人及其他非汽车领域客户超2800家"
+            ],
+            "count": 5,
+            "description": "市场环境分析：基于行业和宏观环境的分析"
+          },
+          "company_specific": {
+            "matches": [
+              "公司持续推进产品结构改善",
+              "ADAS量产降本驱动公司毛利率逐季度提升",
+              "发布视觉新品Active Camera平台首款产品AC1",
+              "首次实现激光雷达、摄像头与IMU的硬件级融合",
+              "打造AI-Ready生态，开源SDK涵盖驱动、数据采集等全链路工具",
+              "与全球10+人形机器人公司建立战略合作关系"
+            ],
+            "count": 6,
+            "description": "公司特定因素：基于公司独特优势和战略的分析"
+          },
+          "valuation_logic": {
+            "matches": [
+              "2025年4月2日收盘对应PS分别为6.6/4.2/3.3倍",
+              "将公司2025/2026年预期收入从28.9/41.9亿元调整至26.3/42.0亿元"
+            ],
+            "count": 2,
+            "description": "估值逻辑：基于估值方法和比较的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "ADAS出货量同比增长113.9%达52万台",
+            "type": "业务增长",
+            "importance": "high"
+          },
+          {
+            "factor": "全球化业务持续提速，获得多个海外品牌定点",
+            "type": "市场拓展",
+            "importance": "high"
+          },
+          {
+            "factor": "发布视觉新品AC1，实现手眼协同系统",
+            "type": "产品创新",
+            "importance": "high"
+          },
+          {
+            "factor": "与10+人形机器人公司建立合作",
+            "type": "生态建设",
+            "importance": "medium"
+          },
+          {
+            "factor": "毛利率提升至17.2%，同比+8.8pct",
+            "type": "盈利改善",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "出货量同比+113.9%至52.0万台",
+            "value": "113.9%",
+            "type": "data_evidence",
+            "context": "2024年公司ADAS产品出货量同比大幅增长",
+            "confidence": 0.9
+          },
+          {
+            "content": "市占率达33.5%位居行业第一",
+            "value": "33.5%",
+            "type": "market_validation",
+            "context": "根据盖世汽车，公司2024年市占率",
+            "confidence": 0.9
+          },
+          {
+            "content": "营业收入16.5亿元，同比+47.2%",
+            "value": "47.2%",
+            "type": "data_evidence",
+            "context": "2024年公司实现营业收入增长",
+            "confidence": 0.9
+          },
+          {
+            "content": "毛利率17.2%，同比+8.8pct",
+            "value": "8.8pct",
+            "type": "data_evidence",
+            "context": "公司盈利能力显著改善",
+            "confidence": 0.9
+          }
+        ],
+        "logic_strength": 0.87
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "我们认为公司有望凭借智驾与泛机器人平台化深度布局双线发力",
+              "考虑到新定点车型需要爬坡至稳态销售",
+              "全球化业务持续提速",
+              "智驾&机器人平台化布局有望持续兑现"
+            ],
+            "count": 4,
+            "description": "假设设定：分析师设定的关键假设和预期"
+          },
+          "logic_chain": {
+            "content": [
+              "ADAS出货持续高增，全球化提速",
+              "泛机器人场景丰富化，助力机器人商业应用落地",
+              "新品发布实现手眼协同，软硬结合赋能具身开发",
+              "维持买入评级"
+            ],
+            "count": 3,
+            "description": "逻辑链条：分析的逻辑推理过程"
+          },
+          "data_support": {
+            "content": [
+              "营业收入16.5亿元，同比+47.2%",
+              "ADAS产品实现营收13.4亿元，同比+71.8%",
+              "出货量同比+113.9%至52.0万台",
+              "毛利率17.2%，同比+8.8pct",
+              "市占率达33.5%位居行业第一",
+              "定点车型数量增至95款"
+            ],
+            "count": 6,
+            "description": "数据支撑：用于支持观点的具体数据"
+          },
+          "scenario_analysis": {
+            "content": [
+              "2025/2026年预期收入从28.9/41.9亿元调整至26.3/42.0亿元",
+              "预测公司2027年收入为52.5亿元",
+              "2025年4月2日收盘对应PS分别为6.6/4.2/3.3倍"
+            ],
+            "count": 3,
+            "description": "情景分析：不同情况下的预测分析"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "事件：公司发布2024年业绩，业绩符合预期",
+            "logic_type": "hypothesis",
+            "connector": "事件",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "ADAS出货持续高增，全球化提速",
+            "logic_type": "sequential",
+            "connector": "首先",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "泛机器人场景丰富化，助力机器人商业应用落地",
+            "logic_type": "sequential",
+            "connector": "其次",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "新品发布实现手眼协同，软硬结合赋能具身开发",
+            "logic_type": "sequential",
+            "connector": "再次",
+            "importance": "high"
+          },
+          {
+            "order": 5,
+            "content": "维持买入评级",
+            "logic_type": "conclusion",
+            "connector": "因此",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "新定点车型需要爬坡至稳态销售",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "智驾与泛机器人平台化深度布局双线发力",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "全球化业务持续提速",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "机器人商业应用落地加速",
+            "type": "quantitative",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "PS",
+            "description": "市销率估值",
+            "usage_context": "2025年4月2日收盘对应PS分别为6.6/4.2/3.3倍"
+          },
+          {
+            "method": "同行比较",
+            "description": "同行比较分析",
+            "usage_context": "根据盖世汽车，公司2024年市占率达33.5%位居行业第一"
+          },
+          {
+            "method": "业务分析",
+            "description": "分业务板块分析",
+            "usage_context": "ADAS产品和机器人及其他行业产品分别分析"
+          }
+        ],
+        "process_completeness": 0.89
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "ADAS出货量同比增长113.9%达52万台",
+          "全球化业务持续提速，获得多个海外品牌定点",
+          "发布视觉新品AC1，实现手眼协同系统"
+        ],
+        "analysis_strengths": [
+          "数据支撑充分：提供了详细的业务数据和市场表现",
+          "逻辑结构清晰：从业绩→ADAS→机器人→新品的完整分析链条",
+          "前瞻性强：关注智驾和机器人平台化的长期趋势",
+          "全球化视野：分析了海外市场拓展情况"
+        ],
+        "potential_weaknesses": [
+          "盈利预测相对保守：下调了2025/2026年收入预期",
+          "竞争分析不够深入：对激光雷达行业竞争格局分析有限",
+          "技术门槛分析不足：对新品技术壁垒的评估较为简单"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["指标", "2023A", "2024A", "2025E", "2026E", "2027E"],
+        "data": [
+          {"指标": "营业总收入（百万元）", "2023A": 1120, "2024A": 1649, "2025E": 2630, "2026E": 4202, "2027E": 5253},
+          {"指标": "同比(%)", "2023A": 111.22, "2024A": 47.20, "2025E": 59.53, "2026E": 59.73, "2027E": 25.02},
+          {"指标": "归母净利润（百万元）", "2023A": -4336.63, "2024A": -481.83, "2025E": -246.66, "2026E": 123.96, "2027E": 438.62},
+          {"指标": "同比(%)", "2023A": -107.63, "2024A": 88.89, "2025E": 48.81, "2026E": 150.25, "2027E": 253.86},
+          {"指标": "EPS-最新摊薄（元/股）", "2023A": -8.98, "2024A": -1.00, "2025E": -0.51, "2026E": 0.26, "2027E": 0.91},
+          {"指标": "P/S（现价&最新摊薄）", "2023A": 15.60, "2024A": 10.60, "2025E": 6.64, "2026E": 4.16, "2027E": 3.33}
+        ],
+        "shape": [6, 6],
+        "non_null_count": 36
+      },
+      {
+        "table_id": 1,
+        "columns": ["市场数据", "数值"],
+        "data": [
+          {"市场数据": "收盘价(港元)", "数值": 38.75},
+          {"市场数据": "一年最低/最高价", "数值": "10.82/137.50"},
+          {"市场数据": "市净率(倍)", "数值": 5.46},
+          {"市场数据": "港股流通市值(百万港元)", "数值": 17267.32}
+        ],
+        "shape": [4, 2],
+        "non_null_count": 8
+      }
+    ],
+    "text_preview": "证券研究报告·海外公司点评·软件服务(HS) 东吴证券研究所 速腾聚创（02498.HK） 2024年业绩点评：业绩符合预期，智驾&机器人平台化布局有望持续兑现 2025年04月07日 证券分析师 张良卫 执业证书：S0600516070001 021-60199793 zhanglw@dwzq.com.cn 研究助理 李博韦..."
+  }

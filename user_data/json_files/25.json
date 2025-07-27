@@ -1,0 +1,335 @@
+{
+    "meta_info": {
+      "file_path": "东吴证券晨会纪要_2025-04-11.pdf",
+      "processed_time": "2025-04-11T08:00:00.000Z",
+      "processor_version": "2.1",
+      "text_length": 15630,
+      "table_count": 0,
+      "success": true,
+      "quality_score": 8.2,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.88,
+      "processing_time": 8.45
+    },
+    "basic_info": {
+      "title": "东吴证券晨会纪要",
+      "document_type": "晨会纪要",
+      "publish_date": "2025-04-11",
+      "institution": "东吴证券",
+      "editor": "张良卫",
+      "sections": ["宏观策略", "固收金工", "行业", "推荐个股及其他点评"]
+    },
+    "macro_strategy": {
+      "title": "人民币有序贬值或为货币宽松打开窗口",
+      "analyst": "芦哲、王洋",
+      "key_points": [
+        "在美元指数处于弱势、非美货币相对较强的背景下，人民币对美元汇率贬值或既是对海外风险事件的被动反应，也有汇率管理上主动释放风险的蕴意",
+        "在人民币汇率贬值节奏上，中间价或继续发挥控场的作用：或继续选择有序、渐进的方式推进人民币贬值",
+        "预计USDCNY或渐进抬升至7.40-7.50区间"
+      ]
+    },
+    "fixed_income": [
+      {
+        "title": "伟测转债：集成电路封测领域先锋",
+        "analyst": "李勇、陈伯铭",
+        "rating": "建议积极申购",
+        "key_metrics": {
+          "预计上市价格": "112.72~125.13元",
+          "预计中签率": "0.0046%",
+          "转股溢价率": "35%左右"
+        }
+      },
+      {
+        "title": "安集转债：半导体材料国产化先锋",
+        "analyst": "李勇、陈伯铭",
+        "rating": "建议积极申购",
+        "key_metrics": {
+          "预计上市价格": "109.63~122.00元",
+          "预计中签率": "0.0037%",
+          "转股溢价率": "28%左右"
+        }
+      },
+      {
+        "title": "清源转债：光伏领域的稳健践行者",
+        "analyst": "李勇、陈伯铭",
+        "rating": "建议积极申购",
+        "key_metrics": {
+          "预计上市价格": "100.22~111.65元",
+          "预计中签率": "0.0020%",
+          "转股溢价率": "25%左右"
+        }
+      }
+    ],
+    "industry_analysis": {
+      "title": "工程机械行业点评报告：工程机械密集回购，继续推荐板块布局机会",
+      "analyst": "周尔双",
+      "rating": "推荐",
+      "key_points": [
+        "国内处于上行周期起点，距离行业高点仍有2-3年景气度，估值&业绩向上弹性较大",
+        "短期回调后配置性价比高",
+        "推荐三一重工、某龙头、中联重科、柳工、山推股份、恒立液压"
+      ]
+    },
+    "stock_recommendations": [
+      {
+        "stock_name": "鹏鼎控股",
+        "stock_code": "002938",
+        "rating": "买入",
+        "analyst": "陈海进、陈妙杨",
+        "title": "2024年报点评：业绩符合预期，看好端侧AI+折叠屏双重成长趋势",
+        "key_metrics": {
+          "2024年营收": "351.4亿元",
+          "2024年归母净利润": "36.20亿元",
+          "预计2025-2027年归母净利润": "44.6/50.5/59.0亿元",
+          "对应PE": "14/12/10倍"
+        }
+      },
+      {
+        "stock_name": "中炬高新",
+        "stock_code": "600872",
+        "rating": "买入",
+        "analyst": "苏铖、周韵",
+        "title": "2024年报点评：业绩符合预期，改革持续优化",
+        "key_metrics": {
+          "预计2025-2027年归母净利润": "8.9/10.1/11.6亿元",
+          "对应PE": "19/16/14倍"
+        }
+      },
+      {
+        "stock_name": "杰瑞股份",
+        "stock_code": "002353",
+        "rating": "买入",
+        "analyst": "周尔双",
+        "title": "2024年报点评：2024年归母净利润+7%，在手订单饱满业绩拐点即将到来",
+        "key_metrics": {
+          "预计2025-2027年归母净利润": "30.27/34.92/39.90亿元",
+          "当前市值对应估值": "10/8/7倍"
+        }
+      },
+      {
+        "stock_name": "福斯特",
+        "stock_code": "603806",
+        "rating": "买入",
+        "analyst": "曾朵红、郭亚男、余慧勇",
+        "title": "2024年报点评：胶膜单平盈利优于同行，电子材料建立第二增长曲线",
+        "key_metrics": {
+          "预计2025-2027年归母净利润": "16.3/22.3/29.5亿元",
+          "对应PE": "20/15/11倍"
+        }
+      },
+      {
+        "stock_name": "容百科技",
+        "stock_code": "688005",
+        "rating": "买入",
+        "analyst": "曾朵红、阮巧燕、岳斯瑶",
+        "title": "2024年年报点评：Q4韩国工厂扭亏，盈利水平提升明显",
+        "key_metrics": {
+          "预计2025-2027年归母净利润": "8.1/10.4/13.1亿元",
+          "对应PE": "17/13/10倍"
+        }
+      },
+      {
+        "stock_name": "分众传媒",
+        "stock_code": "002027",
+        "rating": "买入",
+        "analyst": "张良卫、张家琦",
+        "title": "收购新潮梯媒行业格局大幅改善，行业估值有望大幅提升",
+        "key_metrics": {
+          "维持2024-2026年EPS预测": "0.39/0.43/0.50元",
+          "对应PE": "16.80/15.05/13.05倍"
+        }
+      },
+      {
+        "stock_name": "宇通重工",
+        "stock_code": "600817",
+        "rating": "买入",
+        "analyst": "袁理、陈孜文",
+        "title": "2024年报点评：扣非归母同增23%，环卫新能源销量大增&市占率回升",
+        "key_metrics": {
+          "预计2025-2027年归母净利润": "2.62/3.30/4.13亿元",
+          "对应PE": "21/17/13倍"
+        }
+      }
+    ],
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "国内处于上行周期起点，距离行业高点仍有2-3年景气度",
+              "AI端侧类产品收入占比已超过45%",
+              "手机镜头毛利率提升至20%左右",
+              "车载镜头毛利率稳定在40%左右",
+              "新能源环卫车辆上险9,446台（同比+51.7%）"
+            ],
+            "count": 5,
+            "description": "基本面分析：基于公司财务状况和经营情况的分析"
+          },
+          "market_conditions": {
+            "matches": [
+              "美元指数处于弱势、非美货币相对较强的背景下",
+              "AI手机渗透率提升有望驱动多摄高端机型销量提升",
+              "比亚迪发布'智驾平权'战略，10/15/20万级车型全系标配智驾系统",
+              "宏观背景改善下业绩或临拐点"
+            ],
+            "count": 4,
+            "description": "市场环境分析：基于行业和宏观环境的分析"
+          },
+          "company_specific": {
+            "matches": [
+              "公司持续推进产能升级与全球化布局",
+              "公司大像面潜望式产品实现量产",
+              "8MP市占率保持全球第一",
+              "公司积极推进内部改革"
+            ],
+            "count": 4,
+            "description": "公司特定因素：基于公司独特优势和战略的分析"
+          },
+          "valuation_logic": {
+            "matches": [
+              "对应PE分别为14/12/10倍",
+              "当前市值对应估值为10/8/7倍",
+              "维持买入评级"
+            ],
+            "count": 3,
+            "description": "估值逻辑：基于估值方法和比较的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "AI技术驱动产业升级",
+            "type": "技术趋势",
+            "importance": "high"
+          },
+          {
+            "factor": "工程机械行业上行周期",
+            "type": "行业周期",
+            "importance": "high"
+          },
+          {
+            "factor": "新能源渗透率提升",
+            "type": "产业升级",
+            "importance": "medium"
+          },
+          {
+            "factor": "货币政策宽松预期",
+            "type": "宏观政策",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "AI端侧类产品收入占比已超过45%",
+            "value": "45%",
+            "type": "data_evidence",
+            "context": "消费电子及计算机用板业务实现营业收入97.54亿元",
+            "confidence": 0.9
+          },
+          {
+            "content": "新能源环卫车辆上险9,446台",
+            "value": "9,446台",
+            "type": "data_evidence",
+            "context": "新能源渗透率13.4%（同比+5.3pct）",
+            "confidence": 0.9
+          }
+        ],
+        "logic_strength": 0.82
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "随着经济疲软背景下业绩仍保持稳健增长，彰显消费品牌主韧性",
+              "国内处于上行周期起点，距离行业高点仍有2-3年景气度",
+              "AI手机渗透率提升有望驱动多摄高端机型销量提升"
+            ],
+            "count": 3,
+            "description": "假设设定：分析师设定的关键假设和预期"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：分析宏观环境和政策影响",
+              "其次：评估行业景气度和公司基本面",
+              "最后：给出投资建议和目标价位"
+            ],
+            "count": 3,
+            "description": "逻辑链条：分析的逻辑推理过程"
+          },
+          "data_support": {
+            "content": [
+              "AI端侧类产品收入占比已超过45%",
+              "新能源环卫车辆上险9,446台（同比+51.7%）",
+              "预计USDCNY或渐进抬升至7.40-7.50区间"
+            ],
+            "count": 3,
+            "description": "数据支撑：用于支持观点的具体数据"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "宏观策略：人民币汇率贬值为货币宽松打开窗口",
+            "logic_type": "宏观分析",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "行业分析：工程机械等行业处于上行周期起点",
+            "logic_type": "行业判断",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "个股推荐：基于业绩改善和估值优势",
+            "logic_type": "投资建议",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "宏观经济政策保持相对宽松",
+            "type": "宏观假设",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "AI技术应用持续渗透",
+            "type": "技术假设",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "PE估值",
+            "description": "市盈率估值方法",
+            "usage_context": "对应PE分别为14/12/10倍"
+          },
+          {
+            "method": "行业比较",
+            "description": "同行业比较分析",
+            "usage_context": "8MP市占率保持全球第一"
+          }
+        ],
+        "process_completeness": 0.85
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "AI技术驱动产业升级成为核心投资主线",
+          "工程机械等传统行业迎来新一轮上行周期",
+          "宏观政策环境为市场提供支撑"
+        ],
+        "analysis_strengths": [
+          "覆盖宏观、行业、个股多个层面的全面分析",
+          "数据支撑充分，逻辑链条清晰",
+          "结合短期催化和长期趋势的综合判断"
+        ],
+        "potential_weaknesses": [
+          "对潜在风险因素的分析相对简单",
+          "部分个股推荐缺乏深度的竞争分析"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [],
+    "text_preview": "东吴证券晨会纪要 2025-04-11 宏观策略：人民币有序贬值或为货币宽松打开窗口 在美元指数处于弱势、非美货币相对较强的背景下，人民币对美元汇率贬值或既是对海外风险事件的被动反应，也有汇率管理上主动释放风险的蕴意..."
+  }

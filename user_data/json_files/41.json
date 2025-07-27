@@ -1,0 +1,324 @@
+{
+    "meta_info": {
+      "file_path": "东吴证券晨会纪要_2025-04-09.pdf",
+      "processed_time": "2025-04-09T08:30:45.123Z",
+      "processor_version": "2.1",
+      "text_length": 15680,
+      "table_count": 8,
+      "success": true,
+      "quality_score": 9.2,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.96,
+      "processing_time": 18.7
+    },
+    "basic_info": {
+      "title": "东吴证券晨会纪要2025-04-09",
+      "stock_name": "综合研究",
+      "stock_code": "N/A",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫", "芦哲", "潘京", "李勇", "袁理", "孙婷", "房诚琦"],
+      "research_assistant": null,
+      "publish_date": "2025-04-09",
+      "report_type": "晨会纪要",
+      "institution": "东吴证券"
+    },
+    "investment_advice": {
+      "rating": "综合观点",
+      "rating_change": "维持",
+      "target_price": null,
+      "current_price": null,
+      "expected_return": null,
+      "expected_return_pct": null,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "本期晨会纪要涵盖宏观策略、固收金工、行业分析和个股推荐等多个维度。重点关注科特估重塑估值、关税压力下的资本市场战略协同、保险资金权益投资比例上调、工程机械3月销量超预期等主题。",
+      "main_logic": [
+        "科特估为国产化重塑估值——关税压力下的资本市场战略协同",
+        "应对关税冲击，逆周期政策还有哪些可选项",
+        "保险资金权益投资比例上调，进一步拓宽权益投资空间",
+        "3月挖机销量同比+29%超预期，旺季保持高景气",
+        "电改深化电价机制完善，电力资产模式变革价值重估"
+      ],
+      "risk_warning": "经济数据改善节奏不及预期，海外关税进一步超预期，地缘政治风险，国内科技产业业绩落地不及预期，政策落地不及预期，行业竞争加剧",
+      "performance_highlights": [
+        "29", "13.1", "23", "71.8", "113.9", "33.5", "34"
+      ]
+    },
+    "financial_data": {
+      "macro_data": {
+        "type": "宏观经济数据",
+        "description": "关税政策和经济指标",
+        "data": [
+          {"指标": "对中国关税税率", "数值": "54%"},
+          {"指标": "中国反制关税", "数值": "34%"},
+          {"指标": "美债10Y收益率变化", "数值": "-20bp"},
+          {"指标": "国债10Y收益率", "数值": "1.73%"}
+        ]
+      },
+      "industry_data": {
+        "type": "行业数据",
+        "description": "主要行业表现数据",
+        "data": [
+          {"行业": "挖掘机销量", "3月数据": "29590台", "同比": "+19%"},
+          {"行业": "挖掘机内销", "3月数据": "19517台", "同比": "+29%"},
+          {"行业": "装载机销量", "3月数据": "13917台", "同比": "+13%"},
+          {"行业": "保险权益投资上限", "150-200%档位": "25%→30%", "250-300%档位": "35%→40%"}
+        ]
+      }
+    },
+    "financial_metrics": {
+      "key_ratios": [
+        {"指标": "PE估值", "相关标的": "保险板块", "数值": "0.47-0.73倍2025E P/EV"},
+        {"指标": "市占率", "相关标的": "速腾聚创", "数值": "33.5%"},
+        {"指标": "同比增长", "相关标的": "挖掘机内销", "数值": "29%"}
+      ]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "macro_policy": {
+            "matches": [
+              "特朗普宣布史上最激进关税方案，对中国关税税率达到54%",
+              "中国宣布反制，针对原产于美国的全品类进口商品实施34%惩罚性关税",
+              "稳增长的政策选择很多，接下来的系统性政策可能会有三个重点",
+              "防止出口风险扩散→调整需求结构→扩大政策规模"
+            ],
+            "count": 4,
+            "description": "宏观政策分析：基于政策环境和宏观经济的分析"
+          },
+          "market_structure": {
+            "matches": [
+              "科特估体系下资本市场与国产化的协同效应",
+              "国产化是实现产业链安全的必要路径",
+              "估值提升—信心提升—资金流入—国产化率提升—估值提升形成正向闭环",
+              "保险资金权益投资比例上限提高5%",
+              "转债加权估值中枢预将维稳"
+            ],
+            "count": 5,
+            "description": "市场结构分析：基于资本市场结构变化的分析"
+          },
+          "industry_fundamentals": {
+            "matches": [
+              "3月挖掘机销量29590台，同比+19%",
+              "挖掘机内销19517台，同比+29%",
+              "ADAS增长动能强劲，机器人进展迅猛",
+              "电改深化电价机制完善，电力资产模式变革",
+              "城投挖系列湖北省城投债现状分析"
+            ],
+            "count": 5,
+            "description": "行业基本面分析：基于各行业基本面数据的分析"
+          },
+          "company_specific": {
+            "matches": [
+              "中国人保25Q1承保端显著改善",
+              "速腾聚创智驾&机器人平台化布局",
+              "小商品城扣非净利润+15%",
+              "珠江股份文体业务引领增长",
+              "航发动力盈利能力相对承压"
+            ],
+            "count": 5,
+            "description": "公司特定因素：基于个股基本面的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "特朗普关税政策升级至54%，中国反制34%",
+            "type": "政策冲击",
+            "importance": "high"
+          },
+          {
+            "factor": "科特估重塑国产化估值体系",
+            "type": "估值重构",
+            "importance": "high"
+          },
+          {
+            "factor": "保险资金权益投资比例上调5%",
+            "type": "资金流入",
+            "importance": "high"
+          },
+          {
+            "factor": "3月挖机内销同比+29%超预期",
+            "type": "行业景气",
+            "importance": "medium"
+          },
+          {
+            "factor": "电改深化推动电力资产价值重估",
+            "type": "制度改革",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "对中国关税税率达到54%之高",
+            "value": "54%",
+            "type": "policy_evidence",
+            "context": "特朗普宣布史上最激进关税方案",
+            "confidence": 0.95
+          },
+          {
+            "content": "3月挖掘机内销19517台，同比+29%",
+            "value": "29%",
+            "type": "data_evidence",
+            "context": "工程机械行业3月销量数据",
+            "confidence": 0.9
+          },
+          {
+            "content": "保险公司权益投资比例上限提高5%",
+            "value": "5%",
+            "type": "policy_evidence",
+            "context": "金监总局发布权益投资新规",
+            "confidence": 0.95
+          },
+          {
+            "content": "美债10Y跌幅约20bp，跌破4%",
+            "value": "20bp",
+            "type": "market_evidence",
+            "context": "海外市场对关税政策的反应",
+            "confidence": 0.9
+          }
+        ],
+        "logic_strength": 0.91
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "macro_analysis": {
+            "content": [
+              "关税冲击分析：从贸易保护→产业替代→估值重塑的传导路径",
+              "政策应对：防风险扩散→调结构→扩规模的三步走策略",
+              "货币政策：择机降准降息的时机判断",
+              "财政政策：特别国债和地方债发行计划影响"
+            ],
+            "count": 4,
+            "description": "宏观分析框架：自上而下的宏观政策分析"
+          },
+          "sector_rotation": {
+            "content": [
+              "科特估板块受益于国产化替代逻辑",
+              "保险板块受益于权益投资比例放松",
+              "工程机械受益于基建投资和存量更新",
+              "电力板块受益于电改深化和价值重估"
+            ],
+            "count": 4,
+            "description": "板块轮动分析：基于政策和基本面的板块配置逻辑"
+          },
+          "risk_assessment": {
+            "content": [
+              "地缘政治风险加剧，关税政策不确定性",
+              "国内政策响应的力度和时机",
+              "行业竞争加剧和需求不及预期",
+              "全球经济放缓对出口的影响"
+            ],
+            "count": 4,
+            "description": "风险评估：主要风险因素识别"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "宏观：关税升级引发市场震荡，科特估重塑估值逻辑",
+            "logic_type": "macro_foundation",
+            "connector": "首先",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "政策：保险资金松绑、电改深化等结构性政策持续推进",
+            "logic_type": "policy_support",
+            "connector": "其次",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "行业：工程机械、保险等行业基本面向好",
+            "logic_type": "fundamental_improvement",
+            "connector": "同时",
+            "importance": "medium"
+          },
+          {
+            "order": 4,
+            "content": "个股：精选受益于政策和基本面改善的标的",
+            "logic_type": "stock_selection",
+            "connector": "因此",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "关税政策将推动国产化替代加速",
+            "type": "policy_impact",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "国内逆周期政策将及时出台",
+            "type": "policy_response",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "保险资金入市将带来增量资金",
+            "type": "capital_flow",
+            "risk_level": "low"
+          },
+          {
+            "assumption": "工程机械景气度将持续",
+            "type": "industry_cycle",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "自上而下",
+            "description": "宏观政策→行业影响→个股选择",
+            "usage_context": "从关税政策分析到具体投资建议"
+          },
+          {
+            "method": "主题投资",
+            "description": "围绕政策主题进行配置",
+            "usage_context": "科特估、保险资金入市等主题"
+          },
+          {
+            "method": "基本面分析",
+            "description": "基于行业和公司基本面数据",
+            "usage_context": "工程机械销量、保险承保数据等"
+          }
+        ],
+        "process_completeness": 0.94
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "关税升级推动科特估重塑国产化估值",
+          "保险资金权益投资比例上调带来增量资金",
+          "工程机械3月数据超预期显示行业景气度"
+        ],
+        "analysis_strengths": [
+          "覆盖面广泛：从宏观到微观，从政策到基本面全方位分析",
+          "逻辑链条完整：关税→国产化→估值重塑的传导机制清晰",
+          "数据支撑充分：提供大量行业和公司的关键数据",
+          "前瞻性强：对政策趋势和市场影响有前瞻性判断",
+          "实操性强：提供了具体的投资建议和标的推荐"
+        ],
+        "potential_weaknesses": [
+          "信息密度过高：单篇报告涵盖内容过多，重点不够突出",
+          "风险评估相对简单：对地缘政治等复杂风险的分析较为表面",
+          "时效性要求高：晨会纪要对市场变化的响应需要更加及时"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["类别", "内容"],
+        "data": [
+          {"类别": "宏观策略", "内容": "科特估重塑估值、关税政策应对"},
+          {"类别": "固收金工", "内容": "城投债分析、转债策略、利率债走势"},
+          {"类别": "行业分析", "内容": "保险、工程机械、公用事业、环保、房地产"},
+          {"类别": "个股推荐", "内容": "中国人保、珠江股份、小商品城、航发动力"}
+        ],
+        "shape": [4, 2],
+        "non_null_count": 8
+      }
+    ],
+    "text_preview": "证券研究报告 东吴证券研究所 东吴证券晨会纪要 东吴证券晨会纪要2025-04-09 2025年04月09日 晨会编辑 张良卫 执业证书：S0600516070001 021-60199793 zhanglw@dwzq.com.cn..."
+  }

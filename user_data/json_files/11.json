@@ -1,0 +1,423 @@
+{
+  "meta_info": {
+    "file_name": "东吴证券晨会纪要 2025-03-06",
+    "processed_time": "2025-03-06T11:00:00Z", 
+    "document_type": "晨会纪要",
+    "institution": "东吴证券",
+    "publication_date": "2025-03-06",
+    "editor": "张良卫",
+    "page_count": 12,
+    "success": true
+  },
+  "basic_info": {
+    "title": "东吴证券晨会纪要 2025-03-06",
+    "institution": "东吴证券研究所", 
+    "publication_date": "2025-03-06",
+    "editor": "张良卫",
+    "contact_info": {
+      "license": "S0600516070001",
+      "phone": "021-60199793", 
+      "email": "zhanglw@dwzq.com.cn"
+    }
+  },
+  "macro_strategy": [
+    {
+      "category": "宏观点评",
+      "title": "宏观政策要投资于人——学习政府工作报告精神",
+      "date": "20250305",
+      "key_points": [
+        "今年政府工作报告的内容大多符合市场预期，但也有部分超预期表述",
+        "在5%的经济增长目标下，对宏观政策的要求明显提高",
+        "今年政策更注重投资于人，居民就业、收入、消费、养老、生育等领域，在宏观政策里的权重加大"
+      ],
+      "detailed_analysis": {
+        "gdp_target": "5%左右",
+        "fiscal_policy": {
+          "deficit_ratio": "4%",
+          "special_bonds": "4.4万亿",
+          "ultra_long_bonds": "1.8万亿",
+          "total_incremental_funds": "2.9万亿"
+        },
+        "monetary_policy": "适度宽松的货币政策仍然是2025全年逻辑",
+        "consumption_policy": [
+          "消费补贴：超长期特别国债3000亿用于以旧换新",
+          "收入补贴：城乡居民基础养老金最低标准再提高20元",
+          "制度建设：营造良好消费环境、完善劳动工资正常增长机制"
+        ],
+        "real_estate_policy": [
+          "因城施策调减限制性措施",
+          "货币化安置规模会否扩大",
+          "收储进展"
+        ],
+        "technology_and_private_enterprises": [
+          "从制度上保障企业参与国家科技创新决策",
+          "加力推进清理拖欠企业账款工作"
+        ],
+        "energy_consumption": "单位国内生产总值能耗降低3%左右",
+        "capital_market": "深化资本市场投融资综合改革，大力推动中长期资金入市"
+      },
+      "risk_warnings": [
+        "政策理解偏差风险",
+        "政策落地时滞风险",
+        "环境变化导致政策变动风险"
+      ],
+      "analysts": ["芦哲", "占烁"]
+    },
+    {
+      "category": "宏观深度报告", 
+      "title": "2025积极财政的发力点与制约点",
+      "date": "20250305",
+      "key_points": [
+        "2025年，国内广义、狭义赤字率预计将分别实现10%、4%的历史最高水平",
+        "财政支出预计也将实现近10%的同比增长，创2021年至今最高水平",
+        "预期能够形成实物工作量的财政城投支出预计仍将实现5.4%的同比增长"
+      ],
+      "detailed_analysis": {
+        "deficit_analysis": {
+          "broad_deficit_ratio": "约为9.8%",
+          "narrow_deficit_ratio": "4%",
+          "fiscal_expenditure_growth": "近10%"
+        },
+        "constraints": [
+          "城投债务风险化解限制了相关国企的加杠杆节奏",
+          "银行资本补充、土地收储等防风险用途",
+          "政府拖欠企业账款化解工作可能提速"
+        ]
+      },
+      "risk_warnings": [
+        "测算2025年实物财政城投支出时所采用的部分假设可能与真实情况不符",
+        "财政部披露的地方政府债务收支可能未包括特殊再融资债相关数据",
+        "对加快化解政府拖欠企业账款的预期可能有偏差"
+      ],
+      "analysts": ["芦哲", "占烁"]
+    }
+  ],
+  "fixed_income": [
+    {
+      "category": "固收深度报告",
+      "title": "银行缩表的拓展探索：海外商业银行并购与国内有何异同？",
+      "date": "20250304", 
+      "key_points": [
+        "海内外银行并购在政策监管和市场竞争层面存在一定差异",
+        "海外并购中更多受到市场竞争因素的驱动",
+        "国内商业银行并购主要由政策强力主导"
+      ],
+      "overseas_cases": {
+        "us": [
+          "美国银行并购美林证券",
+          "第一资本并购探索银行"
+        ],
+        "europe": [
+          "瑞士银行收购瑞士信贷",
+          "桑坦德银行收购阿比国民银行"
+        ],
+        "japan": [
+          "三菱银行、东京银行和UFJ银行的合并",
+          "住友信托银行吸收合并中央三井信托银行",
+          "大和银行与住友银行的合并"
+        ]
+      },
+      "differences": {
+        "merger_reasons": "海外更多受市场竞争因素驱动，国内更多由政策导向",
+        "bond_impact": "海外债券发行和估值波动较大，国内相对平稳"
+      },
+      "similarities": [
+        "有助于提升银行资本实力和抗风险能力",
+        "银行可扩展业务网络来实现规模经济",
+        "政府政策是重要驱动力"
+      ],
+      "risk_warnings": [
+        "市场波动风险",
+        "样本有限影响结论普适性",
+        "数据统计偏差"
+      ],
+      "analysts": ["李勇", "徐津晶"]
+    }
+  ],
+  "industry_analysis": [
+    {
+      "category": "推荐个股",
+      "stocks": [
+        {
+          "stock_code": "002896",
+          "stock_name": "中大力德",
+          "title": "精密减速器头部企业，有望充分受益于人形机器人产业化进程",
+          "rating": "增持",
+          "key_points": [
+            "深耕电机/减速器，从单一部件向机电一体化迈进",
+            "受益于机器人产业化进程，精密减速器市场空间广阔",
+            "以减速器为核心，拓展人形机器人零部件"
+          ],
+          "market_analysis": {
+            "humanoid_robot_demand": {
+              "2025": "3万台",
+              "2026": "6万台", 
+              "2027": "15万台",
+              "long_term": "1165万台"
+            },
+            "reducer_market_size": {
+              "2025": "4亿元",
+              "2026": "9亿元",
+              "2027": "21亿元", 
+              "long_term": "751亿元"
+            }
+          },
+          "financial_forecast": {
+            "2024-2026": {
+              "net_income": "0.73/0.83/0.98亿元",
+              "pe_ratio": "199/175/149倍"
+            }
+          },
+          "risk_warnings": [
+            "丝杠产品研发不及预期",
+            "人形机器人量产进度不及预期",
+            "宏观经济风险"
+          ],
+          "analysts": ["李勇", "徐津晶"]
+        },
+        {
+          "stock_code": "301413",
+          "stock_name": "安培龙", 
+          "title": "国产传感器龙头，平台化技术构筑新增长极",
+          "rating": "增持",
+          "key_points": [
+            "国产传感器龙头，主业聚焦温度传感器与压力传感器",
+            "传感器赛道天花板高坡长雪厚，公司深耕传感器赛道竞争优势明显", 
+            "横向切入力矩传感器赛道，机器人业务有望释放业绩增量"
+          ],
+          "business_analysis": {
+            "temperature_sensor": {
+              "2019": "2.95亿元",
+              "2023": "3.69亿元",
+              "revenue_share_2023": "49.48%"
+            },
+            "pressure_sensor": {
+              "2020": "0.12亿元", 
+              "2023": "3.54亿元",
+              "revenue_share_2023": "47.43%"
+            },
+            "force_sensor": "与天机智能合作研发基于MEMS硅基应变片+玻璃微熔工艺的力矩传感器"
+          },
+          "market_size": {
+            "global_sensor_2023": "2036.7亿美元",
+            "china_sensor_2023": "3324.9亿元",
+            "china_smart_sensor_2023": "1429.6亿元"
+          },
+          "financial_forecast": {
+            "2024-2026": {
+              "net_income": "1.02/1.37/1.71亿元",
+              "pe_ratio": "96/72/57倍"
+            }
+          },
+          "risk_warnings": [
+            "力矩传感器研发不及预期",
+            "人形机器人量产进度不及预期",
+            "宏观经济风险"
+          ],
+          "analysts": ["周尔双", "钱尧天"]
+        },
+        {
+          "stock_code": "NVDA",
+          "stock_name": "英伟达",
+          "title": "FY2025业绩点评：B系列出货超预期，下游高需求及自身高壁垒仍然存在",
+          "rating": "买入",
+          "key_points": [
+            "CSP需求维持强劲，B系列收入超预期",
+            "供应链紧张游戏及AIPC出货量下滑，汽车业务获新合作",
+            "2026Q1指引略高于市场预期，毛利率将于Blackwell推广期后修复"
+          ],
+          "financial_data": {
+            "2025Q4": {
+              "revenue": "393.3亿美元",
+              "revenue_growth_yoy": "+78%",
+              "revenue_growth_qoq": "+12%",
+              "net_income": "220.7亿美元",
+              "net_income_growth_yoy": "+72%",
+              "net_income_growth_qoq": "+10%",
+              "non_gaap_gross_margin": "73.5%"
+            },
+            "datacenter_business": {
+              "2025Q4_revenue": "355.8亿美元",
+              "qoq_growth": "+16%",
+              "annual_revenue": "1152亿美元",
+              "yoy_growth": "+142%"
+            },
+            "b_series": {
+              "2025Q4_revenue": "110亿美元",
+              "note": "超公司预期"
+            }
+          },
+          "business_segments": {
+            "gaming_aipc": {
+              "2025Q4_revenue": "25.4/5.1亿美元",
+              "yoy_growth": "-11%/+10%",
+              "qoq_growth": "-22%/+5%"
+            },
+            "automotive": {
+              "2025Q4_revenue": "5.7亿美元", 
+              "yoy_growth": "+103%",
+              "qoq_growth": "+27%"
+            }
+          },
+          "guidance": {
+            "2026Q1_revenue": "430±8.6亿美元",
+            "consensus": "422.6亿美元",
+            "non_gaap_gross_margin": "71.0±0.5%"
+          },
+          "financial_forecast": {
+            "FY2026-2028": {
+              "net_income": "1141/1431/1783亿美元",
+              "pe_ratio": "24/19/16倍"
+            }
+          },
+          "risk_warnings": [
+            "下游资本开支放缓",
+            "Blackwell爬产不及预期", 
+            "竞争加剧"
+          ],
+          "analysts": ["张良卫", "李博韦"]
+        },
+        {
+          "stock_code": "300765",
+          "stock_name": "新诺威",
+          "title": "创新加码重塑估值，双轮发展助力巨头转型",
+          "rating": "买入",
+          "key_points": [
+            "研发能力具备全球竞争力，ADC与mRNA平台有望孵化重磅炸弹",
+            "现金流业务矩阵成型，PD-1单抗+生物类似物+石药百克构筑安全边际",
+            "传统主业企稳回升，咖啡因+阿卡波糖构筑基石"
+          ],
+          "adc_platform": {
+            "pipeline_count": "8款ADC产品进入临床阶段",
+            "authorized_products": "3款产品已完成海外授权",
+            "key_products": [
+              "SYS6010（EGFR ADC）：PDX模型中肿瘤抑制率超80%",
+              "SYSA1801（CLDN18.2 ADC）：针对CLDN18.2高表达胃癌患者ORR为47%",
+              "SYS6002（Nectin4 ADC）：治疗UC/CC/HNSCC的ORR达到42%"
+            ]
+          },
+          "mrna_platform": {
+            "covid_vaccine": "新冠疫苗国内获紧急使用",
+            "pipeline": "RSV疫苗、HPV治疗疫苗及VZV疫苗快速推进中"
+          },
+          "cash_flow_business": {
+            "pd1": "恩朗苏拜单抗（PD-1）乳腺癌3L",
+            "biosimilars": "奥马珠单抗类似物、乌司奴、帕妥珠单抗类似物",
+            "shiyao_baike": "承诺24-26年净利润不低于4.4/3.9/4.4亿元"
+          },
+          "traditional_business": {
+            "caffeine": "出口单价已回落至2017-2020年平均值（约9美元/吨）",
+            "acarbose": "石药圣雪阿卡波糖承诺24年净利润1.02亿元，24年已规划产能280吨"
+          },
+          "financial_forecast": {
+            "2024-2026": {
+              "revenue": "19.69亿/23.92亿/27.65亿"
+            }
+          },
+          "risk_warnings": [
+            "ADC核心品种临床数据不及预期",
+            "出海不及预期",
+            "生物类似物市场竞争加剧",
+            "集采风险",
+            "咖啡因原料药需求周期性波动"
+          ],
+          "analysts": ["朱国广"]
+        },
+        {
+          "stock_code": "002594",
+          "stock_name": "比亚迪",
+          "title": "智电领航，破浪前行",
+          "rating": "买入",
+          "key_points": [
+            "56亿美元H股闪电配售，智电领航，破浪前行",
+            "2月销量32万辆，同增164%，出口持续强劲",
+            "混份额维持近60%，豹5智驾版正式上市",
+            "2月电池装机同增150%，二代刀片发布在即"
+          ],
+          "equity_offering": {
+            "amount": "56亿美元",
+            "shares": "129,800,000股H股新股",
+            "price": "335.2港元/股",
+            "significance": [
+              "过去十年全球汽车行业规模最大的股权再融资项目",
+              "全球汽车行业有史以来规模最大的闪电配售项目",
+              "香港市场有史以来规模第二大的闪电配售项目"
+            ]
+          },
+          "sales_data": {
+            "february_2025": {
+              "total_sales": "32.3万辆",
+              "yoy_growth": "+164%",
+              "qoq_growth": "+7%",
+              "overseas_sales": "6.7万辆",
+              "overseas_yoy_growth": "+188%",
+              "overseas_qoq_growth": "+1%"
+            },
+            "phev_vs_bev": {
+              "phev_sales": "19.3万辆",
+              "phev_share": "60.7%",
+              "bev_sales": "12.5万辆", 
+              "bev_share": "39.3%"
+            },
+            "high_end_brands": {
+              "denza": "8513辆",
+              "yangwang": "105辆",
+              "fangchengbao": "4942辆"
+            }
+          },
+          "battery_business": {
+            "february_installation": "16.7GWh",
+            "yoy_growth": "+150%",
+            "qoq_growth": "+8%",
+            "2025_cumulative": "32.2GWh",
+            "yoy_growth_cumulative": "+79%"
+          },
+          "2025_outlook": {
+            "total_sales_target": "550万辆",
+            "smart_driving_penetration": "80%+",
+            "export_target": "80万辆+"
+          },
+          "financial_forecast": {
+            "2024-2026": {
+              "net_income": "400/530/651亿元",
+              "growth_rate": "33%/32%/23%",
+              "pe_ratio": "25/19/15x",
+              "target_price": "456元"
+            }
+          },
+          "risk_warnings": [
+            "原材料价格波动",
+            "销量不及预期"
+          ],
+          "analysts": ["曾朵红", "黄细里", "阮巧燕", "朱家佟"]
+        }
+      ]
+    }
+  ],
+  "document_statistics": {
+    "total_pages": 12,
+    "main_sections": {
+      "macro_strategy": 2,
+      "fixed_income": 1,
+      "industry_stocks": 5
+    },
+    "analyst_count": 11,
+    "stock_coverage": 5,
+    "key_themes": [
+      "政府工作报告解读",
+      "积极财政政策",
+      "银行并购分析",
+      "人形机器人产业链",
+      "传感器行业",
+      "AI芯片",
+      "创新药",
+      "新能源汽车"
+    ]
+  },
+  "analysis_summary": {
+    "macro_policy_focus": "投资于人的政策导向，包括就业、收入、消费、养老、生育等民生领域",
+    "fiscal_policy_expansion": "2025年财政支出将实现近10%的同比增长，创2021年以来最高水平",
+    "technology_trends": "人形机器人、AI芯片、新能源汽车等新兴产业成为关注焦点",
+    "market_outlook": "在政策支持和技术创新双重驱动下，相关产业链公司有望受益"
+  }
+}

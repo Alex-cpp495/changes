@@ -1,0 +1,437 @@
+{
+    "meta_info": {
+      "document_type": "晨会纪要",
+      "institution": "东吴证券研究所",
+      "publish_date": "2025-04-07",
+      "editor": "张良卫",
+      "analyst_license": "S0600516070001",
+      "phone": "021-60199793",
+      "email": "zhanglw@dwzq.com.cn",
+      "page_count": 19
+    },
+    "content_structure": {
+      "宏观策略": {
+        "reports": [
+          {
+            "title": "对等关税对全球贸易和中国经济的冲击有多大？",
+            "date": "20250403",
+            "type": "宏观深度报告",
+            "key_points": [
+              "本轮对等关税的最大影响在于对现有全球关税与贸易体系的冲击，而并非单一对我国出口的冲击"
+            ],
+            "analysts": ["芦哲", "李昌萌"],
+            "research_assistant": ["韦祎"]
+          }
+        ]
+      },
+      "固收金工": {
+        "reports": [
+          {
+            "title": "如何从资产比价预判利率走势拐点？",
+            "date": "20250403", 
+            "type": "固收深度报告",
+            "key_points": [
+              "以银行各类资产的调整后收益率来衡量配置的性价比，可在一定程度上指示利率的拐点",
+              "当3M同业存单调整后收益率上行至企业贷款调整后收益率时，或指示利率下行拐点",
+              "当10年期利率债调整后收益率下行至贷款调整后收益率时，或指示利率上行拐点"
+            ],
+            "analysts": ["李勇", "徐津晶", "徐沐阳"]
+          },
+          {
+            "title": "鼎龙转债：CMP抛光垫国内龙头供应商",
+            "date": "20250403",
+            "type": "固收点评",
+            "key_points": [
+              "预计鼎龙转债上市首日价格在122.25~135.94元之间",
+              "预计中签率为0.0039%",
+              "转股溢价率在30%左右，债底保护性较好",
+              "建议积极申购"
+            ],
+            "analysts": ["李勇", "陈伯铭"]
+          }
+        ]
+      },
+      "行业研究": {
+        "reports": [
+          {
+            "title": "工程机械行业点评报告：关税点评：对美敞口小，关注美国/墨西哥工厂布局",
+            "sector": "工程机械",
+            "key_points": [
+              "工程机械主机厂美国敞口小，总体风险可控",
+              "海外工厂布局较早，海外产能可降低关税风险",
+              "推荐三一重工、中联重科、柳工、山推股份、恒立液压"
+            ],
+            "risk_warnings": ["宏观经济波动", "国际政治风险", "行业竞争加剧"],
+            "analysts": ["周尔双"]
+          },
+          {
+            "title": "虚拟货币全景洞察：深度剖析概念、历史、技术、现状与趋势",
+            "sector": "金融产品",
+            "type": "深度报告",
+            "key_points": [
+              "2023年全球虚拟货币市值约1.73万亿美元，2024年末市值最高约3.90万亿美元",
+              "美股虚拟货币ETF：BITO截至2024年6月规模约24亿美元",
+              "现货比特币ETF：IBIT规模超200亿美元，是全球最大的比特币ETF",
+              "A股虚拟货币ETF：中国监管态度严格，但未来可能在监管沙盒试点下逐步开放"
+            ],
+            "risk_warnings": [
+              "市场风险：价格波动剧烈，历史最大回撤能达到70%以上",
+              "监管风险：政策变动影响重大",
+              "技术风险：区块链技术存在风险，可能遭受黑客攻击"
+            ],
+            "analysts": ["孙婷", "唐遥衎"]
+          },
+          {
+            "title": "云厂商仍保持算力高需求，算力租赁需求有望边际向上",
+            "sector": "通信",
+            "type": "深度报告",
+            "key_points": [
+              "IDC行业的竞争本质是资源禀赋争夺战，算力租赁的核心在于GPU资源的规模和渠道稳定性",
+              "云厂商逐步向DeepSeek的效率与成本对标，训练仍有高需求",
+              "英伟达H100/H20等高端GPU供应受限，资源垄断性成为关键",
+              "国产替代虽加速，但性能仍有差距，短期内无法完全替代"
+            ],
+            "related_stocks": ["润建股份", "大位科技", "利通电子", "朗科科技", "润泽科技", "光环新网", "铜牛信息", "中贝通信", "恒润股份", "海南华铁", "奥飞数据", "弘信电子"],
+            "risk_warnings": ["技术发展不及预期", "中美地缘政治风险", "行业竞争加剧"],
+            "analysts": ["张良卫", "周高鼎"]
+          }
+        ]
+      },
+      "推荐个股及点评": {
+        "stock_reports": [
+          {
+            "stock_code": "600995",
+            "stock_name": "南网储能",
+            "report_type": "2024年报点评",
+            "title": "归母同增11%，容量电价影响落地，抽水蓄能进入投产期",
+            "rating": "买入",
+            "key_financials": {
+              "2024_revenue": "61.74亿元",
+              "2024_revenue_growth": "9.67%",
+              "2024_net_profit": "11.26亿元", 
+              "2024_net_profit_growth": "11.14%",
+              "2024_roe": "5.31%"
+            },
+            "profit_forecast": {
+              "2025_net_profit": "12.4亿元",
+              "2026_net_profit": "13.9亿元",
+              "2027_net_profit": "15.2亿元",
+              "pe_valuation": "25/22/21倍"
+            },
+            "key_points": [
+              "抽水蓄能项目储备充沛，即将进入投产期",
+              "政策影响在2024年已充分体现",
+              "调峰水电规模稳定，新型储能稳健增长"
+            ],
+            "risk_warnings": ["项目建设进度不及预期", "来水波动", "新型储能竞争加剧"],
+            "analysts": ["袁理", "任逸轩"]
+          },
+          {
+            "stock_code": "03738.HK",
+            "stock_name": "阜博集团",
+            "report_type": "2024年报点评",
+            "title": "经调整净利润同比大增，AI新业务值得期待",
+            "rating": "买入",
+            "key_financials": {
+              "2024_revenue": "24亿港元",
+              "2024_revenue_growth": "20%",
+              "2024_adjusted_net_profit": "1.8亿港元",
+              "2024_adjusted_profit_growth": "380%",
+              "2024_gross_margin": "43.8%"
+            },
+            "profit_forecast": {
+              "2025_adjusted_profit": "2.3亿港元",
+              "2026_adjusted_profit": "3.1亿港元", 
+              "2027_adjusted_profit": "3.9亿港元",
+              "pe_valuation": "36/27/22倍"
+            },
+            "key_points": [
+              "收入增长主要得益于美国业务持续扩张",
+              "AI技术应用拓展版权保护服务能力",
+              "推出Vobile MAX数字内容资产交易平台"
+            ],
+            "risk_warnings": ["市场竞争加剧", "技术进展不及预期", "新业务不及预期风险"],
+            "analysts": ["张良卫", "周良玖"],
+            "research_assistant": ["张文雨"]
+          },
+          {
+            "stock_code": "600576",
+            "stock_name": "祥源文旅",
+            "report_type": "深度报告",
+            "title": "内生外延拓展旅游资产，文旅大集团启航前行",
+            "rating": "增持",
+            "key_business": {
+              "model": "文化IP+旅游+科技",
+              "regions": ["大湘西", "大黄山", "川渝", "大湾区"],
+              "2023_revenue_breakdown": {
+                "景交服务": "49%",
+                "酒店": "5%", 
+                "动物园": "5%",
+                "智慧文旅": "2%",
+                "动漫及其衍生": "22%",
+                "茶叶销售": "11%"
+              }
+            },
+            "profit_forecast": {
+              "2024_net_profit": "1.6亿元",
+              "2025_net_profit": "4.0亿元",
+              "2026_net_profit": "4.6亿元",
+              "pe_valuation": "60/24/21倍"
+            },
+            "key_points": [
+              "布局多个目的地稀缺景区资源",
+              "内生增长和外延扩张助力释放业绩弹性",
+              "布局低空经济，构建'低空+文旅'综合服务业态"
+            ],
+            "risk_warnings": ["宏观经济波动", "资源整合进度不及预期", "新项目落地进度不及预期", "自然灾害和极端天气影响"],
+            "analysts": ["吴劲草"]
+          },
+          {
+            "stock_code": "430510", 
+            "stock_name": "丰光精密",
+            "report_type": "2024年报点评",
+            "title": "折旧及费用化扰动业绩下滑，期待谐波减速器量产打开成长空间",
+            "rating": "增持",
+            "key_financials": {
+              "2024_revenue": "2.32亿元",
+              "2024_revenue_growth": "10.09%",
+              "2024_net_profit": "0.21亿元",
+              "2024_net_profit_growth": "-40.81%",
+              "2024_gross_margin": "36.31%",
+              "2024_net_margin": "9.06%"
+            },
+            "profit_forecast": {
+              "2025_net_profit": "0.25亿元",
+              "2026_net_profit": "0.32亿元",
+              "2027_net_profit": "0.44亿元",
+              "pe_valuation": "163.88/131.35/94.86倍"
+            },
+            "key_points": [
+              "营收同比增长而利润下滑主要系成本端增加",
+              "上合工厂主体竣工验收后产生折旧费用",
+              "谐波减速器已进入小批量量产阶段"
+            ],
+            "risk_warnings": ["原材料价格上涨", "零部件降价风险", "新业务拓展不及预期"],
+            "analysts": ["朱洁羽", "易申申", "余慧勇"],
+            "research_assistant": ["薛路熹", "武阿兰"]
+          },
+          {
+            "stock_code": "603288",
+            "stock_name": "海天味业", 
+            "report_type": "2024年报点评",
+            "title": "业绩符合预期，成本红利+改革红利双重释放",
+            "rating": "增持",
+            "key_financials": {
+              "2024_revenue": "269亿元",
+              "2024_revenue_growth": "9.5%",
+              "2024_net_profit": "63.44亿元",
+              "2024_net_profit_growth": "12.8%"
+            },
+            "profit_forecast": {
+              "2025_revenue": "297亿元",
+              "2026_revenue": "328亿元", 
+              "2027_revenue": "363亿元",
+              "2025_net_profit": "70亿元",
+              "2026_net_profit": "78亿元",
+              "2027_net_profit": "86亿元",
+              "pe_valuation": "32/29/26倍"
+            },
+            "key_points": [
+              "其他品类表现亮眼，24Q4主要品类加速增长",
+              "成本红利推动毛利率改善，盈利能力提升显著",
+              "渠道改革持续推进，优化经销商团队"
+            ],
+            "risk_warnings": ["原材料价格大幅上涨", "行业竞争加剧", "消费复苏不及预期", "食品安全问题"],
+            "analysts": ["苏铖", "周韵"]
+          },
+          {
+            "stock_code": "603308",
+            "stock_name": "应流股份",
+            "report_type": "2024年报点评", 
+            "title": "AI数据中心需求旺盛，燃气轮机在手订单高增",
+            "rating": "买入",
+            "key_financials": {
+              "2024_revenue": "25.1亿元",
+              "2024_revenue_growth": "4.2%",
+              "2024_net_profit": "2.9亿元",
+              "2024_net_profit_growth": "-5.6%"
+            },
+            "profit_forecast": {
+              "2025_net_profit": "4.50亿元",
+              "2026_net_profit": "6.26亿元",
+              "2027_net_profit": "8.63亿元", 
+              "pe_valuation": "28/20/15倍"
+            },
+            "key_points": [
+              "AI数据中心推动燃气轮机需求上行",
+              "截至2024年底，在手'两机'订单超12亿元",
+              "燃气轮机热端部件订单强劲增长102.8%"
+            ],
+            "risk_warnings": ["资本开支不及预期", "需求不及预期", "国产化进程不及预期"],
+            "analysts": ["周尔双"]
+          },
+          {
+            "stock_code": "600519",
+            "stock_name": "贵州茅台",
+            "report_type": "2024年报点评",
+            "title": "平稳兑现，目标积极",
+            "rating": "买入",
+            "key_financials": {
+              "2024_revenue": "1741亿元",
+              "2024_revenue_growth": "15.7%",
+              "2024_net_profit": "862亿元",
+              "2024_net_profit_growth": "15.4%"
+            },
+            "profit_forecast": {
+              "2025_net_profit": "932亿元",
+              "2026_net_profit": "1009亿元",
+              "2027_net_profit": "1103亿元",
+              "pe_valuation": "21/19/18倍"
+            },
+            "key_points": [
+              "2024年茅台酒量增略超预期，实现收入1459.3亿元",
+              "系列酒收入246.8亿元，同增19.7%",
+              "2025年总营收目标同比增长9%"
+            ],
+            "business_breakdown": {
+              "茅台酒": {
+                "2024_revenue": "1459.3亿元",
+                "growth": "15.3%",
+                "volume_growth": "10.2%",
+                "price_growth": "4.6%"
+              },
+              "系列酒": {
+                "2024_revenue": "246.8亿元", 
+                "growth": "19.7%",
+                "volume_growth": "18.5%",
+                "price_growth": "1.0%"
+              }
+            },
+            "risk_warnings": ["宏观承压消费持续走弱", "需求企稳不及预期", "市场对增速规划的非理性反应"],
+            "analysts": ["苏铖", "孙瑜"]
+          },
+          {
+            "stock_code": "002563",
+            "stock_name": "森马服饰",
+            "report_type": "2024年报点评",
+            "title": "推进品牌焕新+恢复开店，提高分红比例", 
+            "rating": "买入",
+            "key_financials": {
+              "2024_revenue": "146.26亿元",
+              "2024_revenue_growth": "7.06%",
+              "2024_net_profit": "11.37亿元",
+              "2024_net_profit_growth": "1.42%",
+              "dividend_ratio": "82.9%"
+            },
+            "profit_forecast": {
+              "2025_net_profit": "12.3亿元",
+              "2026_net_profit": "13.3亿元",
+              "2027_net_profit": "14.2亿元",
+              "pe_valuation": "16/15/14倍"
+            },
+            "key_points": [
+              "童装产品迭代、翻新门店，贡献主要增长",
+              "重回净开店周期，加大直营开店",
+              "海外市场积极开拓，截至24年末海外门店突破100家"
+            ],
+            "business_breakdown": {
+              "休闲服": {
+                "revenue_share": "29%",
+                "growth": "0.4%"
+              },
+              "童装": {
+                "revenue_share": "70%", 
+                "growth": "9.6%"
+              }
+            },
+            "risk_warnings": ["终端消费低迷", "竞争加剧"],
+            "analysts": ["汤军", "赵艺原"]
+          },
+          {
+            "stock_code": "688139",
+            "stock_name": "海尔生物",
+            "report_type": "2024年年报点评",
+            "title": "业绩符合预期，新产业增速强劲",
+            "rating": "买入",
+            "key_financials": {
+              "2024_revenue": "22.84亿元",
+              "2024_revenue_growth": "0.13%",
+              "2024_net_profit": "3.67亿元",
+              "2024_net_profit_growth": "-9.7%",
+              "2024_gross_margin": "47.99%"
+            },
+            "profit_forecast": {
+              "2025_revenue": "26.2亿元",
+              "2026_revenue": "29.9亿元", 
+              "2027_revenue": "34.1亿元",
+              "2025_net_profit": "4.3亿元",
+              "2026_net_profit": "5.0亿元",
+              "2027_net_profit": "5.9亿元",
+              "pe_valuation": "26/22/19倍"
+            },
+            "key_points": [
+              "非存储产业增长强劲，生命科学板块增速较快",
+              "海外加强本土化布局，直面全球市场体系",
+              "并购标的整合良好，长期增长动力充沛"
+            ],
+            "risk_warnings": ["需求恢复不及预期", "新产品开拓不及预期", "汇兑损益", "并购重组风险"],
+            "analysts": ["朱国广"],
+            "research_assistant": ["刘若彤"]
+          },
+          {
+            "stock_code": "02273.HK", 
+            "stock_name": "固生堂",
+            "report_type": "2024年业绩点评",
+            "title": "收入/经调利润快速增长，门店扩张与AI布局快速推进",
+            "rating": "买入",
+            "key_financials": {
+              "2024_revenue": "30.22亿元",
+              "2024_revenue_growth": "29.90%",
+              "2024_adjusted_net_profit": "4亿元",
+              "2024_adjusted_profit_growth": "31.4%",
+              "dividend": "1.19亿人民币"
+            },
+            "profit_forecast": {
+              "2025_adjusted_profit": "4.9亿元",
+              "2026_adjusted_profit": "6.0亿元",
+              "2027_adjusted_profit": "7.5亿元",
+              "pe_valuation": "14/12/9倍"
+            },
+            "key_points": [
+              "内生外延驱动收入规模快速增长",
+              "截至2024年末，在中国共有78家医疗机构",
+              "AI布局：计划推出AI医生助手及智能硬件设备"
+            ],
+            "business_metrics": {
+              "customer_growth": "26%",
+              "visit_growth": "25.9%", 
+              "average_fee_growth": "3.3%",
+              "member_return_rate": "85.4%"
+            },
+            "risk_warnings": ["政策风险", "市场竞争加剧风险", "上游中药材成本上涨风险", "并购不及预期风险"],
+            "analysts": ["朱国广", "冉胜男", "李倩"]
+          }
+        ]
+      },
+      "key_statistics": {
+        "total_reports": 16,
+        "sector_distribution": {
+          "宏观策略": 1,
+          "固收金工": 2,
+          "行业研究": 3,
+          "个股点评": 10
+        },
+        "rating_distribution": {
+          "买入": 7,
+          "增持": 3
+        },
+        "main_themes": [
+          "对等关税影响分析",
+          "AI数据中心需求",
+          "虚拟货币ETF发展",
+          "抽水蓄能投产周期",
+          "消费品牌焕新升级"
+        ]
+      }
+    }
+  }

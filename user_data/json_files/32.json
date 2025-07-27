@@ -1,0 +1,442 @@
+{
+    "meta_info": {
+      "file_path": "华立科技_2024年年报点评.pdf",
+      "processed_time": "2025-03-31T17:22:15.234Z",
+      "processor_version": "2.1",
+      "text_length": 2876,
+      "table_count": 2,
+      "success": true,
+      "quality_score": 8.4,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.91,
+      "processing_time": 6.78
+    },
+    "basic_info": {
+      "title": "华立科技2024年年报点评：业绩符合预期，深挖IP价值，设备销售及IP衍生品高增",
+      "stock_name": "华立科技",
+      "stock_code": "301011",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫", "周良玖", "陈欣"],
+      "publish_date": "2025-03-31",
+      "report_type": "年报点评",
+      "institution": "东吴证券"
+    },
+    "investment_advice": {
+      "rating": "买入",
+      "rating_change": "维持",
+      "target_price": null,
+      "current_price": 28.69,
+      "pe_2025": 37.93,
+      "pe_2026": 30.87,
+      "pe_2027": 29.04,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "2024年公司实现营收10.17亿元，yoy+24.65%，归母净利润0.85亿元，yoy+62.93%，扣非归母净利润0.83亿元，yoy+59.27%。业绩符合预期。毛利率延续回升趋势，盈利能力逐步修复。",
+      "main_logic": [
+        "设备销售：产品竞争力突出，内销及出海增速亮眼",
+        "动漫IP衍生品：持续推出精品IP产品，布局出海业务",
+        "运营服务持续优化",
+        "毛利率延续回升趋势，盈利能力逐步修复",
+        "IP赋能理念融入游艺设备",
+        "海外市场拓展，出海总体收入达1.34亿元"
+      ],
+      "risk_warning": "动漫IP衍生品发展不及预期风险，市场竞争加剧风险，宏观经济波动风险",
+      "performance_highlights": [
+        "24.65", "62.93", "59.27", "37.85", "26.14", "30.39"
+      ]
+    },
+    "financial_data": {
+      "annual_data_2024": {
+        "revenue": 1017.47,
+        "revenue_growth": 24.65,
+        "net_profit": 84.65,
+        "net_profit_growth": 62.93,
+        "adjusted_net_profit": 83,
+        "adjusted_net_profit_growth": 59.27,
+        "gross_margin": 29.97,
+        "gross_margin_change": 1.32,
+        "net_margin": 8.32,
+        "net_margin_change": 1.95
+      },
+      "q4_data_2024": {
+        "revenue": 265,
+        "revenue_growth_yoy": 19.95,
+        "revenue_growth_qoq": -8.49,
+        "net_profit": 15,
+        "net_profit_growth_yoy": 107.15,
+        "net_profit_growth_qoq": -55.21
+      },
+      "expense_analysis": {
+        "sales_expense_rate": 5.42,
+        "sales_expense_rate_change": 0.02,
+        "admin_expense_rate": 5.53,
+        "admin_expense_rate_change": -0.21,
+        "rd_expense_rate": 3.08,
+        "rd_expense_rate_change": -0.27,
+        "finance_expense_rate": 1.27,
+        "finance_expense_rate_change": -0.57
+      },
+      "financial_forecast_table_0": {
+        "type": "financial_forecast",
+        "description": "财务预测数据",
+        "data": [
+          {"项目": "营业总收入", "2023A": 816.28, "2024A": 1017.47, "2025E": 1146.14, "2026E": 1247.07, "2027E": 1323.09},
+          {"项目": "归母净利润", "2023A": 51.96, "2024A": 84.65, "2025E": 104.14, "2026E": 127.98, "2027E": 136.02},
+          {"项目": "EPS", "2023A": 0.35, "2024A": 0.58, "2025E": 0.71, "2026E": 0.87, "2027E": 0.93},
+          {"项目": "P/E", "2023A": 76.03, "2024A": 46.67, "2025E": 37.93, "2026E": 30.87, "2027E": 29.04}
+        ],
+        "row_count": 4,
+        "col_count": 6
+      }
+    },
+    "business_analysis": {
+      "equipment_sales": {
+        "revenue_2024": 549,
+        "revenue_growth_2024": 37.85,
+        "revenue_ratio_2024": 53.95,
+        "revenue_ratio_change_2024": 5.17,
+        "gross_margin_2024": 27.44,
+        "gross_margin_change_2024": 0.62,
+        "overseas_revenue": 134,
+        "overseas_growth": 30.39,
+        "key_drivers": [
+          "新兴创业者和跨界资本涌入",
+          "老客户设备更新需求驱动",
+          "IP赋能理念融入游艺设备",
+          "运营指导、活动策划等服务升级",
+          "持续拓展海外市场"
+        ],
+        "description": "设备销售业务：营收占比最大，增长强劲"
+      },
+      "ip_derivatives": {
+        "revenue_2024": 327,
+        "revenue_growth_2024": 26.14,
+        "revenue_ratio_2024": 32.09,
+        "revenue_ratio_change_2024": 0.38,
+        "gross_margin_2024": 42.75,
+        "gross_margin_change_2024": 1.60,
+        "key_developments": [
+          "IP生态化运营为核心",
+          "强化市场投放策略",
+          "产品迭代升级、精细化运营管理",
+          "加快布局海外市场",
+          "在日本启动《我的世界》产品试点运营"
+        ],
+        "description": "动漫IP衍生品：高毛利率业务，海外布局起步"
+      },
+      "operations_services": {
+        "amusement_park_operations": {
+          "revenue_2024": 106,
+          "revenue_growth_2024": -1.70,
+          "revenue_ratio_2024": 10.39,
+          "gross_margin_2024": 2.77
+        },
+        "equipment_cooperation": {
+          "revenue_2024": 18,
+          "revenue_growth_2024": -25.06,
+          "revenue_ratio_2024": 1.76,
+          "note": "随着投放设备逐步到生命周期末期，该业务对公司业绩影响趋弱"
+        },
+        "description": "运营服务：业务持续优化，占比相对较小"
+      }
+    },
+    "financial_metrics": {
+      "PE": ["37.93", "30.87", "29.04"],
+      "EPS": ["0.71", "0.87", "0.93"],
+      "target_price": [],
+      "revenue": ["1146.14", "1247.07", "1323.09"],
+      "profit": ["104.14", "127.98", "136.02"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "2024年公司实现营收10.17亿元，yoy+24.65%",
+              "归母净利润0.85亿元，yoy+62.93%",
+              "毛利率延续回升趋势，2024年公司毛利率为29.97%，yoy+1.32pct",
+              "归母净利率8.32%，yoy+1.95pct",
+              "设备销售业务实现营收5.49亿元，yoy+37.85%",
+              "动漫IP衍生品业务实现收入3.27亿元，yoy+26.14%"
+            ],
+            "count": 6,
+            "description": "基本面分析：基于公司财务状况和经营情况的分析"
+          },
+          "business_model": {
+            "matches": [
+              "以IP生态化运营为核心",
+              "将IP赋能理念融入游艺设备",
+              "通过运营指导、活动策划及举办多场次、全国性线下竞技比赛等服务升级",
+              "公司持续推出精品IP产品，布局出海业务",
+              "强化市场投放策略，通过产品迭代升级、精细化运营管理及渠道拓展"
+            ],
+            "count": 5,
+            "description": "商业模式分析：基于IP赋能和生态化运营的分析"
+          },
+          "market_expansion": {
+            "matches": [
+              "新兴创业者和跨界资本涌入，叠加老客户设备更新需求驱动",
+              "公司持续拓展海外市场，2024年出海总体收入达1.34亿元，yoy+30.39%",
+              "已在日本启动《我的世界》产品试点运营",
+              "公司加快布局海外市场"
+            ],
+            "count": 4,
+            "description": "市场拓展分析：基于国内外市场扩张的分析"
+          },
+          "operational_efficiency": {
+            "matches": [
+              "期间费用管控良好",
+              "销售/管理/研发/财务费用率优化",
+              "协助下游客户运营，有效增强客户粘性和复购率",
+              "运营服务持续优化"
+            ],
+            "count": 4,
+            "description": "运营效率分析：基于费用控制和运营优化的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "IP赋能设备销售高增长37.85%",
+            "type": "业务驱动",
+            "importance": "high"
+          },
+          {
+            "factor": "动漫IP衍生品业务稳健增长26.14%",
+            "type": "IP价值",
+            "importance": "high"
+          },
+          {
+            "factor": "海外市场拓展收入增长30.39%",
+            "type": "市场扩张",
+            "importance": "medium"
+          },
+          {
+            "factor": "毛利率回升1.32pct至29.97%",
+            "type": "盈利改善",
+            "importance": "medium"
+          },
+          {
+            "factor": "费用控制良好净利率提升1.95pct",
+            "type": "运营效率",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "营收增长24.65%",
+            "value": "1017.47百万元",
+            "type": "data_evidence",
+            "context": "2024年公司实现营收10.17亿元，yoy+24.65%",
+            "confidence": 0.9
+          },
+          {
+            "content": "净利润增长62.93%",
+            "value": "84.65百万元",
+            "type": "data_evidence",
+            "context": "归母净利润0.85亿元，yoy+62.93%",
+            "confidence": 0.9
+          },
+          {
+            "content": "设备销售增长37.85%",
+            "value": "549百万元",
+            "type": "data_evidence",
+            "context": "设备销售业务实现营收5.49亿元，yoy+37.85%",
+            "confidence": 0.9
+          },
+          {
+            "content": "IP衍生品增长26.14%",
+            "value": "327百万元",
+            "type": "data_evidence",
+            "context": "动漫IP衍生品业务实现收入3.27亿元，yoy+26.14%",
+            "confidence": 0.9
+          },
+          {
+            "content": "海外收入增长30.39%",
+            "value": "134百万元",
+            "type": "data_evidence",
+            "context": "2024年出海总体收入达1.34亿元，yoy+30.39%",
+            "confidence": 0.8
+          }
+        ],
+        "logic_strength": 0.86
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "我们看好公司深耕线下文娱消费，持续深挖IP赋能价值",
+              "期待公司持续推出精品IP产品，内销延续高增长",
+              "期待出海布局突破，带来业绩增量",
+              "盈利潜力有望逐步释放"
+            ],
+            "count": 4,
+            "description": "假设设定：基于IP赋能和业务发展的关键假设"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：设备销售产品竞争力突出，内销及出海增速亮眼",
+              "其次：动漫IP衍生品持续推出精品IP产品，布局出海业务",
+              "再次：毛利率延续回升趋势，盈利能力逐步修复",
+              "因此：业绩符合预期，深挖IP价值，维持买入评级"
+            ],
+            "count": 4,
+            "description": "逻辑链条：从业务表现到投资结论的推理过程"
+          },
+          "data_support": {
+            "content": [
+              "设备销售业务营收5.49亿元，yoy+37.85%",
+              "动漫IP衍生品业务收入3.27亿元，yoy+26.14%",
+              "海外总体收入达1.34亿元，yoy+30.39%",
+              "毛利率29.97%，yoy+1.32pct",
+              "归母净利率8.32%，yoy+1.95pct",
+              "费用控制良好，期间费用率优化"
+            ],
+            "count": 6,
+            "description": "数据支撑：支持投资判断的具体数据"
+          },
+          "scenario_analysis": {
+            "content": [
+              "预计2025-2027年EPS分别为0.71/0.87/0.93元",
+              "对应当前股价PE分别为38/31/29倍",
+              "在日本启动《我的世界》产品试点运营"
+            ],
+            "count": 3,
+            "description": "情景分析：业绩预测和业务发展预期"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "事件：公司发布2024年年报，业绩符合预期",
+            "logic_type": "事实陈述",
+            "connector": "事件",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "设备销售：产品竞争力突出，内销及出海增速亮眼",
+            "logic_type": "分类分析",
+            "connector": "首先",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "动漫IP衍生品：持续推出精品IP产品，布局出海业务",
+            "logic_type": "分类分析",
+            "connector": "其次",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "毛利率延续回升趋势，盈利能力逐步修复",
+            "logic_type": "趋势分析",
+            "connector": "再次",
+            "importance": "medium"
+          },
+          {
+            "order": 5,
+            "content": "因此维持买入评级",
+            "logic_type": "结论推导",
+            "connector": "因此",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "IP赋能价值持续释放",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "海外市场布局突破",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "设备销售保持高增长",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "精品IP产品持续推出",
+            "type": "quantitative",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "分业务分析",
+            "description": "分业务板块详细分析",
+            "usage_context": "设备销售、IP衍生品、运营服务三大业务"
+          },
+          {
+            "method": "盈利能力分析",
+            "description": "毛利率和净利率变化分析",
+            "usage_context": "盈利能力逐步修复"
+          },
+          {
+            "method": "PE估值",
+            "description": "市盈率估值法",
+            "usage_context": "对应PE分别为38/31/29倍"
+          }
+        ],
+        "process_completeness": 0.83
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "IP赋能设备销售高增长37.85%",
+          "动漫IP衍生品业务稳健增长26.14%",
+          "海外市场拓展带来增量"
+        ],
+        "analysis_strengths": [
+          "业务分析详细：三大业务板块全面覆盖分析",
+          "数据支撑充分：各业务板块具体增长数据明确",
+          "商业模式清晰：IP赋能理念贯穿业务发展",
+          "盈利改善明显：毛利率和净利率双重提升",
+          "海外布局积极：日本市场试点运营开启"
+        ],
+        "potential_weaknesses": [
+          "估值偏高：当前PE达46.67倍，估值压力较大",
+          "业务依赖性：对IP产品质量和市场接受度依赖较高",
+          "海外风险：出海业务仍处初期，存在不确定性",
+          "季度波动：Q4环比下降显示业务存在季节性",
+          "竞争加剧：线下文娱消费市场竞争日趋激烈"
+        ],
+        "recommendation_confidence": "medium"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["指标", "2023A", "2024A", "2025E", "2026E", "2027E"],
+        "data": [
+          {"指标": "营业总收入（百万元）", "2023A": 816.28, "2024A": 1017.47, "2025E": 1146.14, "2026E": 1247.07, "2027E": 1323.09},
+          {"指标": "同比（%）", "2023A": 34.97, "2024A": 24.65, "2025E": 12.65, "2026E": 8.81, "2027E": 6.10},
+          {"指标": "归母净利润（百万元）", "2023A": 51.96, "2024A": 84.65, "2025E": 104.14, "2026E": 127.98, "2027E": 136.02},
+          {"指标": "同比（%）", "2023A": 172.96, "2024A": 62.93, "2025E": 23.02, "2026E": 22.90, "2027E": 6.28},
+          {"指标": "EPS-最新摊薄（元/股）", "2023A": 0.35, "2024A": 0.58, "2025E": 0.71, "2026E": 0.87, "2027E": 0.93},
+          {"指标": "P/E（现价&最新摊薄）", "2023A": 76.03, "2024A": 46.67, "2025E": 37.93, "2026E": 30.87, "2027E": 29.04}
+        ],
+        "shape": [6, 6],
+        "non_null_count": 36
+      },
+      {
+        "table_id": 1,
+        "columns": ["市场数据", "数值"],
+        "data": [
+          {"市场数据": "收盘价(元)", "数值": 28.69},
+          {"市场数据": "一年最低/最高价", "数值": "12.90/44.00"},
+          {"市场数据": "市净率(倍)", "数值": 5.62},
+          {"市场数据": "流通A股市值(百万元)", "数值": 3968.04},
+          {"市场数据": "总市值(百万元)", "数值": 4208.59},
+          {"市场数据": "每股净资产(元,LF)", "数值": 5.11},
+          {"市场数据": "资产负债率(%,LF)", "数值": 42.65}
+        ],
+        "shape": [7, 2],
+        "non_null_count": 14
+      }
+    ],
+    "text_preview": "证券研究报告·公司点评报告·专用设备 东吴证券研究所 华立科技（301011） 2024年年报点评：业绩符合预期，深挖IP价值，设备销售及IP衍生品高增 2025年03月31日 证券分析师 张良卫 执业证书：S0600516070001 021-60199793 zhanglw@dwzq.com.cn 证券分析师 周良玖 执业证书：S0600517110002 021-60199793 zhoulj@dwzq.com.cn 证券分析师 陈欣 执业证书：S0600524070002 chenxin@dwzq.com.cn 买入（维持）..."
+  }

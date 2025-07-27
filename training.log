@@ -1,0 +1,31 @@
+2025-07-26 00:22:18,327 - INFO - ·¢ÏÖ 13 ¸öJSONÎÄ¼ş
+2025-07-26 00:22:18,349 - INFO - ³É¹¦¼ÓÔØ 10 ¸öÑĞ±¨ÎÄ¼ş
+2025-07-26 00:22:18,350 - INFO - ÌáÈ¡µ½ 10 ¸öÌØÕ÷ÏòÁ¿£¬Ã¿¸öÏòÁ¿ 8 Î¬
+2025-07-26 00:22:19,837 - INFO - Òì³£¼ì²âÍê³É:
+2025-07-26 00:22:19,837 - INFO -   Õı³£Ñù±¾: 8
+2025-07-26 00:22:19,838 - INFO -   Òì³£Ñù±¾: 2
+2025-07-26 00:22:19,838 - INFO -   Òì³£±ÈÀı: 20.00%
+2025-07-26 00:22:19,839 - INFO - ½á¹ûÒÑ±£´æµ½: C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\data\training_results\training_results_20250726_002219.json
+2025-07-26 00:22:19,842 - INFO - Ä£ĞÍÒÑ±£´æµ½: C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\data\training_results\model_20250726_002219.pkl
+2025-07-26 00:24:54,745 - INFO - å‘ç° 13 ä¸ªJSONæ–‡ä»¶
+2025-07-26 00:24:54,746 - INFO - [OK] åŠ è½½: 1.json
+2025-07-26 00:24:54,747 - ERROR - [FAIL] åŠ è½½å¤±è´¥ 10.json: Expecting value: line 1 column 1 (char 0)
+2025-07-26 00:24:54,747 - INFO - [OK] åŠ è½½: 11.json
+2025-07-26 00:24:54,748 - INFO - [OK] åŠ è½½: 12.json
+2025-07-26 00:24:54,749 - INFO - [OK] åŠ è½½: 13.json
+2025-07-26 00:24:54,749 - INFO - [OK] åŠ è½½: 2.json
+2025-07-26 00:24:54,750 - INFO - [OK] åŠ è½½: 3.json
+2025-07-26 00:24:54,750 - INFO - [OK] åŠ è½½: 4.json
+2025-07-26 00:24:54,751 - INFO - [OK] åŠ è½½: 5.json
+2025-07-26 00:24:54,752 - INFO - [OK] åŠ è½½: 6.json
+2025-07-26 00:24:54,753 - INFO - [OK] åŠ è½½: 7.json
+2025-07-26 00:24:54,753 - ERROR - [FAIL] åŠ è½½å¤±è´¥ 8.json: Expecting value: line 1 column 1 (char 0)
+2025-07-26 00:24:54,754 - ERROR - [FAIL] åŠ è½½å¤±è´¥ 9.json: Expecting value: line 1 column 1 (char 0)
+2025-07-26 00:24:54,754 - INFO - æˆåŠŸåŠ è½½ 10 ä¸ªç ”æŠ¥æ–‡ä»¶
+2025-07-26 00:24:54,754 - INFO - æå–åˆ° 10 ä¸ªç‰¹å¾å‘é‡ï¼Œæ¯ä¸ªå‘é‡ 8 ç»´
+2025-07-26 00:24:55,496 - INFO - å¼‚å¸¸æ£€æµ‹å®Œæˆ:
+2025-07-26 00:24:55,496 - INFO -   æ­£å¸¸æ ·æœ¬: 8
+2025-07-26 00:24:55,496 - INFO -   å¼‚å¸¸æ ·æœ¬: 2
+2025-07-26 00:24:55,497 - INFO -   å¼‚å¸¸æ¯”ä¾‹: 20.00%
+2025-07-26 00:24:55,499 - INFO - ç»“æœå·²ä¿å­˜åˆ°: C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\data\training_results\training_results_20250726_002455.json
+2025-07-26 00:24:55,502 - INFO - æ¨¡å‹å·²ä¿å­˜åˆ°: C:\Users\LENOVO\Desktop\changes\eastmoney_anomaly_detection\data\training_results\model_20250726_002455.pkl

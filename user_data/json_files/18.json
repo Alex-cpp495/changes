@@ -1,0 +1,965 @@
+{
+    "research_reports": [
+      {
+        "report_id": "DWZQ_Strategy_20250331",
+        "meta_info": {
+          "file_name": "4月度金股_四月决断下的景气组合_20250331.pdf",
+          "processed_time": "2025-07-26T10:30:00Z",
+          "processor_version": "2.1",
+          "text_length": 8500,
+          "table_count": 1,
+          "success": true,
+          "quality_score": 9.2,
+          "extraction_method": "pdfplumber",
+          "confidence": 0.94,
+          "processing_time": 8.5
+        },
+        "basic_info": {
+          "title": "4月度金股：'四月决断'下的景气组合",
+          "report_type": "策略深度报告",
+          "institution": "东吴证券",
+          "publish_date": "2025-03-31",
+          "primary_analyst": "陈刚",
+          "all_analysts": ["陈刚", "袁理", "曾朵红", "张良卫", "朱国广", "周尔双", "陈海进", "孟祥文", "王紫敬"],
+          "industry": "策略报告",
+          "report_category": "月度金股推荐"
+        },
+        "investment_advice": {
+          "theme": "四月决断下的景气组合",
+          "strategy_focus": "基本面交易主导下的景气线索",
+          "market_outlook": "宏观波动率收敛，聚焦结构性景气方向",
+          "allocation_strategy": [
+            "基本面交易主导下，重点关注业绩景气方向",
+            "继续看好部分预期景气方向的战术配置"
+          ]
+        },
+        "core_content": {
+          "investment_summary": "A股历来会进行'四月决断'，市场交易逻辑从预期驱动转向基本面交易。进入4月，经济与业绩'大考'来临，同时4月政治局会议承上启下，市场会基于微观企业盈利和宏观政策基调对股价进行修正。",
+          "main_logic": [
+            "风格上，4月主题成长方向的高赔率品种波动加剧，业绩确定性较强的大盘、价值风格相对占优",
+            "宏观波动率收敛背景下，聚焦结构性景气方向",
+            "配置关注'四月决断'下的景气线索：业绩景气方向和预期景气方向"
+          ],
+          "risk_warning": "经济增长不及预期；政策推进不及预期；地缘政治风险等",
+          "market_analysis": {
+            "economic_data": "2025年1-2月经济实现良好开局，结构上延续'供给偏强、需求偏弱'",
+            "policy_expectations": "4月政治局会议承上启下，对全年经济发展作出指引",
+            "style_preference": "业绩确定性较强的大盘、价值风格相对占优"
+          }
+        },
+        "recommended_stocks": [
+          {
+            "code": "603699.SH",
+            "name": "纽威股份",
+            "industry": "机械",
+            "market_cap": 209,
+            "eps_2025": 1.89,
+            "eps_2026": 2.3,
+            "pe_2025": 14,
+            "pe_2026": 12,
+            "investment_logic": "全球工业阀门龙头，受益LNG、海工船舶景气上行"
+          },
+          {
+            "code": "688234.SH",
+            "name": "天岳先进",
+            "industry": "电子",
+            "market_cap": 275,
+            "eps_2025": 0.73,
+            "eps_2026": 1.14,
+            "pe_2025": 88,
+            "pe_2026": 56,
+            "investment_logic": "卡位AR眼镜核心零组件光波导的终局材料方案"
+          },
+          {
+            "code": "600323.SH",
+            "name": "瀚蓝环境",
+            "industry": "环保公用",
+            "market_cap": 196,
+            "eps_2025": 2.13,
+            "eps_2026": 2.31,
+            "pe_2025": 11,
+            "pe_2026": 4,
+            "investment_logic": "24年分红预案超预期，现金并购粤丰，化债规模超预期"
+          },
+          {
+            "code": "000975.SZ",
+            "name": "山金国际",
+            "industry": "煤炭有色钢铁",
+            "market_cap": 519,
+            "eps_2025": 1.19,
+            "eps_2026": 1.59,
+            "pe_2025": 16,
+            "pe_2026": 12,
+            "investment_logic": "远期黄金增产前景良好，克金单价处于行业最低水平"
+          },
+          {
+            "code": "300353.SZ",
+            "name": "东土科技",
+            "industry": "计算机",
+            "market_cap": 128,
+            "eps_2025": 0.14,
+            "eps_2026": 0.25,
+            "pe_2025": 149,
+            "pe_2026": 83,
+            "investment_logic": "鸿道操作系统具备多项核心优势，实现国内首个由AI驱动具身机器人的方案"
+          },
+          {
+            "code": "002850.SZ",
+            "name": "科达利",
+            "industry": "电新",
+            "market_cap": 341,
+            "eps_2025": 6.36,
+            "eps_2026": 7.64,
+            "pe_2025": 20,
+            "pe_2026": 16,
+            "investment_logic": "24年经历降价和原材料波动，净利率仍可环比持平，25年价格企稳"
+          },
+          {
+            "code": "688696.SH",
+            "name": "极米科技",
+            "industry": "传媒互联网",
+            "market_cap": 91,
+            "eps_2025": 6.14,
+            "eps_2026": 8.04,
+            "pe_2025": 21,
+            "pe_2026": 16,
+            "investment_logic": "业绩于2024Q4迎来拐点，看好内销企稳回升+外销增长+车载放量"
+          },
+          {
+            "code": "1530.HK",
+            "name": "三生制药",
+            "industry": "医药",
+            "market_cap": 294,
+            "eps_2025": 1.1,
+            "eps_2026": 1.2,
+            "pe_2025": 10,
+            "pe_2026": 10,
+            "investment_logic": "基本面扎实，多个新品将陆续上市，重磅创新药管线SSGJ707的II期数据亮眼"
+          },
+          {
+            "code": "1801.HK",
+            "name": "信达生物",
+            "industry": "医药",
+            "market_cap": 757,
+            "eps_2025": 0.35,
+            "eps_2026": 1.35,
+            "pe_2025": 124,
+            "pe_2026": 32,
+            "investment_logic": "基本面稳健，2025年实现non-IFRS盈利有望，海外BD持续推进"
+          },
+          {
+            "code": "300181.SZ",
+            "name": "佐力药业",
+            "industry": "医药",
+            "market_cap": 117,
+            "eps_2025": 1.02,
+            "eps_2026": 1.28,
+            "pe_2025": 16,
+            "pe_2026": 13,
+            "investment_logic": "乌灵系列稳健增长，百灵片集采中标，股权激励目标未来三年净利润翻一番"
+          }
+        ],
+        "deep_analysis": {
+          "reasoning_analysis": {
+            "reasoning_categories": {
+              "fundamental_analysis": {
+                "matches": [
+                  "2025年1-2月经济实现良好开局",
+                  "供给侧工业增加值增速达5.9%，高于实际GDP目标增速",
+                  "需求侧的社零、出口和投资增速均低于5%",
+                  "业绩确定性较强的大盘、价值风格相对占优"
+                ],
+                "count": 4,
+                "description": "基本面分析：基于经济数据和企业盈利的分析"
+              },
+              "market_conditions": {
+                "matches": [
+                  "A股历来会进行'四月决断'",
+                  "市场交易逻辑从预期驱动转向基本面交易",
+                  "科技主题分支处于新技术渗透初期，盈利兑现度不足",
+                  "宏观波动率收敛背景下，聚焦结构性景气方向"
+                ],
+                "count": 4,
+                "description": "市场环境分析：基于市场规律和交易逻辑的分析"
+              },
+              "policy_analysis": {
+                "matches": [
+                  "4月政治局会议承上启下，对全年经济发展作出指引",
+                  "经济数据的成色、业绩的兑现能力、政策的边际变化构成股价压力测试框架"
+                ],
+                "count": 2,
+                "description": "政策分析：基于政策预期和影响的分析"
+              },
+              "sector_rotation": {
+                "matches": [
+                  "春季躁动期间表现强势的科技主题近期有所回调",
+                  "基本面更扎实的绩优公司在4月更容易跑出超额",
+                  "科技可能提前回归，建议维持对少量强产业趋势品种的战术配置"
+                ],
+                "count": 3,
+                "description": "板块轮动分析：基于不同板块相对表现的分析"
+              }
+            },
+            "key_factors": [
+              {
+                "factor": "四月决断历史规律",
+                "type": "市场规律",
+                "importance": "high"
+              },
+              {
+                "factor": "经济数据与业绩兑现",
+                "type": "基本面驱动",
+                "importance": "high"
+              },
+              {
+                "factor": "政策边际变化预期",
+                "type": "政策预期",
+                "importance": "medium"
+              },
+              {
+                "factor": "科技主题阶段性退潮",
+                "type": "风格轮动",
+                "importance": "medium"
+              }
+            ],
+            "supporting_evidence": [
+              {
+                "content": "过去10年'四月决断'行情中，大盘价值平均涨幅为0.8%",
+                "type": "历史数据",
+                "confidence": 0.9
+              },
+              {
+                "content": "供给侧工业增加值增速达5.9%，高于实际GDP目标增速",
+                "type": "经济数据",
+                "confidence": 0.9
+              },
+              {
+                "content": "需求侧的社零、出口和投资增速均低于5%",
+                "type": "经济数据",
+                "confidence": 0.9
+              }
+            ],
+            "logic_strength": 0.87
+          },
+          "process_analysis": {
+            "analysis_framework": {
+              "hypothesis": {
+                "content": [
+                  "四月决断是市场从预期驱动向现实定价的转换",
+                  "业绩确定性较强的品种在4月更容易跑出超额",
+                  "宏观波动率收敛，需要挖掘结构性景气线索"
+                ],
+                "count": 3,
+                "description": "假设设定：分析师设定的关键假设和预期"
+              },
+              "logic_chain": {
+                "content": [
+                  "首先：分析四月决断的历史规律和本质",
+                  "其次：评估当前宏观经济和市场环境",
+                  "最后：提出配置建议和具体标的推荐"
+                ],
+                "count": 3,
+                "description": "逻辑链条：分析的逻辑推理过程"
+              },
+              "data_support": {
+                "content": [
+                  "过去10年四月决断行情统计数据",
+                  "2025年1-2月经济数据",
+                  "各行业景气度数据",
+                  "金股组合估值数据"
+                ],
+                "count": 4,
+                "description": "数据支撑：用于支持观点的具体数据"
+              },
+              "risk_assessment": {
+                "content": [
+                  "经济增长不及预期风险",
+                  "政策推进不及预期风险", 
+                  "地缘政治风险"
+                ],
+                "count": 3,
+                "description": "风险评估：识别的主要风险因素"
+              }
+            },
+            "logical_structure": [
+              {
+                "order": 1,
+                "content": "A股历来会进行'四月决断'，市场交易逻辑从预期驱动转向基本面交易",
+                "logic_type": "事实陈述",
+                "importance": "high"
+              },
+              {
+                "order": 2,
+                "content": "风格上，4月主题成长方向波动加剧，大盘价值风格相对占优",
+                "logic_type": "推理分析",
+                "importance": "high"
+              },
+              {
+                "order": 3,
+                "content": "宏观波动率收敛背景下，聚焦结构性景气方向",
+                "logic_type": "策略导向",
+                "importance": "high"
+              },
+              {
+                "order": 4,
+                "content": "4月配置关注业绩景气方向和预期景气方向",
+                "logic_type": "投资建议",
+                "importance": "high"
+              }
+            ],
+            "methodology": [
+              {
+                "method": "历史统计分析",
+                "description": "统计过去10年四月决断行情表现",
+                "usage_context": "验证四月决断规律的有效性"
+              },
+              {
+                "method": "宏观经济分析",
+                "description": "分析经济数据和政策环境",
+                "usage_context": "评估当前市场环境和未来趋势"
+              },
+              {
+                "method": "行业景气度分析",
+                "description": "分析不同行业的景气程度",
+                "usage_context": "筛选具备景气优势的投资标的"
+              }
+            ],
+            "process_completeness": 0.91
+          },
+          "analysis_summary": {
+            "overall_quality": "high",
+            "key_insights": [
+              "四月决断是A股重要的季节性规律",
+              "当前宏观波动率收敛，需聚焦结构性机会",
+              "业绩景气方向具备更强的确定性"
+            ],
+            "analysis_strengths": [
+              "历史数据支撑充分：提供了过去10年四月决断的统计数据",
+              "逻辑框架清晰：从规律识别到环境分析再到策略建议",
+              "标的推荐全面：涵盖10只不同行业的优质标的",
+              "风险识别到位：明确提示了三大类风险因素"
+            ],
+            "potential_weaknesses": [
+              "历史规律可能失效：市场环境变化可能影响历史规律的适用性",
+              "个股分析相对简单：对每只推荐股票的分析篇幅较少",
+              "量化指标不足：缺乏更多量化的选股指标和标准"
+            ],
+            "recommendation_confidence": "high"
+          }
+        }
+      },
+      {
+        "report_id": "DWZQ_XinDong_20250401",
+        "meta_info": {
+          "file_name": "心动公司_2024年业绩报点评_首次进行年度分红_关注TapTap商业化潜力_20250401.pdf",
+          "processed_time": "2025-07-26T10:35:00Z",
+          "processor_version": "2.1",
+          "text_length": 4200,
+          "table_count": 2,
+          "success": true,
+          "quality_score": 8.8,
+          "extraction_method": "pdfplumber",
+          "confidence": 0.92,
+          "processing_time": 6.2
+        },
+        "basic_info": {
+          "title": "心动公司2024年业绩报点评：首次进行年度分红，关注TapTap商业化潜力",
+          "stock_name": "心动公司",
+          "stock_code": "02400.HK",
+          "primary_analyst": "张良卫",
+          "all_analysts": ["张良卫", "周良玖", "陈欣"],
+          "publish_date": "2025-04-01",
+          "report_type": "业绩点评",
+          "institution": "东吴证券",
+          "market": "港股"
+        },
+        "investment_advice": {
+          "rating": "买入",
+          "rating_change": "维持",
+          "target_price": null,
+          "current_price": 32.30,
+          "key_highlights": [
+            "2024年首次进行年度分红",
+            "游戏业务自研兑现提升毛利率",
+            "TapTap MAU增长显著",
+            "费用管控良好，经营杠杆显现"
+          ]
+        },
+        "core_content": {
+          "investment_summary": "2024年公司实现营收50.12亿元，yoy+47.89%，归母净利润8.12亿元，较2023年的-0.83亿元实现扭亏为盈。同时公司宣布派发末期股息每股0.4港元。",
+          "main_logic": [
+            "游戏：自研兑现提升毛利率，关注《心动小镇》长线及新游进展",
+            "TapTap：MAU增长显著，关注变现效率提升", 
+            "费用管控良好，经营杠杆显现"
+          ],
+          "business_segments": {
+            "gaming": {
+              "revenue": "34.34亿元",
+              "growth_rate": "64.18%",
+              "gross_margin": "62.56%",
+              "margin_change": "+15.89pct",
+              "key_products": ["出发吧麦芬", "铃兰之剑", "心动小镇"],
+              "outlook": "期待心动小镇延续长线运营，新游陆续上线"
+            },
+            "taptap": {
+              "revenue": "15.78亿元", 
+              "growth_rate": "21.62%",
+              "gross_margin": "84.30%",
+              "mau_china": "4405万人",
+              "mau_intl": "503万人",
+              "mau_growth_china": "23.03%",
+              "mau_growth_intl": "-13.02%",
+              "key_improvements": ["实时消息功能", "DeepSeek深度搜索", "AI问答模块"]
+            }
+          },
+          "financial_highlights": {
+            "total_revenue": "50.12亿元",
+            "revenue_growth": "47.89%",
+            "net_profit": "8.12亿元",
+            "net_margin": "16.19%",
+            "margin_improvement": "+18.64pct",
+            "gross_margin": "69.40%",
+            "dividend": "0.4港元/股"
+          },
+          "risk_warning": "存量游戏流水超预期下滑，新游流水不及预期，TapTap用户增长不及预期，行业监管趋严风险"
+        },
+        "financial_data": {
+          "revenue_forecast": {
+            "2025E": "50.48亿元",
+            "2026E": "53.58亿元", 
+            "2027E": "55.28亿元"
+          },
+          "profit_forecast": {
+            "2025E": "9.80亿元",
+            "2026E": "10.69亿元",
+            "2027E": "11.61亿元"
+          },
+          "valuation": {
+            "pe_2025": "15.12倍",
+            "pe_2026": "13.85倍",
+            "pe_2027": "12.76倍"
+          }
+        },
+        "deep_analysis": {
+          "reasoning_analysis": {
+            "reasoning_categories": {
+              "fundamental_analysis": {
+                "matches": [
+                  "2024年公司实现营收50.12亿元，yoy+47.89%",
+                  "归母净利润8.12亿元，实现扭亏为盈",
+                  "自研游戏收入占比提升带动毛利率提升",
+                  "TapTap中国版MAU达4405万人，yoy+23.03%"
+                ],
+                "count": 4,
+                "description": "基本面分析：基于公司财务数据和经营状况的分析"
+              },
+              "business_model": {
+                "matches": [
+                  "自研游戏《心动小镇》等表现出色，贡献收入增量",
+                  "TapTap平台用户规模扩大，变现效率有望提升",
+                  "公司费用管控良好，经营杠杆效应显现",
+                  "首次年度分红彰显现金流改善"
+                ],
+                "count": 4,
+                "description": "商业模式分析：基于业务模式和盈利能力的分析"
+              },
+              "market_position": {
+                "matches": [
+                  "2024年国内市场新游供给充沛",
+                  "公司自研游戏在TapTap独家发布带来新增用户",
+                  "TapTap在游戏分发领域地位稳固",
+                  "海外、车载布局开启兑现新增长曲线"
+                ],
+                "count": 4,
+                "description": "市场地位分析：基于公司竞争地位和市场环境的分析"
+              }
+            },
+            "key_factors": [
+              {
+                "factor": "自研游戏成功推出实现扭亏为盈",
+                "type": "业绩驱动",
+                "importance": "high"
+              },
+              {
+                "factor": "TapTap平台MAU显著增长23%",
+                "type": "用户增长",
+                "importance": "high"
+              },
+              {
+                "factor": "首次年度分红0.4港元/股",
+                "type": "股东回报",
+                "importance": "medium"
+              },
+              {
+                "factor": "费用管控良好经营杠杆显现",
+                "type": "经营效率",
+                "importance": "medium"
+              }
+            ],
+            "supporting_evidence": [
+              {
+                "content": "营收增长47.89%至50.12亿元",
+                "type": "财务数据",
+                "confidence": 0.95
+              },
+              {
+                "content": "毛利率提升至69.40%，yoy+8.37pct",
+                "type": "盈利能力",
+                "confidence": 0.9
+              },
+              {
+                "content": "TapTap中国版MAU增长23.03%",
+                "type": "用户数据",
+                "confidence": 0.9
+              }
+            ],
+            "logic_strength": 0.86
+          },
+          "process_analysis": {
+            "analysis_framework": {
+              "business_review": {
+                "content": [
+                  "游戏业务：自研游戏表现出色，收入和毛利率双重提升",
+                  "TapTap业务：用户增长强劲，商业化潜力逐步释放",
+                  "整体财务：扭亏为盈，首次分红，费用管控良好"
+                ],
+                "count": 3,
+                "description": "业务回顾：对各业务板块的表现进行分析"
+              },
+              "forward_looking": {
+                "content": [
+                  "期待心动小镇延续长线运营思路于2025年贡献全年流水",
+                  "TapTap持续优化迭代，扩大用户规模提升使用时长",
+                  "新游储备丰富，包括《伊瑟重启日》、《仙境传说RO2》等"
+                ],
+                "count": 3,
+                "description": "前瞻分析：对未来发展的预期和展望"
+              },
+              "valuation_logic": {
+                "content": [
+                  "自研新游延续兑现带来业绩增长确定性",
+                  "TapTap平台稀缺价值逐步释放",
+                  "PE估值15/14/13倍处于合理区间"
+                ],
+                "count": 3,
+                "description": "估值逻辑：投资价值的判断依据"
+              }
+            },
+            "logical_structure": [
+              {
+                "order": 1,
+                "content": "2024年业绩大幅改善，实现扭亏为盈",
+                "logic_type": "事实陈述",
+                "importance": "high"
+              },
+              {
+                "order": 2,
+                "content": "自研游戏成功和TapTap用户增长是核心驱动因素",
+                "logic_type": "因果分析",
+                "importance": "high"
+              },
+              {
+                "order": 3,
+                "content": "展望未来，新游储备和平台价值释放支撑持续增长",
+                "logic_type": "前瞻判断",
+                "importance": "high"
+              }
+            ],
+            "methodology": [
+              {
+                "method": "业务拆分分析",
+                "description": "分别分析游戏和TapTap两大业务板块",
+                "usage_context": "全面了解公司各业务的发展状况"
+              },
+              {
+                "method": "同比环比分析",
+                "description": "对比不同时期的财务和运营数据",
+                "usage_context": "识别业务发展趋势和改善程度"
+              }
+            ],
+            "process_completeness": 0.83
+          },
+          "analysis_summary": {
+            "overall_quality": "high",
+            "key_insights": [
+              "自研游戏成功实现公司扭亏为盈",
+              "TapTap平台价值开始显现",
+              "首次分红体现股东回报意识"
+            ],
+            "analysis_strengths": [
+              "业务拆分详细：分别分析了游戏和TapTap两大业务",
+              "数据支撑充分：提供了详细的财务和运营数据",
+              "前瞻性分析：对未来新游和平台发展进行了展望",
+              "风险识别全面：涵盖了业务和监管等多重风险"
+            ],
+            "potential_weaknesses": [
+              "竞争分析不足：对行业竞争格局分析相对简单",
+              "估值方法单一：主要依赖PE估值，缺乏其他估值方法验证",
+              "海外业务分析不深：对国际版TapTap下滑原因分析不够深入"
+            ],
+            "recommendation_confidence": "high"
+          }
+        }
+      },
+      {
+        "report_id": "DWZQ_Autel_20250402",
+        "meta_info": {
+          "file_name": "道通科技_2024年报点评_业绩同比高增_AI全面赋能业务_20250402.pdf",
+          "processed_time": "2025-07-26T10:40:00Z",
+          "processor_version": "2.1",
+          "text_length": 5800,
+          "table_count": 2,
+          "success": true,
+          "quality_score": 9.0,
+          "extraction_method": "pdfplumber",
+          "confidence": 0.93,
+          "processing_time": 7.1
+        },
+        "basic_info": {
+          "title": "道通科技2024年报点评：业绩同比高增，AI全面赋能业务",
+          "stock_name": "道通科技",
+          "stock_code": "688208",
+          "primary_analyst": "张良卫",
+          "all_analysts": ["张良卫", "李博韦"],
+          "publish_date": "2025-04-02",
+          "report_type": "年报点评",
+          "institution": "东吴证券",
+          "market": "A股科创板"
+        },
+        "investment_advice": {
+          "rating": "买入",
+          "rating_change": "维持",
+          "target_price": null,
+          "current_price": 43.52,
+          "key_themes": ["AI机器人", "数智维修", "数智能源"],
+          "investment_highlights": [
+            "AI机器人积极推进能源、交通等领域应用落地",
+            "数智维修压舱石稳固，AI赋能提升市占率",
+            "数智能源海外多点突破，打造一站式解决方案"
+          ]
+        },
+        "core_content": {
+          "investment_summary": "公司发布2024年业绩，2024年公司实现收入39.3亿元，同比+20.9%；归母净利润6.4亿元，同比+257.6%；扣非归母净利润5.4亿元，同比+47.4%。",
+          "main_logic": [
+            "AI机器人积极推进能源、交通等领域应用落地",
+            "数智维修压舱石稳固，AI赋能提升市占率",
+            "数智能源海外多点突破，打造一站式解决方案"
+          ],
+          "business_segments": {
+            "smart_maintenance": {
+              "revenue": "30.2亿元",
+              "growth_rate": "13.9%",
+              "gross_margin": "60.6%",
+              "margin_change": "+0.94pct",
+              "sub_segments": {
+                "automotive_diagnosis": "12.7亿元，同比-1.5%",
+                "tpms": "7.1亿元，同比+32.6%",
+                "adas": "3.9亿元，同比+27.0%",
+                "software_upgrade": "4.5亿元，同比+24.2%"
+              },
+              "market_position": "以32.7%的全球市占率超越博世、实耐宝等传统巨头",
+              "ai_integration": "全面推进AI Agents化，自主开发汽车诊断行业大模型"
+            },
+            "smart_energy": {
+              "revenue": "8.7亿元",
+              "growth_rate": "53.0%", 
+              "gross_margin": "37.27%",
+              "margin_change": "+3.62pct",
+              "market_expansion": [
+                "北美市场签约多家全球头部客户",
+                "欧洲市场覆盖荷兰、英、法、德、北欧等成熟市场",
+                "亚太地区在澳洲、日本、新加坡等取得进展"
+              ],
+              "solution": "光、储、充、边、云一站式充电能源管理解决方案"
+            },
+            "ai_robotics": {
+              "infrastructure": "道通AI智算中心、道通具身智能实验室落地",
+              "applications": "推进以巡检垂域大模型为核心的空地一体解决方案",
+              "target_customers": ["中石油区域油田", "河北高速", "南网科技", "国网智能"],
+              "development": "积极推进能源、交通等领域应用落地"
+            }
+          },
+          "financial_highlights": {
+            "total_revenue": "39.3亿元",
+            "revenue_growth": "20.95%",
+            "net_profit": "6.4亿元", 
+            "profit_growth": "257.6%",
+            "net_margin": "16.30%",
+            "margin_improvement": "+14.94pct"
+          },
+          "risk_warning": "下游需求不及预期；竞争加剧；公司产品扩张不及预期"
+        },
+        "financial_data": {
+          "revenue_forecast": {
+            "2025E": "48.90亿元",
+            "2026E": "59.99亿元",
+            "2027E": "75.28亿元"
+          },
+          "profit_forecast": {
+            "2025E": "7.93亿元",
+            "2026E": "9.65亿元", 
+            "2027E": "11.36亿元"
+          },
+          "growth_rates": {
+            "revenue_2025": "24.35%",
+            "revenue_2026": "22.67%",
+            "revenue_2027": "25.49%",
+            "profit_2025": "23.72%",
+            "profit_2026": "21.65%",
+            "profit_2027": "17.76%"
+          },
+          "valuation": {
+            "pe_2025": "24.80倍",
+            "pe_2026": "20.39倍", 
+            "pe_2027": "17.31倍"
+          }
+        },
+        "deep_analysis": {
+          "reasoning_analysis": {
+            "reasoning_categories": {
+              "fundamental_analysis": {
+                "matches": [
+                  "2024年公司实现收入39.3亿元，同比+20.9%",
+                  "归母净利润6.4亿元，同比+257.6%",
+                  "数智维修收入30.2亿元，毛利率60.6%",
+                  "数智能源收入8.7亿元，同比+53.0%"
+                ],
+                "count": 4,
+                "description": "基本面分析：基于公司财务数据和经营状况的分析"
+              },
+              "technology_innovation": {
+                "matches": [
+                  "全面推进数智维修业务AI Agents化",
+                  "自主开发汽车诊断行业大模型",
+                  "自主研发数智能源行业大模型",
+                  "道通AI智算中心、道通具身智能实验室落地"
+                ],
+                "count": 4,
+                "description": "技术创新分析：基于AI技术应用和创新能力的分析"
+              },
+              "market_expansion": {
+                "matches": [
+                  "数智能源海外多点突破，全球市场拓展",
+                  "以32.7%的全球市占率超越博世等传统巨头",
+                  "北美、欧洲、亚太三大区域全面布局",
+                  "与多家国际知名能源公司建立战略合作"
+                ],
+                "count": 4,
+                "description": "市场拓展分析：基于全球化布局和市场地位的分析"
+              },
+              "business_synergy": {
+                "matches": [
+                  "三项业务全面铺开，AI对新老业务全面赋能",
+                  "打造光、储、充、边、云一站式解决方案",
+                  "AI机器人在能源、交通等领域应用落地",
+                  "形成数智维修、数智能源、AI机器人三重成长曲线"
+                ],
+                "count": 4,
+                "description": "业务协同分析：基于多业务协同发展的分析"
+              }
+            },
+            "key_factors": [
+              {
+                "factor": "业绩大幅增长257.6%",
+                "type": "业绩驱动",
+                "importance": "high"
+              },
+              {
+                "factor": "AI全面赋能三大业务线",
+                "type": "技术创新",
+                "importance": "high"
+              },
+              {
+                "factor": "全球市占率32.7%行业领先",
+                "type": "市场地位",
+                "importance": "high"
+              },
+              {
+                "factor": "数智能源海外快速拓展",
+                "type": "市场扩张",
+                "importance": "medium"
+              },
+              {
+                "factor": "AI机器人应用场景落地",
+                "type": "新兴业务",
+                "importance": "medium"
+              }
+            ],
+            "supporting_evidence": [
+              {
+                "content": "归母净利润同比增长257.6%至6.4亿元",
+                "type": "业绩数据",
+                "confidence": 0.95
+              },
+              {
+                "content": "全球市占率32.7%超越博世等传统巨头",
+                "type": "市场地位",
+                "confidence": 0.9
+              },
+              {
+                "content": "数智能源收入同比增长53.0%",
+                "type": "业务增长",
+                "confidence": 0.9
+              },
+              {
+                "content": "AI智算中心和具身智能实验室落地",
+                "type": "技术基础",
+                "confidence": 0.85
+              }
+            ],
+            "logic_strength": 0.89
+          },
+          "process_analysis": {
+            "analysis_framework": {
+              "performance_review": {
+                "content": [
+                  "数智维修：收入30.2亿元，AI赋能提升竞争力",
+                  "数智能源：收入8.7亿元，海外市场快速拓展",
+                  "AI机器人：基础设施建设完成，应用场景开始落地"
+                ],
+                "count": 3,
+                "description": "业绩回顾：对三大业务板块的表现进行分析"
+              },
+              "technology_assessment": {
+                "content": [
+                  "AI Agents化改造数智维修业务",
+                  "自主开发汽车诊断和能源行业大模型",
+                  "AI机器人巡检垂域大模型技术突破",
+                  "打造场站Agents和光储充Agents"
+                ],
+                "count": 4,
+                "description": "技术评估：对AI技术应用和创新的分析"
+              },
+              "market_strategy": {
+                "content": [
+                  "数智维修巩固全球领先地位",
+                  "数智能源全球三大区域布局",
+                  "AI机器人瞄准能源、交通垂直领域",
+                  "一站式解决方案增强客户粘性"
+                ],
+                "count": 4,
+                "description": "市场策略：对市场拓展和竞争策略的分析"
+              },
+              "growth_outlook": {
+                "content": [
+                  "预计2025-2027年收入复合增长率24%+",
+                  "AI技术将进一步提升各业务竞争力",
+                  "海外市场仍有较大拓展空间",
+                  "新兴应用场景逐步商业化"
+                ],
+                "count": 4,
+                "description": "增长展望：对未来发展前景的预期"
+              }
+            },
+            "logical_structure": [
+              {
+                "order": 1,
+                "content": "2024年业绩大幅增长，三大业务全面发力",
+                "logic_type": "事实陈述",
+                "importance": "high"
+              },
+              {
+                "order": 2,
+                "content": "AI技术全面赋能，提升各业务竞争力和效率",
+                "logic_type": "技术分析",
+                "importance": "high"
+              },
+              {
+                "order": 3,
+                "content": "全球化布局深入，市场地位持续巩固",
+                "logic_type": "战略分析",
+                "importance": "high"
+              },
+              {
+                "order": 4,
+                "content": "新兴业务逐步落地，打造多重增长曲线",
+                "logic_type": "前瞻判断",
+                "importance": "high"
+              }
+            ],
+            "key_assumptions": [
+              {
+                "assumption": "AI技术将持续提升各业务板块的竞争力",
+                "type": "technology",
+                "risk_level": "low"
+              },
+              {
+                "assumption": "全球汽车后市场和新能源市场保持增长",
+                "type": "market",
+                "risk_level": "medium"
+              },
+              {
+                "assumption": "AI机器人应用场景能够成功商业化",
+                "type": "business",
+                "risk_level": "medium"
+              }
+            ],
+            "methodology": [
+              {
+                "method": "业务拆分分析",
+                "description": "分别分析数智维修、数智能源、AI机器人三大业务",
+                "usage_context": "全面了解各业务发展状况和前景"
+              },
+              {
+                "method": "技术能力评估",
+                "description": "评估AI技术在各业务中的应用和赋能效果",
+                "usage_context": "判断技术竞争优势的可持续性"
+              },
+              {
+                "method": "全球市场分析",
+                "description": "分析公司在全球不同区域的市场表现",
+                "usage_context": "评估国际化战略的执行效果"
+              }
+            ],
+            "process_completeness": 0.92
+          },
+          "analysis_summary": {
+            "overall_quality": "high",
+            "key_insights": [
+              "AI技术全面赋能传统业务实现新突破",
+              "全球化布局成效显著，市场地位持续提升",
+              "三重增长曲线形成，业务结构更加均衡"
+            ],
+            "analysis_strengths": [
+              "业务分析全面：详细分析了三大业务板块的发展情况",
+              "技术维度深入：重点分析了AI技术的应用和赋能效果",
+              "全球视野开阔：从全球市场角度分析公司的竞争地位",
+              "前瞻性强：对AI机器人等新兴业务的发展进行了展望",
+              "数据支撑充分：提供了详细的财务和运营数据"
+            ],
+            "potential_weaknesses": [
+              "竞争分析相对简单：对主要竞争对手的分析不够深入",
+              "风险识别不够充分：对AI技术应用的潜在风险讨论较少",
+              "估值方法单一：主要依赖PE估值，缺乏其他估值方法",
+              "细分市场分析不足：对各细分领域的市场容量和增长潜力分析较少"
+            ],
+            "recommendation_confidence": "high"
+          }
+        }
+      }
+    ],
+    "analysis_meta": {
+      "total_reports": 3,
+      "average_quality_score": 9.0,
+      "processing_date": "2025-07-26",
+      "analyst_distribution": {
+        "张良卫": 3,
+        "陈刚": 1,
+        "袁理": 1,
+        "其他": 6
+      },
+      "report_types": {
+        "策略报告": 1,
+        "个股点评": 2
+      },
+      "market_coverage": {
+        "A股": 2,
+        "港股": 1
+      },
+      "summary_insights": [
+        "策略报告强调四月决断的季节性规律，建议关注业绩景气方向",
+        "心动公司通过自研游戏和TapTap平台实现业绩大幅改善",
+        "道通科技AI全面赋能三大业务，全球化布局成效显著"
+      ]
+    }
+  }

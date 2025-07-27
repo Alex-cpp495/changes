@@ -1,0 +1,452 @@
+{
+    "meta_info": {
+      "file_path": "泡泡玛特2024年年报点评.pdf",
+      "processed_time": "2025-03-30T16:00:00.000Z",
+      "processor_version": "2.1",
+      "text_length": 5234,
+      "table_count": 2,
+      "success": true,
+      "quality_score": 9.4,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.95,
+      "processing_time": 15.67
+    },
+    "basic_info": {
+      "title": "泡泡玛特2024年年报点评：业绩超预期，看好2025年海外成长",
+      "stock_name": "泡泡玛特",
+      "stock_code": "09992.HK",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫", "周良玖", "郭若娜"],
+      "publish_date": "2025-03-30",
+      "report_type": "年报点评",
+      "institution": "东吴证券",
+      "market": "港股"
+    },
+    "investment_advice": {
+      "rating": "买入",
+      "rating_change": "维持",
+      "target_price": null,
+      "current_price": 153.20,
+      "expected_return": null,
+      "expected_return_pct": null,
+      "investment_period": null,
+      "pe_forecast": {
+        "2025E": 34.15,
+        "2026E": 22.54,
+        "2027E": 17.16
+      },
+      "pe_non_ifrs": {
+        "2025E": 31.82,
+        "2026E": 21.09,
+        "2027E": 16.10
+      }
+    },
+    "core_content": {
+      "investment_summary": "公司发布2024年年报，营收实现130.38亿元，yoy+106.9%。归母净利润实现31.25亿元，yoy+188.8%；经调整净利润34.03亿元，yoy+185.9%。经调整净利率26.1%，yoy+7.3pct。公司业绩好于市场预期。公司指引2025年收入增速50%，其中海外市场收入翻倍。",
+      "main_logic": [
+        "头部IP年销售额达30亿，The Monsters创下公司单个IP销售额历史新高",
+        "Molly、Skullpanda、Crybaby和Dimoo分别实现收入20.93/13.08/11.65/9.10亿元",
+        "2024年销售额过亿的IP从2023年的10个增加到2024年的13个",
+        "2024年海外收入达50.66亿元，同比增速375.2%，收入占比达38.9%",
+        "东南亚是表现最亮眼的海外市场，收入同比增长619.1%达24.03亿元",
+        "中国内地收入79.72亿元，同比增长52.3%"
+      ],
+      "risk_warning": "海外增长不及预期，国内需求不及预期",
+      "performance_highlights": [
+        "营收130.38亿元",
+        "归母净利润31.25亿元",
+        "经调整净利润34.03亿元",
+        "经调整净利率26.1%",
+        "海外收入50.66亿元",
+        "13个IP销售额过亿"
+      ]
+    },
+    "financial_data": {
+      "annual_performance_2024": {
+        "revenue": "130.38亿元",
+        "revenue_growth_yoy": "106.9%",
+        "net_profit": "31.25亿元",
+        "net_profit_growth_yoy": "188.8%",
+        "adjusted_net_profit": "34.03亿元",
+        "adjusted_net_profit_growth_yoy": "185.9%",
+        "adjusted_net_margin": "26.1%",
+        "adjusted_net_margin_change": "+7.3pct"
+      },
+      "guidance_2025": {
+        "revenue_growth": "50%",
+        "overseas_revenue": "翻倍"
+      },
+      "forecast_table": {
+        "type": "financial_forecast",
+        "data": [
+          {"项目": "营业总收入", "2023A": 6301, "2024A": 13038, "2025E": 20584, "2026E": 29481, "2027E": 36817, "单位": "百万元"},
+          {"项目": "同比增长", "2023A": "36.46%", "2024A": "106.92%", "2025E": "57.88%", "2026E": "43.22%", "2027E": "24.88%"},
+          {"项目": "归母净利润", "2023A": 1082, "2024A": 3125, "2025E": 5542, "2026E": 8399, "2027E": 11029, "单位": "百万元"},
+          {"项目": "Non-IFRS净利润", "2023A": 1191, "2024A": 3403, "2025E": 5949, "2026E": 8973, "2027E": 11757, "单位": "百万元"},
+          {"项目": "EPS", "2023A": 0.81, "2024A": 2.33, "2025E": 4.13, "2026E": 6.25, "2027E": 8.21, "单位": "元/股"},
+          {"项目": "PE", "2023A": 174.88, "2024A": 60.56, "2025E": 34.15, "2026E": 22.54, "2027E": 17.16, "单位": "倍"}
+        ]
+      }
+    },
+    "financial_metrics": {
+      "revenue": ["20584", "29481", "36817"],
+      "net_profit": ["5542", "8399", "11029"],
+      "non_ifrs_profit": ["5949", "8973", "11757"],
+      "eps": ["4.13", "6.25", "8.21"],
+      "pe": ["34.15", "22.54", "17.16"],
+      "pe_non_ifrs": ["31.82", "21.09", "16.10"],
+      "growth_rate": ["57.88", "43.22", "24.88"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "ip_portfolio_strength": {
+            "matches": [
+              "头部IP年销售额达30亿，The Monsters创下公司单个IP销售额历史新高",
+              "The Monsters年销售额同比增长726.6%达30.41亿元",
+              "Molly、Skullpanda、Crybaby和Dimoo分别实现收入20.93/13.08/11.65/9.10亿元",
+              "2024年销售额过亿的IP从2023年的10个增加到2024年的13个"
+            ],
+            "count": 4,
+            "description": "IP组合实力分析：基于头部IP表现和IP矩阵扩张的分析"
+          },
+          "overseas_expansion": {
+            "matches": [
+              "2024年海外收入达50.66亿元，同比增速375.2%，收入占比达38.9%",
+              "东南亚是表现最亮眼的海外市场，收入同比增长619.1%达24.03亿元",
+              "北美/欧澳及其他地区收入分别同比增长556.9%/310.7%",
+              "2024年公司净新增50家零售店，零售店总数达120家"
+            ],
+            "count": 4,
+            "description": "海外扩张分析：基于海外市场表现和渠道布局的分析"
+          },
+          "domestic_market": {
+            "matches": [
+              "中国内地收入79.72亿元，同比增长52.3%",
+              "零售店同店销售额同比增长28%",
+              "机器人机均单产同比提升16%",
+              "累积注册会员数在24H2加速增加至4608万人"
+            ],
+            "count": 4,
+            "description": "国内市场分析：基于中国内地市场表现和渠道效率的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "The Monsters全球走红，年销售额达30.41亿元",
+            "type": "IP驱动",
+            "importance": "high"
+          },
+          {
+            "factor": "海外收入375.2%高速增长，占比达38.9%",
+            "type": "国际化",
+            "importance": "high"
+          },
+          {
+            "factor": "IP矩阵扩张，过亿IP从10个增至13个",
+            "type": "产品力",
+            "importance": "high"
+          },
+          {
+            "factor": "国内市场店效提升，同店增长28%",
+            "type": "运营效率",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "2024年营收130.38亿元，yoy+106.9%",
+            "type": "业绩数据",
+            "confidence": 0.95
+          },
+          {
+            "content": "归母净利润31.25亿元，yoy+188.8%",
+            "type": "盈利数据",
+            "confidence": 0.95
+          },
+          {
+            "content": "海外收入50.66亿元，同比增速375.2%",
+            "type": "海外数据",
+            "confidence": 0.9
+          },
+          {
+            "content": "The Monsters年销售额30.41亿元，同比增长726.6%",
+            "type": "IP表现数据",
+            "confidence": 0.9
+          }
+        ],
+        "logic_strength": 0.91
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "performance_review": {
+            "content": [
+              "2024年业绩超预期，营收翻倍增长",
+              "经调整净利率26.1%，同比提升7.3pct",
+              "公司指引2025年收入增速50%，海外翻倍"
+            ],
+            "count": 3,
+            "description": "业绩回顾：对2024年财务表现的分析"
+          },
+          "ip_analysis": {
+            "content": [
+              "头部IP表现亮眼，The Monsters创历史新高",
+              "IP矩阵持续扩张，过亿IP增至13个",
+              "2025年新品储备丰富，多个联名系列值得期待"
+            ],
+            "count": 3,
+            "description": "IP分析：对IP组合和产品力的分析"
+          },
+          "market_expansion": {
+            "content": [
+              "海外市场爆发式增长，收入占比达38.9%",
+              "东南亚表现最亮眼，收入增长619.1%",
+              "欧美市场进展值得关注，2025年是重点扩张区域"
+            ],
+            "count": 3,
+            "description": "市场扩张分析：对海外市场拓展的分析"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "业绩超预期：营收翻倍，净利润大幅增长",
+            "logic_type": "业绩总结",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "IP矩阵强化：头部IP表现亮眼，过亿IP增至13个",
+            "logic_type": "产品分析",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "海外爆发：收入375.2%增长，成为增长主引擎",
+            "logic_type": "市场分析",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "国内稳健：店效提升驱动，基本盘稳固",
+            "logic_type": "市场分析",
+            "importance": "medium"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "海外市场将继续高速增长，2025年有望翻倍",
+            "type": "国际化预期",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "IP矩阵将持续扩张，头部IP保持强劲表现",
+            "type": "产品预期",
+            "risk_level": "low"
+          },
+          {
+            "assumption": "欧美市场将实现突破，成为新增长点",
+            "type": "市场预期",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "财务分析",
+            "description": "基于财务数据的业绩分析",
+            "usage_context": "2024年业绩评估"
+          },
+          {
+            "method": "IP组合分析",
+            "description": "基于各IP销售表现的分析",
+            "usage_context": "产品力评估"
+          },
+          {
+            "method": "地区市场分析",
+            "description": "分地区的市场表现分析",
+            "usage_context": "海外扩张评估"
+          }
+        ],
+        "process_completeness": 0.92
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "The Monsters全球爆红，单IP销售额创历史新高",
+          "海外市场成为增长主引擎，收入占比近40%",
+          "IP矩阵持续强化，过亿IP增至13个"
+        ],
+        "analysis_strengths": [
+          "IP分析深入：对各头部IP表现分析详实，The Monsters成功案例突出",
+          "海外市场分析全面：分地区详细分析海外扩张进展",
+          "业绩分析专业：财务数据分析准确，业绩超预期判断合理",
+          "前瞻性强：对2025年海外扩张和欧美市场突破的展望清晰"
+        ],
+        "potential_weaknesses": [
+          "竞争分析相对简单：对潮玩行业竞争格局分析不够深入",
+          "成本分析不足：对海外扩张成本和投入的分析有限",
+          "风险评估较为简单：主要集中在需求风险，缺乏对其他风险的分析"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["项目", "2023A", "2024A", "2025E", "2026E", "2027E"],
+        "data": [
+          {"项目": "营业总收入（百万元）", "2023A": 6301, "2024A": 13038, "2025E": 20584, "2026E": 29481, "2027E": 36817},
+          {"项目": "同比(%)", "2023A": 36.46, "2024A": 106.92, "2025E": 57.88, "2026E": 43.22, "2027E": 24.88},
+          {"项目": "归母净利润（百万元）", "2023A": 1082, "2024A": 3125, "2025E": 5542, "2026E": 8399, "2027E": 11029},
+          {"项目": "Non-IFRS净利润（百万元）", "2023A": 1191, "2024A": 3403, "2025E": 5949, "2026E": 8973, "2027E": 11757},
+          {"项目": "EPS-最新摊薄（元/股）", "2023A": 0.81, "2024A": 2.33, "2025E": 4.13, "2026E": 6.25, "2027E": 8.21},
+          {"项目": "P/E（现价最新摊薄）", "2023A": 174.88, "2024A": 60.56, "2025E": 34.15, "2026E": 22.54, "2027E": 17.16}
+        ],
+        "shape": [6, 6],
+        "non_null_count": 30
+      }
+    ],
+    "ip_portfolio": {
+      "top_ips_2024": [
+        {
+          "name": "The Monsters",
+          "revenue": "30.41亿元",
+          "growth_yoy": "726.6%",
+          "status": "创历史新高",
+          "description": "得益于海外业务拓展、本地化产品设计以及IP运营"
+        },
+        {
+          "name": "Molly",
+          "revenue": "20.93亿元",
+          "growth_yoy": "105.2%",
+          "status": "头部IP"
+        },
+        {
+          "name": "Skullpanda",
+          "revenue": "13.08亿元",
+          "growth_yoy": "27.7%",
+          "status": "头部IP"
+        },
+        {
+          "name": "Crybaby",
+          "revenue": "11.65亿元",
+          "growth_yoy": "1537.2%",
+          "status": "快速增长"
+        },
+        {
+          "name": "Dimoo",
+          "revenue": "9.10亿元",
+          "growth_yoy": "23.3%",
+          "status": "稳定增长"
+        }
+      ],
+      "ip_metrics": {
+        "billion_revenue_ips": {
+          "2023": 10,
+          "2024": 13,
+          "growth": 3
+        }
+      },
+      "upcoming_products_2025": [
+        "《哪吒之魔童闹海》天生羁绊系列手办",
+        "The Monsters x 航海王系列手办",
+        "Zsiga 沿线走的人系列手办",
+        "Dimoo x 迪士尼系列手办",
+        "Skullpanda 邸语观中景系列手办"
+      ]
+    },
+    "geographical_breakdown": {
+      "overseas_total": {
+        "revenue_2024": "50.66亿元",
+        "growth_yoy": "375.2%",
+        "revenue_share": "38.9%",
+        "revenue_share_change": "+22pct"
+      },
+      "southeast_asia": {
+        "revenue_2024": "24.03亿元",
+        "growth_yoy": "619.1%",
+        "share_of_overseas": "47.4%",
+        "share_change": "+16pct"
+      },
+      "north_america": {
+        "revenue_2024": "7.23亿元",
+        "growth_yoy": "556.9%",
+        "share_of_overseas": "14.3%"
+      },
+      "europe_australia": {
+        "revenue_2024": "5.54亿元",
+        "growth_yoy": "310.7%",
+        "share_of_overseas": "10.9%"
+      },
+      "china_mainland": {
+        "revenue_2024": "79.72亿元",
+        "growth_yoy": "52.3%",
+        "retail_stores_growth": "43.9%",
+        "robo_shop_growth": "26.4%",
+        "same_store_sales_growth": "28%"
+      }
+    },
+    "channel_performance": {
+      "retail_stores": {
+        "overseas_revenue": "29.38亿元",
+        "overseas_growth": "404.0%",
+        "china_revenue": "38.28亿元",
+        "china_growth": "43.9%",
+        "new_stores_2024": 50,
+        "total_stores": 120
+      },
+      "online_channels": {
+        "overseas_revenue": "14.55亿元",
+        "overseas_growth": "834.0%",
+        "china_performance": {
+          "blind_box_machine": "-4%",
+          "tmall": "52.7%",
+          "douyin": "95.0%",
+          "other": "112.2%"
+        }
+      },
+      "robo_shops": {
+        "china_revenue": "6.98亿元",
+        "china_growth": "26.4%",
+        "productivity_improvement": "16%"
+      }
+    },
+    "expansion_plans_2025": {
+      "new_stores": 100,
+      "focus_regions": ["东南亚", "欧美"],
+      "europe_america_target": "重点扩张区域",
+      "north_america_expectation": "有望实现2020年集团销售额（Q1收入已接近该地区24年收入）"
+    },
+    "analyst_adjustments": {
+      "previous_forecast": {
+        "2025E": 38.18,
+        "2026E": 47.07
+      },
+      "current_forecast": {
+        "2025E": 59.49,
+        "2026E": 89.73,
+        "2027E": 117.57
+      },
+      "adjustment_reason": "继续看好优质IP驱动公司国内外收入快速增长"
+    },
+    "market_data": {
+      "current_price": 153.20,
+      "52_week_range": "28.20-160.00",
+      "market_cap_hkd": 205738.89,
+      "pb_ratio": 17.72,
+      "total_shares": 1342.94,
+      "float_shares": 1342.94
+    },
+    "member_metrics": {
+      "china_mainland": {
+        "registered_members": "4608万人",
+        "growth_period": "24H2加速增长",
+        "online_metrics": {
+          "blind_box_uv_growth": "64%",
+          "douyin_users_growth": "143%",
+          "tmall_new_customers_growth": "110%"
+        }
+      }
+    },
+    "text_preview": "泡泡玛特（09992.HK）2024年年报点评：业绩超预期，看好2025年海外成长。事件：公司发布2024年年报，营收实现130.38亿元，yoy+106.9%。归母净利润实现31.25亿元，yoy+188.8%；经调整净利润34.03亿元，yoy+185.9%。头部IP年销售额达30亿，且IP结构愈加健康..."
+  }

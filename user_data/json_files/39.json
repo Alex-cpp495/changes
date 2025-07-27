@@ -1,0 +1,342 @@
+{
+    "meta_info": {
+      "file_path": "东吴证券晨会纪要_2025-04-07.pdf",
+      "processed_time": "2025-04-07T08:30:00Z",
+      "processor_version": "2.1",
+      "text_length": 12457,
+      "table_count": 8,
+      "success": true,
+      "quality_score": 8.9,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.91,
+      "processing_time": 15.2
+    },
+    "basic_info": {
+      "title": "东吴证券晨会纪要 2025-04-07",
+      "stock_name": "多只个股",
+      "stock_code": "多只代码",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫", "芦哲", "李昌萌", "李勇", "徐津晶", "徐沐阳", "李博", "周尔双", "孙婷", "唐遥衎"],
+      "research_assistant": null,
+      "publish_date": "2025-04-07",
+      "report_type": "晨会纪要",
+      "institution": "东吴证券"
+    },
+    "investment_advice": {
+      "rating": "多样化",
+      "rating_change": "维持/调整",
+      "target_price": null,
+      "current_price": null,
+      "expected_return": null,
+      "expected_return_pct": null,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "本次晨会纪要涵盖宏观策略、固收金工、行业分析及个股推荐等多个方面。重点分析了对等关税对全球贸易和中国经济的冲击、虚拟货币全景洞察、云厂商算力需求等热点话题，并对南网储能、阜博集团、祥源文旅等个股进行了深度点评。",
+      "main_logic": [
+        "宏观策略：对等关税对全球贸易体系的冲击有多大？",
+        "固收金工：如何从资产比价预判利率走势拐点？",
+        "行业分析：工程机械对美敞口小，关注美国/墨西哥工厂布局",
+        "金融产品：虚拟货币全景洞察，深度剖析概念、历史、技术、现状与趋势",
+        "通信行业：云厂商仍保持算力高需求，算力租赁需求有望边际向上",
+        "个股推荐：南网储能、阜博集团、祥源文旅等多只个股"
+      ],
+      "risk_warning": "宏观经济波动、技术发展不及预期、市场竞争加剧、政策变动等风险。",
+      "performance_highlights": [
+        "16.7", "25.1", "1.5", "70", "80", "51", "24", "200", "100", "300"
+      ]
+    },
+    "financial_data": {
+      "macro_analysis": {
+        "type": "macro_impact",
+        "description": "对等关税影响分析",
+        "data": [
+          {"影响": "美国进口关税加权税率提升", "幅度": "16.7%"},
+          {"影响": "全球贸易收缩", "幅度": "25.1%"},
+          {"影响": "中国GDP增长拖累", "幅度": "1.5%"},
+          {"影响": "虚拟货币市场回撤", "幅度": "70%+"}
+        ]
+      },
+      "crypto_market": {
+        "type": "market_data",
+        "description": "虚拟货币市场概述",
+        "data": [
+          {"指标": "2023年全球虚拟货币市值", "数值": "1.73万亿美元"},
+          {"指标": "2024年Q3市值", "数值": "2.41万亿美元"},
+          {"指标": "2024年末最高市值", "数值": "3.90万亿美元"},
+          {"指标": "现货比特币ETF最大规模", "数值": "200亿美元"},
+          {"指标": "其他ETF合计规模", "数值": "300亿美元"}
+        ]
+      }
+    },
+    "financial_metrics": {
+      "PE": ["25", "22", "21", "30", "44", "32"],
+      "EPS": [],
+      "target_price": [],
+      "revenue": [],
+      "profit": ["12.4", "13.9", "15.2", "2.3", "3.1", "3.9"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "对等关税加征或拖累我国年内GDP增长约1.5%",
+              "美国对华芯片出口限制持续加码",
+              "英伟达H100/H20等高端GPU对华供应被严格限制",
+              "中国智能算力规模年复合增长率将达52.3%",
+              "全球虚拟货币市值2024年末达3.90万亿美元",
+              "现货比特币ETF规模超200亿美元"
+            ],
+            "count": 6,
+            "description": "基本面分析：基于宏观经济和行业基本面的分析"
+          },
+          "market_conditions": {
+            "matches": [
+              "本轮对等关税的最大影响在于对现有全球关税与贸易体系的冲击",
+              "美国可能试图组建自己的贸易同盟以孤立中国",
+              "虚拟货币市场价格波动剧烈，历史最大回撤能达到70%以上",
+              "AI技术发展驱动算力需求从训练端向推理端迁移",
+              "数据中心逐步向其他非一线城市部署"
+            ],
+            "count": 5,
+            "description": "市场环境分析：基于市场环境和政策变化的分析"
+          },
+          "company_specific": {
+            "matches": [
+              "南网储能2024年归母净利润11.26亿元，同比增长11.14%",
+              "阜博集团经调整净利润同增380%至1.8亿港元",
+              "祥源文旅布局多个目的地稀缺景区资源",
+              "工程机械主机厂美国敞口小，总体风险可控",
+              "润建股份、大位科技等公司受益算力租赁需求"
+            ],
+            "count": 5,
+            "description": "公司特定因素：基于具体公司业务和战略的分析"
+          },
+          "valuation_logic": {
+            "matches": [
+              "南网储能对应PE为25/22/21倍",
+              "阜博集团当前股价对应2025-2027年PE分别为36/27/22倍",
+              "贵州茅台对应PE为21、19、18x"
+            ],
+            "count": 3,
+            "description": "估值逻辑：基于估值方法和比较的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "对等关税对全球贸易体系冲击",
+            "type": "宏观政策",
+            "importance": "high"
+          },
+          {
+            "factor": "AI驱动算力需求快速增长",
+            "type": "技术趋势",
+            "importance": "high"
+          },
+          {
+            "factor": "虚拟货币市场规模快速扩张",
+            "type": "新兴市场",
+            "importance": "medium"
+          },
+          {
+            "factor": "新能源储能业务进入投产期",
+            "type": "行业周期",
+            "importance": "medium"
+          },
+          {
+            "factor": "工程机械海外产能布局加速",
+            "type": "产业转移",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "美国进口关税加权税率提升16.7%",
+            "value": "16.7%",
+            "type": "policy_evidence",
+            "context": "本次加征对等关税会使得美国进口关税加权税率提升16.7%",
+            "confidence": 0.9
+          },
+          {
+            "content": "全球贸易收缩25.1%",
+            "value": "25.1%",
+            "type": "economic_impact",
+            "context": "本次加征对等关税可能会使全球贸易收缩25.1%",
+            "confidence": 0.8
+          },
+          {
+            "content": "虚拟货币市值达3.90万亿美元",
+            "value": "3.90万亿美元",
+            "type": "market_data",
+            "context": "2024年末虚拟货币市值最高约为3.90万亿美元",
+            "confidence": 0.95
+          },
+          {
+            "content": "中国智能算力规模年复合增长率52.3%",
+            "value": "52.3%",
+            "type": "industry_data",
+            "context": "预计未来5年中国智能算力规模的年复合增长率将达52.3%",
+            "confidence": 0.85
+          }
+        ],
+        "logic_strength": 0.83
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "对等关税最大影响在于对现有全球关税与贸易体系的冲击",
+              "AI技术发展驱动算力需求从训练端向推理端迁移",
+              "虚拟货币市场在监管沙盒试点下逐步规范发展",
+              "新能源储能行业即将进入加速投产期"
+            ],
+            "count": 4,
+            "description": "假设设定：分析师设定的关键假设和预期"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：宏观策略分析对等关税影响",
+              "其次：固收金工分析利率走势拐点",
+              "然后：行业分析涵盖工程机械、虚拟货币、通信等",
+              "最后：个股推荐涵盖多个行业龙头公司"
+            ],
+            "count": 4,
+            "description": "逻辑链条：分析的逻辑推理过程"
+          },
+          "data_support": {
+            "content": [
+              "美国进口关税加权税率提升16.7%",
+              "全球贸易收缩25.1%",
+              "中国GDP增长拖累1.5%",
+              "虚拟货币市值3.90万亿美元",
+              "现货比特币ETF规模200亿美元",
+              "中国智能算力年复合增长率52.3%"
+            ],
+            "count": 6,
+            "description": "数据支撑：用于支持观点的具体数据"
+          },
+          "scenario_analysis": {
+            "content": [
+              "乐观情况下全球各国协商妥协后最终落地有效关税幅度将降低",
+              "虚拟货币ETF在香港试点运行平稳情况下开启监管沙盒试点",
+              "A股虚拟货币ETF逐步开放现货ETF或混合型ETF"
+            ],
+            "count": 3,
+            "description": "情景分析：不同情况下的预测分析"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "宏观策略：对等关税对全球贸易体系影响分析",
+            "logic_type": "macro_analysis",
+            "connector": "首先",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "固收金工：从资产比价角度预判利率走势拐点",
+            "logic_type": "technical_analysis",
+            "connector": "其次",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "行业分析：涵盖工程机械、虚拟货币、通信等多个热点行业",
+            "logic_type": "industry_analysis",
+            "connector": "然后",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "个股推荐：基于行业分析给出具体投资标的建议",
+            "logic_type": "stock_recommendation",
+            "connector": "最后",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "各国最终会通过协商降低关税水平",
+            "type": "policy_assumption",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "AI技术发展持续推动算力需求增长",
+            "type": "technology_assumption",
+            "risk_level": "low"
+          },
+          {
+            "assumption": "虚拟货币监管政策逐步放松",
+            "type": "regulatory_assumption",
+            "risk_level": "high"
+          },
+          {
+            "assumption": "新能源政策支持力度持续",
+            "type": "policy_assumption",
+            "risk_level": "low"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "情景分析",
+            "description": "多情景假设下的影响评估",
+            "usage_context": "对等关税影响测算"
+          },
+          {
+            "method": "资产比价分析",
+            "description": "不同资产收益率比较分析",
+            "usage_context": "利率走势拐点预判"
+          },
+          {
+            "method": "PE估值",
+            "description": "市盈率估值方法",
+            "usage_context": "个股投资价值评估"
+          },
+          {
+            "method": "行业比较",
+            "description": "同行业公司对比分析",
+            "usage_context": "工程机械、储能等行业分析"
+          }
+        ],
+        "process_completeness": 0.89
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "对等关税对全球贸易体系冲击",
+          "AI驱动算力需求快速增长",
+          "虚拟货币市场规模快速扩张"
+        ],
+        "analysis_strengths": [
+          "覆盖面广泛：从宏观策略到具体个股的全方位分析",
+          "数据详实：提供了大量具体的数据和测算结果",
+          "逻辑清晰：从宏观到微观的分析逻辑层次分明",
+          "前瞻性强：对AI、虚拟货币等前沿领域有深入洞察",
+          "实用性强：提供了具体的投资标的和操作建议"
+        ],
+        "potential_weaknesses": [
+          "内容过于庞杂：涵盖主题较多，可能缺乏重点突出",
+          "部分分析深度有限：由于篇幅限制，某些主题分析不够深入",
+          "风险评估相对简单：对各种假设的风险评估较为概括"
+        ],
+        "recommendation_confidence": "medium"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["类别", "内容", "重点"],
+        "data": [
+          {"类别": "宏观策略", "内容": "对等关税对全球贸易和中国经济的冲击", "重点": "影响全球贸易体系"},
+          {"类别": "固收金工", "内容": "如何从资产比价预判利率走势拐点", "重点": "银行资产配置指示作用"},
+          {"类别": "行业分析", "内容": "工程机械、虚拟货币、通信行业", "重点": "AI驱动需求增长"},
+          {"类别": "个股推荐", "内容": "南网储能、阜博集团、祥源文旅等", "重点": "业绩增长和估值修复"}
+        ],
+        "shape": [4, 3],
+        "non_null_count": 12
+      }
+    ],
+    "text_preview": "证券研究报告 东吴证券研究所 东吴证券晨会纪要 东吴证券晨会纪要 2025-04-07 2025年04月07日 晨会编辑 张良卫 执业证书：S0600516070001 021-60199793 zhanglw@dwzq.com.cn 宏观策略 宏观深度报告 20250403：对等关税对全球贸易和中国经济的冲击有多大？..."
+  }

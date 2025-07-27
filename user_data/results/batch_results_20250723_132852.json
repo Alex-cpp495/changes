@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "total_processed": 1,
+    "successful": 0,
+    "failed": 1,
+    "anomalous": 0,
+    "normal": 0,
+    "processing_time": 0.116691,
+    "start_time": "2025-07-23 13:28:52.620368",
+    "end_time": "2025-07-23 13:28:52.737059",
+    "success_rate": 0.0,
+    "avg_processing_time": 0.0,
+    "total_reports": 0,
+    "reports_per_second": 8.569641189123411
+  },
+  "anomaly_distribution": {},
+  "performance_stats": {},
+  "detailed_results": [
+    {
+      "report_id": "txt_2b9a7e70",
+      "status": "failed",
+      "error": "EnsembleAnomalyDetector.detect_anomalies() got an unexpected keyword argument 'report_metadata'",
+      "timestamp": "2025-07-23T13:28:52.622368"
+    }
+  ],
+  "recommendations": [
+    "建议检查输入数据格式和质量"
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "meta_info": {
+    "file_path": "舜宇光学科技_研报.pdf",
+    "processed_time": "2025-02-17T10:30:45.123Z",
+    "processor_version": "2.1",
+    "text_length": 3247,
+    "table_count": 3,
+    "success": true,
+    "quality_score": 8.6,
+    "extraction_method": "pdfplumber",
+    "confidence": 0.92,
+    "processing_time": 12.35
+  },
+  "basic_info": {
+    "title": "舜宇光学科技2024年盈利预告点评：业绩超预期，手机高端化+智驾渗透有望助力公司增长",
+    "stock_name": "舜宇光学科技",
+    "stock_code": "02382.HK",
+    "primary_analyst": "张良卫",
+    "all_analysts": ["张良卫"],
+    "research_assistant": "李博韦",
+    "publish_date": "2025-02-17",
+    "report_type": "盈利预告点评",
+    "institution": "东吴证券"
+  },
+  "investment_advice": {
+    "rating": "买入",
+    "rating_change": "维持",
+    "target_price": null,
+    "current_price": 87.55,
+    "expected_return": null,
+    "expected_return_pct": null,
+    "investment_period": null
+  },
+  "core_content": {
+    "investment_summary": "舜宇光学发布2024年业绩预告，2024公司预计实现归母净利润26.4-27.5亿元，同比+140%至+150%，超市场一致预期。手机高端化见效，ASP与毛利率提升。汽车稳健增长持续布局，保持高盈利能力。",
+    "main_logic": [
+      "手机：高端化见效，ASP与毛利率提升",
+      "汽车：稳健增长持续布局，保持高盈利能力",
+      "手机镜头出货量为13.2亿件，同比+13.1%",
+      "6P及以上产品出货量为1.6亿件，同比+23%",
+      "车载镜头出货量为1.0亿件，同比+12.7%",
+      "智驾平权战略，10万+级车型全系标配智驾系统"
+    ],
+    "risk_warning": "产品结构优化不及预期，车载产品出货量不及预期，智能手机出货量不及预期，行业竞争加剧。",
+    "performance_highlights": [
+      "140", "150", "13.1", "23", "20", "12.7", "40"
+    ]
+  },
+  "financial_data": {
+    "financial_forecast_table_0": {
+      "type": "financial_forecast",
+      "description": "财务预测数据",
+      "data": [
+        {"项目": "营业总收入", "2022A": 33325, "2023A": 31832, "2024E": 37889, "2025E": 42678, "2026E": 49120},
+        {"项目": "归母净利润", "2022A": 2408, "2023A": 1099, "2024E": 2691, "2025E": 3324, "2026E": 4239},
+        {"项目": "EPS", "2022A": 2.20, "2023A": 1.00, "2024E": 2.46, "2025E": 3.04, "2026E": 3.87},
+        {"项目": "P/E", "2022A": 39.81, "2023A": 87.18, "2024E": 35.62, "2025E": 28.83, "2026E": 22.61}
+      ],
+      "row_count": 4,
+      "col_count": 6
+    },
+    "text_extracted_metrics": {
+      "revenue": ["13.2", "5.3", "1.0"],
+      "net_profit": ["26.4", "27.5"],
+      "growth_rate": ["140", "150", "13.1", "23", "12.7"],
+      "margin": ["20", "40", "6", "8", "10"]
+    }
+  },
+  "financial_metrics": {
+    "PE": ["35.62", "28.83", "22.61"],
+    "EPS": ["2.46", "3.04", "3.87"],
+    "target_price": [],
+    "revenue": ["37889", "42678", "49120"],
+    "profit": ["26.9", "33.2", "42.4"]
+  },
+  "deep_analysis": {
+    "reasoning_analysis": {
+      "reasoning_categories": {
+        "fundamental_analysis": {
+          "matches": [
+            "2024年公司预计实现归母净利润26.4-27.5亿元，同比+140%至+150%",
+            "手机镜头出货量为13.2亿件，同比+13.1%",
+            "6P及以上产品出货量为1.6亿件，同比+23%，驱动ASP同比增长超20%",
+            "手机镜头毛利率提升至20%左右",
+            "车载镜头出货量为1.0亿件，同比+12.7%",
+            "2024H1毛利率稳定在40%左右"
+          ],
+          "count": 6,
+          "description": "基本面分析：基于公司财务状况和经营情况的分析"
+        },
+        "market_conditions": {
+          "matches": [
+            "根据Canalys，2024年中国大陆智能手机出货量达2.85亿台，同比+4%",
+            "受益国补2025年手机出货量仍具上行动力",
+            "AI手机渗透率提升有望驱动多摄高端机型销量提升",
+            "比亚迪发布智驾平权战略，10/15/20万级车型全系标配智驾系统",
+            "龙头迈进智能化有望引领行业新一轮配置竞争"
+          ],
+          "count": 5,
+          "description": "市场环境分析：基于行业和宏观环境的分析"
+        },
+        "company_specific": {
+          "matches": [
+            "公司持续推进产品结构改善",
+            "公司大像面潜望式产品实现量产",
+            "多群组潜望式手机镜头完成研发",
+            "公司A客户份额提升",
+            "双群组内对焦潜望式产品已实现量产",
+            "公司已完成自动加热ADAS车载镜头的研发并获得汽车OEM项目定点",
+            "8MP市占率保持全球第一"
+          ],
+          "count": 7,
+          "description": "公司特定因素：基于公司独特优势和战略的分析"
+        },
+        "valuation_logic": {
+          "matches": [
+            "最新收盘价对应PE分别为35.6/28.8/22.6倍",
+            "将公司2024/2025/2026年预期归母净利润由23.0/29.1/34.5亿元上调至26.9/33.2/42.4亿元"
+          ],
+          "count": 2,
+          "description": "估值逻辑：基于估值方法和比较的分析"
+        }
+      },
+      "key_factors": [
+        {
+          "factor": "业绩超预期增长140%-150%",
+          "type": "业绩驱动",
+          "importance": "high"
+        },
+        {
+          "factor": "手机高端化ASP提升超20%",
+          "type": "产品升级",
+          "importance": "high"
+        },
+        {
+          "factor": "智驾系统下沉至10万+车型",
+          "type": "市场扩容",
+          "importance": "high"
+        },
+        {
+          "factor": "AI手机渗透率提升",
+          "type": "技术趋势",
+          "importance": "medium"
+        },
+        {
+          "factor": "车载镜头保持40%高毛利率",
+          "type": "盈利能力",
+          "importance": "medium"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "content": "同比增长140%至150%",
+          "value": "140%-150%",
+          "type": "data_evidence",
+          "context": "舜宇光学发布2024年业绩预告，2024公司预计实现归母净利润26.4-27.5亿元",
+          "confidence": 0.9
+        },
+        {
+          "content": "手机镜头出货量13.2亿件，同比+13.1%",
+          "value": "13.2亿件",
+          "type": "data_evidence",
+          "context": "2024年公司手机镜头出货量为13.2亿件，同比+13.1%",
+          "confidence": 0.9
+        },
+        {
+          "content": "根据Canalys数据显示",
+          "value": "2.85亿台",
+          "type": "peer_comparison",
+          "context": "根据Canalys，2024年中国大陆智能手机出货量达2.85亿台，同比+4%",
+          "confidence": 0.8
+        },
+        {
+          "content": "6P及以上产品出货量1.6亿件",
+          "value": "1.6亿件",
+          "type": "data_evidence",
+          "context": "2024H1 6P及以上产品出货量为1.6亿件，同比+23%",
+          "confidence": 0.8
+        },
+        {
+          "content": "车载镜头毛利率稳定在40%",
+          "value": "40%",
+          "type": "data_evidence",
+          "context": "2024H1毛利率稳定在40%左右",
+          "confidence": 0.9
+        }
+      ],
+      "logic_strength": 0.85
+    },
+    "process_analysis": {
+      "analysis_framework": {
+        "hypothesis": {
+          "content": [
+            "我们预计随手机出货复苏、光学环节竞争改善、公司A客户份额提升及产品结构改善，2025年镜头有望量价齐升",
+            "我们认为AI手机渗透率提升有望驱动多摄高端机型销量提升",
+            "我们认为公司作为车载镜头龙头有望充分受益智驾方案下沉及高阶智驾渗透",
+            "我们认为公司手机产品高端化有望持续，同时汽车产品受益于智驾渗透"
+          ],
+          "count": 4,
+          "description": "假设设定：分析师设定的关键假设和预期"
+        },
+        "logic_chain": {
+          "content": [
+            "首先：手机高端化见效，ASP与毛利率提升",
+            "其次：汽车稳健增长持续布局，保持高盈利能力",
+            "因此：将预期归母净利润上调，维持买入评级"
+          ],
+          "count": 3,
+          "description": "逻辑链条：分析的逻辑推理过程"
+        },
+        "data_support": {
+          "content": [
+            "手机镜头出货量13.2亿件，同比+13.1%",
+            "6P及以上产品出货量1.6亿件，同比+23%",
+            "ASP同比增长超20%",
+            "手机镜头毛利率提升至20%左右",
+            "车载镜头出货量1.0亿件，同比+12.7%",
+            "2024H1毛利率稳定在40%左右"
+          ],
+          "count": 6,
+          "description": "数据支撑：用于支持观点的具体数据"
+        },
+        "scenario_analysis": {
+          "content": [
+            "2024年预计实现归母净利润26.4-27.5亿元",
+            "2025年手机出货量仍具上行动力",
+            "全年有望实现公司毛利率提升至6-10%的指引"
+          ],
+          "count": 3,
+          "description": "情景分析：不同情况下的预测分析"
+        }
+      },
+      "logical_structure": [
+        {
+          "order": 1,
+          "content": "事件：舜宇光学发布2024年业绩预告，超市场一致预期",
+          "logic_type": "hypothesis",
+          "connector": "事件",
+          "importance": "high"
+        },
+        {
+          "order": 2,
+          "content": "手机：高端化见效，ASP与毛利率提升",
+          "logic_type": "sequential",
+          "connector": "首先",
+          "importance": "high"
+        },
+        {
+          "order": 3,
+          "content": "汽车：稳健增长持续布局，保持高盈利能力",
+          "logic_type": "sequential",
+          "connector": "其次",
+          "importance": "high"
+        },
+        {
+          "order": 4,
+          "content": "因此我们将公司预期归母净利润上调，维持买入评级",
+          "logic_type": "conclusion",
+          "connector": "因此",
+          "importance": "high"
+        }
+      ],
+      "key_assumptions": [
+        {
+          "assumption": "2025年手机出货量仍具上行动力",
+          "type": "quantitative",
+          "risk_level": "medium"
+        },
+        {
+          "assumption": "光学环节竞争改善，公司A客户份额提升",
+          "type": "quantitative",
+          "risk_level": "medium"
+        },
+        {
+          "assumption": "智驾方案下沉及高阶智驾渗透加速",
+          "type": "quantitative",
+          "risk_level": "medium"
+        },
+        {
+          "assumption": "AI手机渗透率提升驱动多摄需求",
+          "type": "quantitative",
+          "risk_level": "medium"
+        }
+      ],
+      "methodology": [
+        {
+          "method": "PE",
+          "description": "市盈率估值",
+          "usage_context": "对应PE分别为35.6/28.8/22.6倍"
+        },
+        {
+          "method": "同行比较",
+          "description": "同行比较分析",
+          "usage_context": "8MP市占率保持全球第一"
+        },
+        {
+          "method": "情景分析",
+          "description": "情景分析法",
+          "usage_context": "预计实现归母净利润26.4-27.5亿元"
+        }
+      ],
+      "process_completeness": 0.88
+    },
+    "analysis_summary": {
+      "overall_quality": "high",
+      "key_insights": [
+        "业绩超预期增长140%-150%",
+        "手机高端化ASP提升超20%",
+        "智驾系统下沉至10万+车型"
+      ],
+      "analysis_strengths": [
+        "支撑证据充分：提供了详细的出货量、毛利率等关键数据",
+        "逻辑推理清晰：从事件→分类分析→结论的逻辑链条完整",
+        "分析方法多样：运用了PE估值、同行比较、情景分析等方法",
+        "市场洞察深入：识别了智驾下沉、AI手机等关键趋势"
+      ],
+      "potential_weaknesses": [
+        "风险评估相对简单：风险提示较为常规，缺乏深度分析",
+        "竞争分析不够深入：对光学环节竞争改善的具体原因阐述不足",
+        "假设验证机制缺失：关键假设缺乏敏感性分析"
+      ],
+      "recommendation_confidence": "high"
+    }
+  },
+  "extracted_tables": [
+    {
+      "table_id": 0,
+      "columns": ["项目", "2022A", "2023A", "2024E", "2025E", "2026E"],
+      "data": [
+        {"项目": "营业总收入（百万元）", "2022A": 33325, "2023A": 31832, "2024E": 37889, "2025E": 42678, "2026E": 49120},
+        {"项目": "同比(%)", "2022A": -11.28, "2023A": -4.48, "2024E": 19.03, "2025E": 12.64, "2026E": 15.10},
+        {"项目": "归母净利润（百万元）", "2022A": 2408, "2023A": 1099, "2024E": 2691, "2025E": 3324, "2026E": 4239},
+        {"项目": "同比(%)", "2022A": -51.73, "2023A": -54.34, "2024E": 144.75, "2025E": 23.55, "2026E": 27.50},
+        {"项目": "EPS-最新摊薄（元/股）", "2022A": 2.20, "2023A": 1.00, "2024E": 2.46, "2025E": 3.04, "2026E": 3.87},
+        {"项目": "P/E（现价&最新摊薄）", "2022A": 39.81, "2023A": 87.18, "2024E": 35.62, "2025E": 28.83, "2026E": 22.61}
+      ],
+      "shape": [6, 6],
+      "non_null_count": 36
+    },
+    {
+      "table_id": 1,
+      "columns": ["指标", "2023A", "2024E", "2025E", "2026E"],
+      "data": [
+        {"指标": "收盘价(港元)", "2023A": null, "2024E": null, "2025E": null, "2026E": 87.55},
+        {"指标": "市净率(倍)", "2023A": null, "2024E": null, "2025E": null, "2026E": 4.14},
+        {"指标": "港股流通市值(百万港元)", "2023A": null, "2024E": null, "2025E": null, "2026E": 95850.16}
+      ],
+      "shape": [3, 5],
+      "non_null_count": 7
+    },
+    {
+      "table_id": 2,
+      "columns": ["财务项目", "2023A", "2024E", "2025E", "2026E"],
+      "data": [
+        {"财务项目": "每股净资产(元)", "2023A": null, "2024E": null, "2025E": null, "2026E": 21.15},
+        {"财务项目": "资产负债率(%)", "2023A": null, "2024E": null, "2025E": null, "2026E": 51.30},
+        {"财务项目": "总股本(百万股)", "2023A": null, "2024E": null, "2025E": null, "2026E": 1094.80},
+        {"财务项目": "流通股本(百万股)", "2023A": null, "2024E": null, "2025E": null, "2026E": 1094.80}
+      ],
+      "shape": [4, 5],
+      "non_null_count": 8
+    }
+  ],
+  "text_preview": "证券研究报告·海外公司点评·工业工程(HS) 东吴证券研究所 舜宇光学科技（02382.HK） 2024年盈利预告点评：业绩超预期，手机高端化+智驾渗透有望助力公司增长 2025年02月17日 证券分析师 张良卫 执业证书：S0600516070001 021-60199793 zhanglw@dwzq.com.cn 研究助理 李博韦 执业证书：S0600123070070 libw@dwzq.com.cn 买入（维持） 盈利预测与估值..."
+}

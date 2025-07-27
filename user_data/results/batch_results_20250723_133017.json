@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "total_processed": 1,
+    "successful": 0,
+    "failed": 1,
+    "anomalous": 0,
+    "normal": 0,
+    "processing_time": 24.380492,
+    "start_time": "2025-07-23 13:29:53.484670",
+    "end_time": "2025-07-23 13:30:17.865162",
+    "success_rate": 0.0,
+    "avg_processing_time": 0.0,
+    "total_reports": 0,
+    "reports_per_second": 0.041016399504981274
+  },
+  "anomaly_distribution": {},
+  "performance_stats": {},
+  "detailed_results": [
+    {
+      "report_id": "txt_2b9a7e70",
+      "status": "failed",
+      "error": "object dict can't be used in 'await' expression",
+      "timestamp": "2025-07-23T13:30:17.754548"
+    }
+  ],
+  "recommendations": [
+    "建议检查输入数据格式和质量"
+  ]
+}

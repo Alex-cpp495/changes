@@ -1,0 +1,341 @@
+{
+    "meta_info": {
+      "file_path": "道通科技_研报.pdf",
+      "processed_time": "2025-04-02T10:30:45.123Z",
+      "processor_version": "2.1",
+      "text_length": 5120,
+      "table_count": 5,
+      "success": true,
+      "quality_score": 9.1,
+      "extraction_method": "pdfplumber",
+      "confidence": 0.96,
+      "processing_time": 13.75
+    },
+    "basic_info": {
+      "title": "道通科技2024年报点评：业绩同比高增，AI全面赋能业务",
+      "stock_name": "道通科技",
+      "stock_code": "688208",
+      "primary_analyst": "张良卫",
+      "all_analysts": ["张良卫"],
+      "research_assistant": "李博韦",
+      "publish_date": "2025-04-02",
+      "report_type": "年报点评",
+      "institution": "东吴证券",
+      "rating": "买入（维持）"
+    },
+    "investment_advice": {
+      "rating": "买入",
+      "rating_change": "维持",
+      "target_price": null,
+      "current_price": 43.52,
+      "expected_return": null,
+      "expected_return_pct": null,
+      "investment_period": null
+    },
+    "core_content": {
+      "investment_summary": "公司发布2024年业绩，2024年公司实现收入39.3亿元，同比+20.9%；归母净利润6.4亿元，同比+257.6%；扣非归母净利润5.4亿元，同比+47.4%。",
+      "main_logic": [
+        "AI机器人积极推进能源、交通等领域应用落地",
+        "数智维修压舱石稳固，AI赋能提升市占率",
+        "数智能源海外多点突破，打造一站式解决方案",
+        "道通AI智算中心、道通具身智能实验室落地",
+        "2024年数智维修收入同比+13.9%至30.2亿元",
+        "2024年数智能源收入同比+53.0%至8.7亿元"
+      ],
+      "risk_warning": "下游需求不及预期；竞争加剧；公司产品扩张不及预期。",
+      "performance_highlights": [
+        "20.9", "257.6", "47.4", "13.9", "53.0"
+      ]
+    },
+    "financial_data": {
+      "financial_forecast_table_0": {
+        "type": "financial_forecast",
+        "description": "财务预测数据",
+        "data": [
+          {"项目": "营业总收入", "2023A": 3251, "2024A": 3932, "2025E": 4890, "2026E": 5999, "2027E": 7528},
+          {"项目": "归母净利润", "2023A": 179.23, "2024A": 640.93, "2025E": 792.94, "2026E": 964.64, "2027E": 1135.96},
+          {"项目": "EPS", "2023A": 0.40, "2024A": 1.42, "2025E": 1.75, "2026E": 2.13, "2027E": 2.51},
+          {"项目": "P/E", "2023A": 109.72, "2024A": 30.68, "2025E": 24.80, "2026E": 20.39, "2027E": 17.31}
+        ],
+        "row_count": 4,
+        "col_count": 6
+      },
+      "text_extracted_metrics": {
+        "revenue": ["39.3", "30.2", "8.7"],
+        "net_profit": ["6.4", "5.4"],
+        "growth_rate": ["20.9", "257.6", "47.4", "13.9", "53.0"],
+        "margin": ["60.6", "37.27"]
+      }
+    },
+    "financial_metrics": {
+      "PE": ["30.68", "24.80", "20.39", "17.31"],
+      "EPS": ["1.42", "1.75", "2.13", "2.51"],
+      "target_price": [],
+      "revenue": ["3932", "4890", "5999", "7528"],
+      "profit": ["6.41", "7.93", "9.65", "11.36"]
+    },
+    "deep_analysis": {
+      "reasoning_analysis": {
+        "reasoning_categories": {
+          "fundamental_analysis": {
+            "matches": [
+              "2024年公司实现收入39.3亿元，同比+20.9%",
+              "归母净利润6.4亿元，同比+257.6%",
+              "扣非归母净利润5.4亿元，同比+47.4%",
+              "数智维修收入同比+13.9%至30.2亿元，毛利率同比+0.94pct至60.6%",
+              "数智能源收入同比+53.0%至8.7亿元，毛利率同比+3.62pct至37.27%",
+              "公司以32.7%的全球市占率超越博世、实耐宝等传统巨头"
+            ],
+            "count": 6,
+            "description": "基本面分析：基于公司财务状况和经营情况的分析"
+          },
+          "market_conditions": {
+            "matches": [
+              "TPMS产品受益于各国强制安装法规要求带来的替换需求",
+              "ADAS产品受益于汽车智能化程度提升",
+              "24年公司于北美市场签约多家全球头部客户",
+              "欧洲市场覆盖荷兰、英、法、德、北欧等成熟市场",
+              "亚太地区在澳洲、日本、新加坡等成熟市场取得进展"
+            ],
+            "count": 5,
+            "description": "市场环境分析：基于行业和宏观环境的分析"
+          },
+          "company_specific": {
+            "matches": [
+              "道通AI智算中心、道通具身智能实验室落地",
+              "积极推进以巡检垂域大模型为核心的空地一体解决方案",
+              "24年公司全面推进数智维修业务AI Agents化",
+              "自主开发汽车诊断行业大模型",
+              "实现AI语音助手、AI车辆外观损伤识别等功能",
+              "自主研发数智能源行业大模型，打造光、储、充、边、云一站式充电能源管理解决方案"
+            ],
+            "count": 6,
+            "description": "公司特定因素：基于公司独特优势和战略的分析"
+          },
+          "valuation_logic": {
+            "matches": [
+              "2025年3月31日收盘价对应2025/2026/2027年PE分别为24.8/20.4/17.3倍",
+              "将公司2025/2026年预期归母净利润由7.9/9.5亿元调整为7.9/9.6亿元"
+            ],
+            "count": 2,
+            "description": "估值逻辑：基于估值方法和比较的分析"
+          }
+        },
+        "key_factors": [
+          {
+            "factor": "业绩同比高增，归母净利润增长257.6%",
+            "type": "业绩驱动",
+            "importance": "high"
+          },
+          {
+            "factor": "AI全面赋能新老业务，技术创新突破",
+            "type": "技术升级",
+            "importance": "high"
+          },
+          {
+            "factor": "数智能源业务快速增长53.0%",
+            "type": "业务扩展",
+            "importance": "high"
+          },
+          {
+            "factor": "全球市占率32.7%，行业地位领先",
+            "type": "市场地位",
+            "importance": "medium"
+          },
+          {
+            "factor": "海外市场多点突破，国际化进展顺利",
+            "type": "市场拓展",
+            "importance": "medium"
+          }
+        ],
+        "supporting_evidence": [
+          {
+            "content": "归母净利润同比增长257.6%",
+            "value": "257.6%",
+            "type": "data_evidence",
+            "context": "2024年归母净利润6.4亿元，同比+257.6%",
+            "confidence": 0.95
+          },
+          {
+            "content": "收入同比增长20.9%至39.3亿元",
+            "value": "20.9%",
+            "type": "data_evidence",
+            "context": "2024年公司实现收入39.3亿元，同比+20.9%",
+            "confidence": 0.95
+          },
+          {
+            "content": "数智能源收入增长53.0%",
+            "value": "53.0%",
+            "type": "data_evidence",
+            "context": "数智能源收入同比+53.0%至8.7亿元",
+            "confidence": 0.9
+          },
+          {
+            "content": "全球市占率32.7%",
+            "value": "32.7%",
+            "type": "market_validation",
+            "context": "以32.7%的全球市占率超越博世、实耐宝等传统巨头",
+            "confidence": 0.9
+          }
+        ],
+        "logic_strength": 0.92
+      },
+      "process_analysis": {
+        "analysis_framework": {
+          "hypothesis": {
+            "content": [
+              "公司三项业务全面铺开，AI有望对新、老业务全面赋能",
+              "有望导入中石油区域油田、河北高速、南网科技、国网智能等潜在客户",
+              "积极推进能源、交通等领域应用落地",
+              "AI赋能逐步提高市场占有率"
+            ],
+            "count": 4,
+            "description": "假设设定：分析师设定的关键假设和预期"
+          },
+          "logic_chain": {
+            "content": [
+              "首先：AI机器人积极推进能源、交通等领域应用落地",
+              "其次：数智维修压舱石稳固，AI赋能提升市占率",
+              "再次：数智能源海外多点突破，打造一站式解决方案",
+              "因此：维持买入评级"
+            ],
+            "count": 4,
+            "description": "逻辑链条：分析的逻辑推理过程"
+          },
+          "data_support": {
+            "content": [
+              "2024年公司实现收入39.3亿元，同比+20.9%",
+              "归母净利润6.4亿元，同比+257.6%",
+              "数智维修收入同比+13.9%至30.2亿元",
+              "数智能源收入同比+53.0%至8.7亿元",
+              "全球市占率32.7%",
+              "毛利率同比+0.94pct至60.6%"
+            ],
+            "count": 6,
+            "description": "数据支撑：用于支持观点的具体数据"
+          },
+          "scenario_analysis": {
+            "content": [
+              "预测2027年归母净利润为11.4亿元",
+              "2025年3月31日收盘价对应2025/2026/2027年PE分别为24.8/20.4/17.3倍",
+              "北美、欧洲、亚太市场全面布局"
+            ],
+            "count": 3,
+            "description": "情景分析：不同情况下的预测分析"
+          }
+        },
+        "logical_structure": [
+          {
+            "order": 1,
+            "content": "段落提要：公司发布2024年业绩，收入39.3亿元，同比+20.9%，归母净利润6.4亿元",
+            "logic_type": "hypothesis",
+            "connector": "事件",
+            "importance": "high"
+          },
+          {
+            "order": 2,
+            "content": "AI机器人积极推进能源、交通等领域应用落地",
+            "logic_type": "sequential",
+            "connector": "首先",
+            "importance": "high"
+          },
+          {
+            "order": 3,
+            "content": "数智维修压舱石稳固，AI赋能提升市占率",
+            "logic_type": "sequential",
+            "connector": "其次",
+            "importance": "high"
+          },
+          {
+            "order": 4,
+            "content": "数智能源海外多点突破，打造一站式解决方案",
+            "logic_type": "sequential",
+            "connector": "再次",
+            "importance": "high"
+          },
+          {
+            "order": 5,
+            "content": "维持买入评级",
+            "logic_type": "conclusion",
+            "connector": "因此",
+            "importance": "high"
+          }
+        ],
+        "key_assumptions": [
+          {
+            "assumption": "AI有望对新、老业务全面赋能",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "能源、交通等领域应用持续落地",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "海外市场拓展持续推进",
+            "type": "quantitative",
+            "risk_level": "medium"
+          },
+          {
+            "assumption": "市场占有率继续提升",
+            "type": "quantitative",
+            "risk_level": "medium"
+          }
+        ],
+        "methodology": [
+          {
+            "method": "PE",
+            "description": "市盈率估值",
+            "usage_context": "对应2025/2026/2027年PE分别为24.8/20.4/17.3倍"
+          },
+          {
+            "method": "同行比较",
+            "description": "同行比较分析",
+            "usage_context": "与博世、实耐宝等传统巨头对比"
+          },
+          {
+            "method": "分部估值",
+            "description": "分业务板块估值",
+            "usage_context": "数智维修、数智能源、AI机器人三大业务"
+          }
+        ],
+        "process_completeness": 0.94
+      },
+      "analysis_summary": {
+        "overall_quality": "high",
+        "key_insights": [
+          "业绩同比高增，归母净利润增长257.6%",
+          "AI全面赋能新老业务，技术创新突破",
+          "数智能源业务快速增长53.0%"
+        ],
+        "analysis_strengths": [
+          "支撑证据充分：提供了详细的收入、净利润、市占率等关键数据",
+          "逻辑推理清晰：从AI机器人→数智维修→数智能源的完整分析链条",
+          "分析方法多样：运用了PE估值、同行比较、分部估值等方法",
+          "技术洞察深入：识别了AI赋能、智能化升级等关键趋势"
+        ],
+        "potential_weaknesses": [
+          "风险评估相对简单：风险提示较为常规，缺乏深度分析",
+          "竞争分析不够深入：对行业竞争格局变化的分析相对简单",
+          "新技术不确定性：对AI技术应用效果的预测存在不确定性"
+        ],
+        "recommendation_confidence": "high"
+      }
+    },
+    "extracted_tables": [
+      {
+        "table_id": 0,
+        "columns": ["项目", "2023A", "2024A", "2025E", "2026E", "2027E"],
+        "data": [
+          {"项目": "营业总收入（百万元）", "2023A": 3251, "2024A": 3932, "2025E": 4890, "2026E": 5999, "2027E": 7528},
+          {"项目": "归母净利润（百万元）", "2023A": 179.23, "2024A": 640.93, "2025E": 792.94, "2026E": 964.64, "2027E": 1135.96},
+          {"项目": "EPS-最新摊薄（元/股）", "2023A": 0.40, "2024A": 1.42, "2025E": 1.75, "2026E": 2.13, "2027E": 2.51},
+          {"项目": "P/E（现价&最新摊薄）", "2023A": 109.72, "2024A": 30.68, "2025E": 24.80, "2026E": 20.39, "2027E": 17.31}
+        ],
+        "shape": [4, 6],
+        "non_null_count": 24
+      }
+    ],
+    "text_preview": "证券研究报告·公司点评报告·计算机设备 东吴证券研究所 道通科技（688208） 2024年报点评：业绩同比高增，AI全面赋能业务 2025年04月02日 证券分析师 张良卫..."
+  }
